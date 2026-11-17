@@ -1,0 +1,1754 @@
+[
+  {
+    "deal_id": "DT-10089",
+    "dealer_id": "DLR-01",
+    "product_code": "THEFT_ETCH",
+    "price": 215,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10089",
+    "dealer_id": "DLR-01",
+    "product_code": "TIRE_WHEEL",
+    "price": 945,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10110",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 853,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10119",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 1127,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10123",
+    "dealer_id": "DLR-02",
+    "product_code": "PREPAID_MAINT",
+    "price": 1023,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10129",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2813,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10136",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 3381,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10141",
+    "dealer_id": "DLR-01",
+    "product_code": "PAINT_FABRIC",
+    "price": 613,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10152",
+    "dealer_id": "DLR-05",
+    "product_code": "PREPAID_MAINT",
+    "price": 962,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10159",
+    "dealer_id": "DLR-02",
+    "product_code": "PAINT_FABRIC",
+    "price": 465,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10170",
+    "dealer_id": "DLR-02",
+    "product_code": "PREPAID_MAINT",
+    "price": 906,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10181",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 907,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10190",
+    "dealer_id": "DLR-01",
+    "product_code": "TIRE_WHEEL",
+    "price": 510,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10197",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 949,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10208",
+    "dealer_id": "DLR-02",
+    "product_code": "THEFT_ETCH",
+    "price": 348,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10211",
+    "dealer_id": "DLR-02",
+    "product_code": "PREPAID_MAINT",
+    "price": 840,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10220",
+    "dealer_id": "DLR-02",
+    "product_code": "THEFT_ETCH",
+    "price": 497,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10228",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 1074,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10231",
+    "dealer_id": "DLR-04",
+    "product_code": "TIRE_WHEEL",
+    "price": 555,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10241",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 1548,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10245",
+    "dealer_id": "DLR-04",
+    "product_code": "THEFT_ETCH",
+    "price": 368,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10251",
+    "dealer_id": "DLR-02",
+    "product_code": "TIRE_WHEEL",
+    "price": 634,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10254",
+    "dealer_id": "DLR-04",
+    "product_code": "PAINT_FABRIC",
+    "price": 793,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10264",
+    "dealer_id": "DLR-04",
+    "product_code": "THEFT_ETCH",
+    "price": 448,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10272",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 2073,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10277",
+    "dealer_id": "DLR-01",
+    "product_code": "PREPAID_MAINT",
+    "price": 608,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10277",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 1534,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10278",
+    "dealer_id": "DLR-05",
+    "product_code": "THEFT_ETCH",
+    "price": 403,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10288",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 2433,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10297",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 1523,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10306",
+    "dealer_id": "DLR-02",
+    "product_code": "THEFT_ETCH",
+    "price": 272,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10311",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 3033,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10316",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 743,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10323",
+    "dealer_id": "DLR-02",
+    "product_code": "PAINT_FABRIC",
+    "price": 832,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10328",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 902,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10335",
+    "dealer_id": "DLR-03",
+    "product_code": "PAINT_FABRIC",
+    "price": 777,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10341",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2139,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10345",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 2016,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10355",
+    "dealer_id": "DLR-03",
+    "product_code": "THEFT_ETCH",
+    "price": 485,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10365",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 2973,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10369",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 878,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10370",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 916,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10370",
+    "dealer_id": "DLR-04",
+    "product_code": "TIRE_WHEEL",
+    "price": 780,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10375",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 606,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10385",
+    "dealer_id": "DLR-05",
+    "product_code": "PREPAID_MAINT",
+    "price": 1125,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10388",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 2757,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10393",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 1877,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10403",
+    "dealer_id": "DLR-04",
+    "product_code": "THEFT_ETCH",
+    "price": 199,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10409",
+    "dealer_id": "DLR-05",
+    "product_code": "THEFT_ETCH",
+    "price": 231,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10418",
+    "dealer_id": "DLR-02",
+    "product_code": "PREPAID_MAINT",
+    "price": 634,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10424",
+    "dealer_id": "DLR-05",
+    "product_code": "PAINT_FABRIC",
+    "price": 751,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10424",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 637,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10434",
+    "dealer_id": "DLR-02",
+    "product_code": "TIRE_WHEEL",
+    "price": 762,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10439",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 625,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10443",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 723,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10454",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2702,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10459",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1043,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10468",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 1681,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10474",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 748,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10478",
+    "dealer_id": "DLR-05",
+    "product_code": "PAINT_FABRIC",
+    "price": 751,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10482",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 900,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10482",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 2400,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10483",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1057,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10492",
+    "dealer_id": "DLR-01",
+    "product_code": "TIRE_WHEEL",
+    "price": 813,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10502",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 1213,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10509",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 804,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10519",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 1011,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10524",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 3303,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10532",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 2663,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10542",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 3487,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10544",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 831,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10544",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 2063,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10546",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 2356,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10557",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 2223,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10567",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 1586,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10578",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 1201,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10578",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 6108.32,
+    "segment": "New midsize sedan",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10587",
+    "dealer_id": "DLR-05",
+    "product_code": "PAINT_FABRIC",
+    "price": 480,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10595",
+    "dealer_id": "DLR-02",
+    "product_code": "PREPAID_MAINT",
+    "price": 749,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10601",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 1268,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10605",
+    "dealer_id": "DLR-02",
+    "product_code": "PAINT_FABRIC",
+    "price": 630,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10607",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 2223.51,
+    "segment": "New compact SUV",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10609",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 674,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10620",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2401,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10628",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 643,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10634",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 1840,
+    "segment": "New compact SUV",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10634",
+    "dealer_id": "DLR-04",
+    "product_code": "PAINT_FABRIC",
+    "price": 534,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10637",
+    "dealer_id": "DLR-02",
+    "product_code": "PREPAID_MAINT",
+    "price": 567,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10642",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 3337,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10648",
+    "dealer_id": "DLR-05",
+    "product_code": "PREPAID_MAINT",
+    "price": 1240,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10652",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 988,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10655",
+    "dealer_id": "DLR-04",
+    "product_code": "PREPAID_MAINT",
+    "price": 649,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10662",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 1955,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10663",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 843,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10667",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 759,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10674",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 3434,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10681",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 696,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10683",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 3142,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10686",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 925,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10690",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 796,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10694",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 1237,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10701",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 685,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10704",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 1031,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10714",
+    "dealer_id": "DLR-03",
+    "product_code": "THEFT_ETCH",
+    "price": 256,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10715",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 3221,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10725",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 664,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10733",
+    "dealer_id": "DLR-04",
+    "product_code": "TIRE_WHEEL",
+    "price": 888,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10740",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2185,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10747",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 779,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10752",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 1930,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10756",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 2231.5,
+    "segment": "Used midsize sedan",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10756",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 2387,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10760",
+    "dealer_id": "DLR-01",
+    "product_code": "PREPAID_MAINT",
+    "price": 786,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10764",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 887,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10773",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 2530,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10776",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 5009,
+    "segment": "Used full-size truck",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10779",
+    "dealer_id": "DLR-04",
+    "product_code": "TIRE_WHEEL",
+    "price": 946,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10788",
+    "dealer_id": "DLR-04",
+    "product_code": "THEFT_ETCH",
+    "price": 221,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10792",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 1178,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10797",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 844,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10808",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 3251,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10819",
+    "dealer_id": "DLR-01",
+    "product_code": "TIRE_WHEEL",
+    "price": 528,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10824",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 2895,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10835",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 713,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10842",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1096,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10842",
+    "dealer_id": "DLR-05",
+    "product_code": "PREPAID_MAINT",
+    "price": 966,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10845",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 1723,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10848",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 1179,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10856",
+    "dealer_id": "DLR-04",
+    "product_code": "TIRE_WHEEL",
+    "price": 584,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10860",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 1886,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10863",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 729,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10866",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 3205,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10872",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 1759,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10876",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 1673,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10879",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 817,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10883",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 1655,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10889",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 726,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10897",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1841,
+    "segment": "New midsize sedan",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10897",
+    "dealer_id": "DLR-05",
+    "product_code": "THEFT_ETCH",
+    "price": 203,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10900",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1147,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10906",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 2997,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10917",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 861,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10926",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 3112,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10927",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 1832,
+    "segment": "New full-size truck",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10927",
+    "dealer_id": "DLR-02",
+    "product_code": "THEFT_ETCH",
+    "price": 376,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10932",
+    "dealer_id": "DLR-01",
+    "product_code": "THEFT_ETCH",
+    "price": 377,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10938",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2481,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10947",
+    "dealer_id": "DLR-01",
+    "product_code": "THEFT_ETCH",
+    "price": 320,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10957",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 1106,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10961",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 879,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10961",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 1498,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10966",
+    "dealer_id": "DLR-04",
+    "product_code": "PAINT_FABRIC",
+    "price": 531,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10970",
+    "dealer_id": "DLR-03",
+    "product_code": "THEFT_ETCH",
+    "price": 302,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10980",
+    "dealer_id": "DLR-01",
+    "product_code": "THEFT_ETCH",
+    "price": 465,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-10990",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 6118.32,
+    "segment": "New midsize sedan",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-10998",
+    "dealer_id": "DLR-02",
+    "product_code": "THEFT_ETCH",
+    "price": 326,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11006",
+    "dealer_id": "DLR-01",
+    "product_code": "PAINT_FABRIC",
+    "price": 692,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11017",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 1076,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11024",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2322,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11026",
+    "dealer_id": "DLR-02",
+    "product_code": "TIRE_WHEEL",
+    "price": 1077,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11035",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 814,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11044",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 3204,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11046",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 620,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11052",
+    "dealer_id": "DLR-03",
+    "product_code": "THEFT_ETCH",
+    "price": 440,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11057",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1206,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11064",
+    "dealer_id": "DLR-02",
+    "product_code": "PAINT_FABRIC",
+    "price": 429,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11068",
+    "dealer_id": "DLR-05",
+    "product_code": "PAINT_FABRIC",
+    "price": 577,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11078",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 1890.3,
+    "segment": "New electric SUV",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-11078",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 2175,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11083",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 1067,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11087",
+    "dealer_id": "DLR-02",
+    "product_code": "PAINT_FABRIC",
+    "price": 827,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11098",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 3190,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11102",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1236,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11111",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 2630,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11113",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 6102.32,
+    "segment": "New compact SUV",
+    "is_outlier": true
+  },
+  {
+    "deal_id": "DT-11115",
+    "dealer_id": "DLR-03",
+    "product_code": "PAINT_FABRIC",
+    "price": 899,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11123",
+    "dealer_id": "DLR-01",
+    "product_code": "PREPAID_MAINT",
+    "price": 1052,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11132",
+    "dealer_id": "DLR-04",
+    "product_code": "THEFT_ETCH",
+    "price": 411,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11135",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 762,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11135",
+    "dealer_id": "DLR-04",
+    "product_code": "TIRE_WHEEL",
+    "price": 853,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11136",
+    "dealer_id": "DLR-02",
+    "product_code": "VSC",
+    "price": 2926,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11143",
+    "dealer_id": "DLR-01",
+    "product_code": "PAINT_FABRIC",
+    "price": 672,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11152",
+    "dealer_id": "DLR-01",
+    "product_code": "TIRE_WHEEL",
+    "price": 656,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11161",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 2832,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11163",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 839,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11169",
+    "dealer_id": "DLR-05",
+    "product_code": "PREPAID_MAINT",
+    "price": 895,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11178",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 688,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11181",
+    "dealer_id": "DLR-05",
+    "product_code": "TIRE_WHEEL",
+    "price": 1038,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11192",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 972,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11198",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 1831,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11208",
+    "dealer_id": "DLR-02",
+    "product_code": "GAP",
+    "price": 1163,
+    "segment": "Used electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11215",
+    "dealer_id": "DLR-01",
+    "product_code": "THEFT_ETCH",
+    "price": 293,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11224",
+    "dealer_id": "DLR-05",
+    "product_code": "THEFT_ETCH",
+    "price": 358,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11232",
+    "dealer_id": "DLR-01",
+    "product_code": "TIRE_WHEEL",
+    "price": 628,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11235",
+    "dealer_id": "DLR-04",
+    "product_code": "THEFT_ETCH",
+    "price": 426,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11239",
+    "dealer_id": "DLR-02",
+    "product_code": "PAINT_FABRIC",
+    "price": 555,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11242",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 940,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11252",
+    "dealer_id": "DLR-04",
+    "product_code": "VSC",
+    "price": 2262,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11263",
+    "dealer_id": "DLR-04",
+    "product_code": "GAP",
+    "price": 1283,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11268",
+    "dealer_id": "DLR-03",
+    "product_code": "VSC",
+    "price": 1991,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11277",
+    "dealer_id": "DLR-04",
+    "product_code": "PAINT_FABRIC",
+    "price": 869,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11285",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 1013,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11295",
+    "dealer_id": "DLR-01",
+    "product_code": "THEFT_ETCH",
+    "price": 246,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11302",
+    "dealer_id": "DLR-01",
+    "product_code": "PAINT_FABRIC",
+    "price": 399,
+    "segment": "Used full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11306",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 2585,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11314",
+    "dealer_id": "DLR-01",
+    "product_code": "PAINT_FABRIC",
+    "price": 639,
+    "segment": "New electric SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11319",
+    "dealer_id": "DLR-04",
+    "product_code": "PREPAID_MAINT",
+    "price": 1164,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11330",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 1252,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11340",
+    "dealer_id": "DLR-01",
+    "product_code": "VSC",
+    "price": 2120,
+    "segment": "New midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11351",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 993,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11354",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 1009,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11358",
+    "dealer_id": "DLR-01",
+    "product_code": "GAP",
+    "price": 924,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11364",
+    "dealer_id": "DLR-01",
+    "product_code": "PAINT_FABRIC",
+    "price": 495,
+    "segment": "New full-size truck",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11373",
+    "dealer_id": "DLR-04",
+    "product_code": "PAINT_FABRIC",
+    "price": 712,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11383",
+    "dealer_id": "DLR-03",
+    "product_code": "GAP",
+    "price": 1099,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-11388",
+    "dealer_id": "DLR-03",
+    "product_code": "TIRE_WHEEL",
+    "price": 1079,
+    "segment": "New compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-9920",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 2617,
+    "segment": "Used compact SUV",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-9945",
+    "dealer_id": "DLR-05",
+    "product_code": "GAP",
+    "price": 682,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  },
+  {
+    "deal_id": "DT-9945",
+    "dealer_id": "DLR-05",
+    "product_code": "VSC",
+    "price": 2122,
+    "segment": "Used midsize sedan",
+    "is_outlier": false
+  }
+]

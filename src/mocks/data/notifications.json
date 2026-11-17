@@ -1,0 +1,74 @@
+[
+  {
+    "id": "N-0815",
+    "kind": "finding",
+    "title": "F-2291 needs review on DT-10482",
+    "body": "Late add-on: GAP waiver and service contract added after price agreed. Refund exposure $3,300.00.",
+    "created_at": "2026-11-12T19:14:00.000Z",
+    "read": false,
+    "href": "/findings/F-2291"
+  },
+  {
+    "id": "N-0814",
+    "kind": "finding",
+    "title": "APR raised after approval on DT-9945",
+    "body": "APR raised from 11.8% to 12.55% after credit approval. Marcus Reed is reviewing.",
+    "created_at": "2026-11-12T17:02:00.000Z",
+    "read": false,
+    "href": "/findings/F-2281"
+  },
+  {
+    "id": "N-0813",
+    "kind": "decision",
+    "title": "Elena Torres is waiting on DT-10482",
+    "body": "Pacific Crest Credit Union funding is on hold until the open findings have a decision.",
+    "created_at": "2026-11-11T22:37:00.000Z",
+    "read": false,
+    "href": "/deals/DT-10482"
+  },
+  {
+    "id": "N-0812",
+    "kind": "finding",
+    "title": "Low-benefit GAP on DT-10607",
+    "body": "GAP waiver sold at 74% loan-to-value. Benefit check: little or no benefit.",
+    "created_at": "2026-11-11T18:20:00.000Z",
+    "read": false,
+    "href": "/findings/F-2302"
+  },
+  {
+    "id": "N-0811",
+    "kind": "rule",
+    "title": "Draft rule NY-ADDON-01 recorded",
+    "body": "New York optional product consent, v0.1.4. Not active.",
+    "created_at": "2026-11-06T17:31:00.000Z",
+    "read": true,
+    "href": "/rules/NY-ADDON-01/blast-radius"
+  },
+  {
+    "id": "N-0810",
+    "kind": "report",
+    "title": "Accuracy report for synthetic test set v3",
+    "body": "F1 0.893 on 480 deals, up from 0.862 on test set v2.",
+    "created_at": "2026-11-09T21:05:00.000Z",
+    "read": false,
+    "href": "/insights/accuracy"
+  },
+  {
+    "id": "N-0809",
+    "kind": "decision",
+    "title": "F-2283 resolved before funding",
+    "body": "Late add-on: Tire and wheel protection and theft deterrent etch added 44 minutes after price agreed. Decision recorded by Priya Shah.",
+    "created_at": "2026-11-05T20:48:00.000Z",
+    "read": true,
+    "href": "/findings/F-2283"
+  },
+  {
+    "id": "N-0808",
+    "kind": "finding",
+    "title": "Duplicate GAP coverage on DT-10756",
+    "body": "GAP waiver duplicates loan payoff coverage on the buyer’s auto policy.",
+    "created_at": "2026-11-03T23:12:00.000Z",
+    "read": true,
+    "href": "/findings/F-2316"
+  }
+]

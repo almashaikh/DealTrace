@@ -1,0 +1,2293 @@
+[
+  {
+    "id": "F-2278",
+    "deal_id": "DT-9920",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 12 months",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-01T18:50:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles, 12 months left"
+      },
+      {
+        "label": "Service contract",
+        "value": "60 months / 60,000 miles · DriveCare · $2,617.00",
+        "event_id": "E-1003"
+      },
+      {
+        "label": "Overlap",
+        "value": "12 months (20% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.219,
+    "refund_exposure": 2617,
+    "customer_exposure": 3183.8,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2279",
+    "deal_id": "DT-9920",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: add-on price acknowledgment not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-01T18:50:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Add-on price acknowledgment not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 1, 2026, 11:48 AM",
+        "event_id": "E-1007"
+      }
+    ],
+    "uncertainty": 0.074,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2280",
+    "deal_id": "DT-9945",
+    "type": "LATE_ADD_ON",
+    "title": "Late add-on: GAP waiver and service contract added 47 minutes after price agreed",
+    "severity": "high",
+    "status": "In review",
+    "detected_at": "2026-10-02T18:14:00.000Z",
+    "version_from": 3,
+    "version_to": 4,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Price agreed",
+        "value": "$13,570.00 at Oct 2, 2026, 9:53 AM",
+        "event_id": "E-1011"
+      },
+      {
+        "label": "GAP waiver added",
+        "value": "$682.00 in v4, 47 min after price agreed",
+        "event_id": "E-1013"
+      },
+      {
+        "label": "Service contract added",
+        "value": "$2,122.00 in v4, 47 min after price agreed",
+        "event_id": "E-1014"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$17,220.12 → $20,945.55 (+$3,725.43)"
+      }
+    ],
+    "uncertainty": 0.063,
+    "refund_exposure": 2804,
+    "customer_exposure": 3725.43,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2281",
+    "deal_id": "DT-9945",
+    "type": "RATE_AFTER_APPROVAL",
+    "title": "APR raised from 11.8% to 12.55% after credit approval",
+    "severity": "high",
+    "status": "In review",
+    "detected_at": "2026-10-02T18:14:00.000Z",
+    "version_from": 3,
+    "version_to": 5,
+    "evidence": [
+      {
+        "label": "Credit approved",
+        "value": "11.8% at Oct 2, 2026, 10:14 AM",
+        "event_id": "E-1012"
+      },
+      {
+        "label": "Rate changed",
+        "value": "11.8% → 12.55% in v5, 41 min after approval",
+        "event_id": "E-1015"
+      },
+      {
+        "label": "Extra finance charge",
+        "value": "$359.31 over 60 months"
+      }
+    ],
+    "uncertainty": 0.087,
+    "refund_exposure": 359.31,
+    "customer_exposure": 359.31,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2282",
+    "deal_id": "DT-9945",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 2 events",
+    "severity": "low",
+    "status": "In review",
+    "detected_at": "2026-10-02T18:14:00.000Z",
+    "version_from": 3,
+    "version_to": 4,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Product added: GAP waiver",
+        "value": "No reason recorded · Oct 2, 2026, 10:40 AM",
+        "event_id": "E-1013"
+      },
+      {
+        "label": "Product added: Service contract",
+        "value": "No reason recorded · Oct 2, 2026, 10:40 AM",
+        "event_id": "E-1014"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2283",
+    "deal_id": "DT-10089",
+    "type": "LATE_ADD_ON",
+    "title": "Late add-on: Tire and wheel protection and theft deterrent etch added 44 minutes after price agreed",
+    "severity": "high",
+    "status": "Resolved",
+    "detected_at": "2026-10-07T18:11:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Price agreed",
+        "value": "$36,690.00 at Oct 7, 2026, 9:45 AM",
+        "event_id": "E-1019"
+      },
+      {
+        "label": "Tire and wheel protection added",
+        "value": "$945.00 in v3, 44 min after price agreed",
+        "event_id": "E-1021"
+      },
+      {
+        "label": "Theft deterrent etch added",
+        "value": "$215.00 in v3, 44 min after price agreed",
+        "event_id": "E-1022"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$36,048.32 → $37,469.57 (+$1,421.25)"
+      }
+    ],
+    "uncertainty": 0.187,
+    "refund_exposure": 1160,
+    "customer_exposure": 1421.25,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2284",
+    "deal_id": "DT-10089",
+    "type": "PAYMENT_MASKING",
+    "title": "Payment masking: Tire and wheel protection and theft deterrent etch added; payment rose only 3.9%",
+    "severity": "high",
+    "status": "Resolved",
+    "detected_at": "2026-10-07T18:11:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Monthly payment",
+        "value": "$600.81 (v2) → $624.49 (v3), +3.9%"
+      },
+      {
+        "label": "Products added",
+        "value": "Tire and wheel protection $945.00, Theft deterrent etch $215.00"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$36,048.32 → $37,469.57 (+$1,421.25)"
+      }
+    ],
+    "uncertainty": 0.118,
+    "refund_exposure": 0,
+    "customer_exposure": 1421.25,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2285",
+    "deal_id": "DT-10277",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 60 months",
+    "severity": "medium",
+    "status": "Resolved",
+    "detected_at": "2026-10-13T21:02:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "60 months / 60,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "72 months / 75,000 miles · DriveCare · $1,534.00",
+        "event_id": "E-1025"
+      },
+      {
+        "label": "Overlap",
+        "value": "60 months (83% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.218,
+    "refund_exposure": 1534,
+    "customer_exposure": 1804.49,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2286",
+    "deal_id": "DT-10277",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: credit application copy missing from deal jacket",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-13T21:02:00.000Z",
+    "version_from": 2,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Credit application copy missing from deal jacket"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 13, 2026, 2:00 PM",
+        "event_id": "E-1028"
+      }
+    ],
+    "uncertainty": 0.075,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2287",
+    "deal_id": "DT-10370",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Dismissed",
+    "detected_at": "2026-10-16T19:43:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 48813.00 → 47835.00",
+        "value": "No reason recorded · Oct 16, 2026, 12:08 PM",
+        "event_id": "E-1031"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2288",
+    "deal_id": "DT-10370",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: menu presentation printout not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-16T19:43:00.000Z",
+    "version_from": 4,
+    "version_to": 4,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Menu presentation printout not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 16, 2026, 12:41 PM",
+        "event_id": "E-1034"
+      }
+    ],
+    "uncertainty": 0.072,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2289",
+    "deal_id": "DT-10424",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-18T20:38:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 50058.00 → 49346.00",
+        "value": "No reason recorded · Oct 18, 2026, 12:49 PM",
+        "event_id": "E-1036"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2290",
+    "deal_id": "DT-10424",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: odometer disclosure statement not scanned",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-18T20:38:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Odometer disclosure statement not scanned"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 18, 2026, 1:36 PM",
+        "event_id": "E-1039"
+      }
+    ],
+    "uncertainty": 0.074,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2291",
+    "deal_id": "DT-10482",
+    "type": "LATE_ADD_ON",
+    "title": "Late add-on: GAP waiver and service contract added 35 minutes after price agreed",
+    "severity": "high",
+    "status": "Open",
+    "detected_at": "2026-10-20T18:12:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Price agreed",
+        "value": "$34,000.00 at Oct 20, 2026, 10:05 AM",
+        "event_id": "E-1041"
+      },
+      {
+        "label": "GAP waiver added",
+        "value": "$900.00 in v2, 35 min after price agreed",
+        "event_id": "E-1043"
+      },
+      {
+        "label": "Service contract added",
+        "value": "$2,400.00 in v2, 35 min after price agreed",
+        "event_id": "E-1044"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$33,984.00 → $37,989.25 (+$4,005.25)"
+      }
+    ],
+    "uncertainty": 0.063,
+    "refund_exposure": 3300,
+    "customer_exposure": 4005.25,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2292",
+    "deal_id": "DT-10482",
+    "type": "PAYMENT_MASKING",
+    "title": "Payment masking: GAP waiver and service contract added, term extended to 72 months; payment fell 3.4%",
+    "severity": "high",
+    "status": "Open",
+    "detected_at": "2026-10-20T18:12:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Monthly payment",
+        "value": "$566.40 (v1) → $547.26 (v3), −3.4%"
+      },
+      {
+        "label": "Term",
+        "value": "60 → 72 months",
+        "event_id": "E-1045"
+      },
+      {
+        "label": "Products added",
+        "value": "GAP waiver $900.00, Service contract $2,400.00"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$33,984.00 → $39,402.96 (+$5,418.96)"
+      }
+    ],
+    "uncertainty": 0.118,
+    "refund_exposure": 0,
+    "customer_exposure": 5418.96,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2293",
+    "deal_id": "DT-10482",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 36 months",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-10-20T18:12:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "72 months / 75,000 miles · DriveCare · $2,400.00",
+        "event_id": "E-1044"
+      },
+      {
+        "label": "Overlap",
+        "value": "36 months (50% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.215,
+    "refund_exposure": 2400,
+    "customer_exposure": 3021.31,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2294",
+    "deal_id": "DT-10482",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 3 events",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-20T18:12:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Product added: GAP waiver",
+        "value": "No reason recorded · Oct 20, 2026, 10:40 AM",
+        "event_id": "E-1043"
+      },
+      {
+        "label": "Product added: Service contract",
+        "value": "No reason recorded · Oct 20, 2026, 10:40 AM",
+        "event_id": "E-1044"
+      },
+      {
+        "label": "Term changed: 60 → 72",
+        "value": "No reason recorded · Oct 20, 2026, 10:55 AM",
+        "event_id": "E-1045"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2295",
+    "deal_id": "DT-10544",
+    "type": "LATE_ADD_ON",
+    "title": "Late add-on: GAP waiver and service contract added 52 minutes after price agreed",
+    "severity": "high",
+    "status": "Open",
+    "detected_at": "2026-10-22T22:58:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Price agreed",
+        "value": "$36,361.00 at Oct 22, 2026, 2:36 PM",
+        "event_id": "E-1049"
+      },
+      {
+        "label": "GAP waiver added",
+        "value": "$831.00 in v3, 52 min after price agreed",
+        "event_id": "E-1051"
+      },
+      {
+        "label": "Service contract added",
+        "value": "$2,063.00 in v3, 52 min after price agreed",
+        "event_id": "E-1052"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$38,692.07 → $41,968.87 (+$3,276.80)"
+      }
+    ],
+    "uncertainty": 0.063,
+    "refund_exposure": 2894,
+    "customer_exposure": 3276.8,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2296",
+    "deal_id": "DT-10544",
+    "type": "PAYMENT_MASKING",
+    "title": "Payment masking: GAP waiver and service contract added, term extended to 72 months; payment fell 7.4%",
+    "severity": "high",
+    "status": "Open",
+    "detected_at": "2026-10-22T22:58:00.000Z",
+    "version_from": 2,
+    "version_to": 4,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Monthly payment",
+        "value": "$644.87 (v2) → $596.95 (v4), −7.4%"
+      },
+      {
+        "label": "Term",
+        "value": "60 → 72 months",
+        "event_id": "E-1053"
+      },
+      {
+        "label": "Products added",
+        "value": "GAP waiver $831.00, Service contract $2,063.00"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$38,692.07 → $42,980.07 (+$4,288.00)"
+      }
+    ],
+    "uncertainty": 0.118,
+    "refund_exposure": 0,
+    "customer_exposure": 4288,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2297",
+    "deal_id": "DT-10544",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 36 months",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-10-22T22:58:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "72 months / 75,000 miles · DriveCare · $2,063.00",
+        "event_id": "E-1052"
+      },
+      {
+        "label": "Overlap",
+        "value": "36 months (50% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.215,
+    "refund_exposure": 2063,
+    "customer_exposure": 2392.16,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2298",
+    "deal_id": "DT-10544",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 3 events",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-22T22:58:00.000Z",
+    "version_from": 2,
+    "version_to": 4,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Product added: GAP waiver",
+        "value": "No reason recorded · Oct 22, 2026, 3:28 PM",
+        "event_id": "E-1051"
+      },
+      {
+        "label": "Product added: Service contract",
+        "value": "No reason recorded · Oct 22, 2026, 3:28 PM",
+        "event_id": "E-1052"
+      },
+      {
+        "label": "Term changed: 60 → 72",
+        "value": "No reason recorded · Oct 22, 2026, 3:38 PM",
+        "event_id": "E-1053"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2299",
+    "deal_id": "DT-10578",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 36 months",
+    "severity": "medium",
+    "status": "In review",
+    "detected_at": "2026-10-23T19:47:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "72 months / 75,000 miles · DriveCare · $6,108.32",
+        "event_id": "E-1055"
+      },
+      {
+        "label": "Overlap",
+        "value": "36 months (50% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.215,
+    "refund_exposure": 6108.32,
+    "customer_exposure": 7309.52,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2300",
+    "deal_id": "DT-10578",
+    "type": "PRICE_OUTLIER",
+    "title": "Service contract priced 151% above the group median",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-10-23T19:47:00.000Z",
+    "version_from": 1,
+    "version_to": 4,
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$6,108.32"
+      },
+      {
+        "label": "Group median",
+        "value": "$2,433.00 (service contract, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$4,676.00 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.184,
+    "refund_exposure": 3675.32,
+    "customer_exposure": 4398.07,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2301",
+    "deal_id": "DT-10578",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: F&I session notes incomplete",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-23T19:47:00.000Z",
+    "version_from": 4,
+    "version_to": 4,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "F&I session notes incomplete"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 23, 2026, 12:45 PM",
+        "event_id": "E-1060"
+      }
+    ],
+    "uncertainty": 0.075,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2302",
+    "deal_id": "DT-10607",
+    "type": "LOW_BENEFIT_GAP",
+    "title": "GAP waiver sold at 74% loan-to-value",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-10-24T19:57:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-GAP-LTV-01",
+    "evidence": [
+      {
+        "label": "Loan-to-value",
+        "value": "74% ($24,128.51 financed on a $32,626.00 vehicle)"
+      },
+      {
+        "label": "Down payment",
+        "value": "$10,721.00"
+      },
+      {
+        "label": "GAP waiver",
+        "value": "$2,223.51 · ShieldPoint",
+        "event_id": "E-1061"
+      },
+      {
+        "label": "Benefit check",
+        "value": "Little or no benefit"
+      }
+    ],
+    "uncertainty": 0.27,
+    "refund_exposure": 2223.51,
+    "customer_exposure": 2724.28,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2303",
+    "deal_id": "DT-10607",
+    "type": "PRICE_OUTLIER",
+    "title": "GAP waiver priced 137% above the group median",
+    "severity": "medium",
+    "status": "In review",
+    "detected_at": "2026-10-24T19:57:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "rule_id": "CA-GAP-PRICE-01",
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$2,223.51"
+      },
+      {
+        "label": "Group median",
+        "value": "$940.00 (GAP waiver, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$1,706.25 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.191,
+    "refund_exposure": 1283.51,
+    "customer_exposure": 1572.58,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2304",
+    "deal_id": "DT-10607",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-24T19:57:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 33560.00 → 32626.00",
+        "value": "No reason recorded · Oct 24, 2026, 12:15 PM",
+        "event_id": "E-1062"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2305",
+    "deal_id": "DT-10607",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: signed GAP disclosure not in deal jacket",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-24T19:57:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Signed GAP disclosure not in deal jacket"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 24, 2026, 12:55 PM",
+        "event_id": "E-1065"
+      }
+    ],
+    "uncertainty": 0.076,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2306",
+    "deal_id": "DT-10607",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: add-on price acknowledgment not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-24T19:57:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Add-on price acknowledgment not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 24, 2026, 12:55 PM",
+        "event_id": "E-1065"
+      }
+    ],
+    "uncertainty": 0.072,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2307",
+    "deal_id": "DT-10634",
+    "type": "PRICE_OUTLIER",
+    "title": "GAP waiver priced 96% above the group median",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-25T22:34:00.000Z",
+    "version_from": 1,
+    "version_to": 4,
+    "rule_id": "CA-GAP-PRICE-01",
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$1,840.00"
+      },
+      {
+        "label": "Group median",
+        "value": "$940.00 (GAP waiver, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$1,706.25 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.192,
+    "refund_exposure": 900,
+    "customer_exposure": 1043.6,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2308",
+    "deal_id": "DT-10634",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-25T22:34:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 33637.00 → 32609.00",
+        "value": "No reason recorded · Oct 25, 2026, 3:04 PM",
+        "event_id": "E-1068"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2309",
+    "deal_id": "DT-10634",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: credit application copy missing from deal jacket",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-25T22:34:00.000Z",
+    "version_from": 4,
+    "version_to": 4,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Credit application copy missing from deal jacket"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 25, 2026, 3:32 PM",
+        "event_id": "E-1071"
+      }
+    ],
+    "uncertainty": 0.073,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2310",
+    "deal_id": "DT-10662",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 60 months",
+    "severity": "medium",
+    "status": "Dismissed",
+    "detected_at": "2026-10-26T23:13:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "60 months / 60,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "60 months / 60,000 miles · DriveCare · $1,955.00",
+        "event_id": "E-1072"
+      },
+      {
+        "label": "Overlap",
+        "value": "60 months (100% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.218,
+    "refund_exposure": 1955,
+    "customer_exposure": 2284.14,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2311",
+    "deal_id": "DT-10662",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: menu presentation printout not retained",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-26T23:13:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Menu presentation printout not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 26, 2026, 4:11 PM",
+        "event_id": "E-1076"
+      }
+    ],
+    "uncertainty": 0.075,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2312",
+    "deal_id": "DT-10681",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-27T20:29:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 19829.00 → 18770.00",
+        "value": "No reason recorded · Oct 27, 2026, 12:53 PM",
+        "event_id": "E-1078"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2313",
+    "deal_id": "DT-10681",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: odometer disclosure statement not scanned",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-27T20:29:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Odometer disclosure statement not scanned"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 27, 2026, 1:27 PM",
+        "event_id": "E-1081"
+      }
+    ],
+    "uncertainty": 0.072,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2314",
+    "deal_id": "DT-10715",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 36 months",
+    "severity": "medium",
+    "status": "Dismissed",
+    "detected_at": "2026-10-28T19:44:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "72 months / 75,000 miles · DriveCare · $3,221.00",
+        "event_id": "E-1082"
+      },
+      {
+        "label": "Overlap",
+        "value": "36 months (50% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.215,
+    "refund_exposure": 3221,
+    "customer_exposure": 3909.37,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2315",
+    "deal_id": "DT-10715",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: F&I session notes incomplete",
+    "severity": "low",
+    "status": "Resolved",
+    "detected_at": "2026-10-28T19:44:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "F&I session notes incomplete"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 28, 2026, 12:42 PM",
+        "event_id": "E-1086"
+      }
+    ],
+    "uncertainty": 0.073,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2316",
+    "deal_id": "DT-10756",
+    "type": "DUPLICATE_COVERAGE",
+    "title": "GAP waiver duplicates loan payoff coverage on the buyer’s auto policy",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-10-29T19:56:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Existing coverage",
+        "value": "Loan/lease payoff coverage on current auto policy"
+      },
+      {
+        "label": "GAP waiver",
+        "value": "$2,231.50 · ShieldPoint · 60 months",
+        "event_id": "E-1087"
+      },
+      {
+        "label": "Loan-to-value",
+        "value": "140%"
+      }
+    ],
+    "uncertainty": 0.317,
+    "refund_exposure": 2231.5,
+    "customer_exposure": 2734.07,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2317",
+    "deal_id": "DT-10756",
+    "type": "PRICE_OUTLIER",
+    "title": "GAP waiver priced 137% above the group median",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-10-29T19:56:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "rule_id": "CA-GAP-PRICE-01",
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$2,231.50"
+      },
+      {
+        "label": "Group median",
+        "value": "$940.00 (GAP waiver, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$1,706.25 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.188,
+    "refund_exposure": 1291.5,
+    "customer_exposure": 1582.37,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2318",
+    "deal_id": "DT-10756",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: signed GAP disclosure not in deal jacket",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-29T19:56:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Signed GAP disclosure not in deal jacket"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 29, 2026, 12:54 PM",
+        "event_id": "E-1091"
+      }
+    ],
+    "uncertainty": 0.074,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2319",
+    "deal_id": "DT-10776",
+    "type": "PRICE_OUTLIER",
+    "title": "Service contract priced 106% above the group median",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-30T19:49:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$5,009.00"
+      },
+      {
+        "label": "Group median",
+        "value": "$2,433.00 (service contract, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$4,676.00 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.185,
+    "refund_exposure": 2576,
+    "customer_exposure": 3464.15,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2320",
+    "deal_id": "DT-10776",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: add-on price acknowledgment not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-10-30T19:49:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Add-on price acknowledgment not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Oct 30, 2026, 12:47 PM",
+        "event_id": "E-1096"
+      }
+    ],
+    "uncertainty": 0.075,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2321",
+    "deal_id": "DT-10842",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-01T23:53:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 16622.00 → 15917.00",
+        "value": "No reason recorded · Nov 1, 2026, 3:22 PM",
+        "event_id": "E-1098"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2322",
+    "deal_id": "DT-10842",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: credit application copy missing from deal jacket",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-01T23:53:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Credit application copy missing from deal jacket"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 1, 2026, 3:51 PM",
+        "event_id": "E-1101"
+      }
+    ],
+    "uncertainty": 0.076,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2323",
+    "deal_id": "DT-10876",
+    "type": "LATE_ADD_ON",
+    "title": "Late add-on: Service contract added 46 minutes after price agreed",
+    "severity": "high",
+    "status": "In review",
+    "detected_at": "2026-11-03T01:05:00.000Z",
+    "version_from": 2,
+    "version_to": 3,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Price agreed",
+        "value": "$20,561.00 at Nov 2, 2026, 3:29 PM",
+        "event_id": "E-1104"
+      },
+      {
+        "label": "Service contract added",
+        "value": "$1,673.00 in v3, 46 min after price agreed",
+        "event_id": "E-1106"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$24,188.63 → $26,581.32 (+$2,392.69)"
+      }
+    ],
+    "uncertainty": 0.187,
+    "refund_exposure": 1673,
+    "customer_exposure": 2392.69,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2324",
+    "deal_id": "DT-10876",
+    "type": "PAYMENT_MASKING",
+    "title": "Payment masking: Service contract added, term extended to 84 months; payment fell 0.6%",
+    "severity": "high",
+    "status": "In review",
+    "detected_at": "2026-11-03T01:05:00.000Z",
+    "version_from": 2,
+    "version_to": 4,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Monthly payment",
+        "value": "$335.95 (v2) → $334.09 (v4), −0.6%"
+      },
+      {
+        "label": "Term",
+        "value": "72 → 84 months",
+        "event_id": "E-1107"
+      },
+      {
+        "label": "Products added",
+        "value": "Service contract $1,673.00"
+      },
+      {
+        "label": "Total of payments",
+        "value": "$24,188.63 → $28,063.32 (+$3,874.69)"
+      }
+    ],
+    "uncertainty": 0.118,
+    "refund_exposure": 0,
+    "customer_exposure": 3874.69,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2325",
+    "deal_id": "DT-10876",
+    "type": "RATE_AFTER_APPROVAL",
+    "title": "APR raised from 12.6% to 13.85% after credit approval",
+    "severity": "high",
+    "status": "In review",
+    "detected_at": "2026-11-03T01:05:00.000Z",
+    "version_from": 2,
+    "version_to": 5,
+    "evidence": [
+      {
+        "label": "Credit approved",
+        "value": "12.6% at Nov 2, 2026, 3:53 PM",
+        "event_id": "E-1105"
+      },
+      {
+        "label": "Rate changed",
+        "value": "12.6% → 13.85% in v5, 48 min after approval",
+        "event_id": "E-1108"
+      },
+      {
+        "label": "Extra finance charge",
+        "value": "$1,064.82 over 84 months"
+      }
+    ],
+    "uncertainty": 0.087,
+    "refund_exposure": 1064.82,
+    "customer_exposure": 1064.82,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2326",
+    "deal_id": "DT-10876",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 2 events",
+    "severity": "low",
+    "status": "In review",
+    "detected_at": "2026-11-03T01:05:00.000Z",
+    "version_from": 3,
+    "version_to": 5,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Term changed: 72 → 84",
+        "value": "No reason recorded · Nov 2, 2026, 4:31 PM",
+        "event_id": "E-1107"
+      },
+      {
+        "label": "Rate changed: 12.6 → 13.85",
+        "value": "No reason recorded · Nov 2, 2026, 4:41 PM",
+        "event_id": "E-1108"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2327",
+    "deal_id": "DT-10897",
+    "type": "PRICE_OUTLIER",
+    "title": "GAP waiver priced 96% above the group median",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-03T22:29:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "rule_id": "CA-GAP-PRICE-01",
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$1,841.00"
+      },
+      {
+        "label": "Group median",
+        "value": "$940.00 (GAP waiver, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$1,706.25 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.193,
+    "refund_exposure": 901,
+    "customer_exposure": 1057.75,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2328",
+    "deal_id": "DT-10897",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: menu presentation printout not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-03T22:29:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Menu presentation printout not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 3, 2026, 2:27 PM",
+        "event_id": "E-1114"
+      }
+    ],
+    "uncertainty": 0.073,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2329",
+    "deal_id": "DT-10927",
+    "type": "PRICE_OUTLIER",
+    "title": "GAP waiver priced 95% above the group median",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-04T19:08:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "rule_id": "CA-GAP-PRICE-01",
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$1,832.00"
+      },
+      {
+        "label": "Group median",
+        "value": "$940.00 (GAP waiver, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$1,706.25 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.184,
+    "refund_exposure": 892,
+    "customer_exposure": 1104.23,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2330",
+    "deal_id": "DT-10927",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-04T19:08:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 46009.00 → 45163.00",
+        "value": "No reason recorded · Nov 4, 2026, 10:34 AM",
+        "event_id": "E-1116"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2331",
+    "deal_id": "DT-10927",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: odometer disclosure statement not scanned",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-04T19:08:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Odometer disclosure statement not scanned"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 4, 2026, 11:06 AM",
+        "event_id": "E-1119"
+      }
+    ],
+    "uncertainty": 0.075,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2332",
+    "deal_id": "DT-10961",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 60 months",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-05T23:05:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "60 months / 60,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "60 months / 60,000 miles · DriveCare · $1,498.00",
+        "event_id": "E-1120"
+      },
+      {
+        "label": "Overlap",
+        "value": "60 months (100% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.218,
+    "refund_exposure": 1498,
+    "customer_exposure": 1885.8,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2333",
+    "deal_id": "DT-10961",
+    "type": "LOW_BENEFIT_GAP",
+    "title": "GAP waiver sold at 75% loan-to-value",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-05T23:05:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-GAP-LTV-01",
+    "evidence": [
+      {
+        "label": "Loan-to-value",
+        "value": "75% ($25,761.00 financed on a $34,439.00 vehicle)"
+      },
+      {
+        "label": "Down payment",
+        "value": "$11,055.00"
+      },
+      {
+        "label": "GAP waiver",
+        "value": "$879.00 · ShieldPoint",
+        "event_id": "E-1120"
+      },
+      {
+        "label": "Benefit check",
+        "value": "Little or no benefit"
+      }
+    ],
+    "uncertainty": 0.271,
+    "refund_exposure": 879,
+    "customer_exposure": 1106.56,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2334",
+    "deal_id": "DT-10961",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-05T23:05:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 34711.00 → 34439.00",
+        "value": "No reason recorded · Nov 5, 2026, 2:30 PM",
+        "event_id": "E-1121"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2335",
+    "deal_id": "DT-10961",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: F&I session notes incomplete",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-05T23:05:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "F&I session notes incomplete"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 5, 2026, 3:03 PM",
+        "event_id": "E-1124"
+      }
+    ],
+    "uncertainty": 0.076,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2336",
+    "deal_id": "DT-10990",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 36 months",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-06T20:44:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "60 months / 60,000 miles · DriveCare · $6,118.32",
+        "event_id": "E-1125"
+      },
+      {
+        "label": "Overlap",
+        "value": "36 months (60% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.215,
+    "refund_exposure": 6118.32,
+    "customer_exposure": 7097.06,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2337",
+    "deal_id": "DT-10990",
+    "type": "PRICE_OUTLIER",
+    "title": "Service contract priced 151% above the group median",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-06T20:44:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$6,118.32"
+      },
+      {
+        "label": "Group median",
+        "value": "$2,433.00 (service contract, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$4,676.00 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.183,
+    "refund_exposure": 3685.32,
+    "customer_exposure": 4274.85,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2338",
+    "deal_id": "DT-10990",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-06T20:44:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 29151.00 → 28784.00",
+        "value": "No reason recorded · Nov 6, 2026, 12:07 PM",
+        "event_id": "E-1126"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2339",
+    "deal_id": "DT-11026",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-07T19:28:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 33541.00 → 32826.00",
+        "value": "No reason recorded · Nov 7, 2026, 10:54 AM",
+        "event_id": "E-1131"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2340",
+    "deal_id": "DT-11026",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: add-on price acknowledgment not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-07T19:28:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Add-on price acknowledgment not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 7, 2026, 11:26 AM",
+        "event_id": "E-1134"
+      }
+    ],
+    "uncertainty": 0.073,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2341",
+    "deal_id": "DT-11044",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 11 months",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-08T20:52:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles, 11 months left"
+      },
+      {
+        "label": "Service contract",
+        "value": "72 months / 75,000 miles · DriveCare · $3,204.00",
+        "event_id": "E-1135"
+      },
+      {
+        "label": "Overlap",
+        "value": "11 months (15% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.218,
+    "refund_exposure": 3204,
+    "customer_exposure": 4133.49,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2342",
+    "deal_id": "DT-11044",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: credit application copy missing from deal jacket",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-08T20:52:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Credit application copy missing from deal jacket"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 8, 2026, 12:50 PM",
+        "event_id": "E-1139"
+      }
+    ],
+    "uncertainty": 0.074,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2343",
+    "deal_id": "DT-11078",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 48 months",
+    "severity": "medium",
+    "status": "In review",
+    "detected_at": "2026-11-09T22:01:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "48 months / 50,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "60 months / 60,000 miles · DriveCare · $2,175.00",
+        "event_id": "E-1140"
+      },
+      {
+        "label": "Overlap",
+        "value": "48 months (80% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.22,
+    "refund_exposure": 2175,
+    "customer_exposure": 2595.31,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2344",
+    "deal_id": "DT-11078",
+    "type": "PRICE_OUTLIER",
+    "title": "Tire and wheel protection priced 133% above the group median",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-09T22:01:00.000Z",
+    "version_from": 1,
+    "version_to": 4,
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$1,890.30"
+      },
+      {
+        "label": "Group median",
+        "value": "$813.00 (tire and wheel protection, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$1,381.00 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.193,
+    "refund_exposure": 1077.3,
+    "customer_exposure": 1285.49,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2345",
+    "deal_id": "DT-11113",
+    "type": "WARRANTY_OVERLAP",
+    "title": "Service contract overlaps factory warranty for 36 months",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-10T21:54:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Factory warranty",
+        "value": "36 months / 36,000 miles"
+      },
+      {
+        "label": "Service contract",
+        "value": "60 months / 60,000 miles · DriveCare · $6,102.32",
+        "event_id": "E-1146"
+      },
+      {
+        "label": "Overlap",
+        "value": "36 months (60% of the contract term)"
+      }
+    ],
+    "uncertainty": 0.215,
+    "refund_exposure": 6102.32,
+    "customer_exposure": 6959.93,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2346",
+    "deal_id": "DT-11113",
+    "type": "PRICE_OUTLIER",
+    "title": "Service contract priced 151% above the group median",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-10T21:54:00.000Z",
+    "version_from": 1,
+    "version_to": 3,
+    "evidence": [
+      {
+        "label": "Price charged",
+        "value": "$6,102.32"
+      },
+      {
+        "label": "Group median",
+        "value": "$2,433.00 (service contract, last 30 days)"
+      },
+      {
+        "label": "Outlier threshold",
+        "value": "$4,676.00 (upper quartile + 1.5 × interquartile range)"
+      }
+    ],
+    "uncertainty": 0.189,
+    "refund_exposure": 3669.32,
+    "customer_exposure": 4185,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2347",
+    "deal_id": "DT-11113",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-10T21:54:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 39401.00 → 38313.00",
+        "value": "No reason recorded · Nov 10, 2026, 1:14 PM",
+        "event_id": "E-1147"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2348",
+    "deal_id": "DT-11135",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-11T21:12:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 31173.00 → 30584.00",
+        "value": "No reason recorded · Nov 11, 2026, 12:29 PM",
+        "event_id": "E-1152"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2349",
+    "deal_id": "DT-11135",
+    "type": "RECORDKEEPING_GAP",
+    "title": "Recordkeeping gap: buyer's Guide copy not retained",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-11T21:12:00.000Z",
+    "version_from": 3,
+    "version_to": 3,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Missing document",
+        "value": "Buyer's Guide copy not retained"
+      },
+      {
+        "label": "Retention",
+        "value": "Deal records must be kept for two years (CA-CARS-RECORD-01)"
+      },
+      {
+        "label": "Contract signed",
+        "value": "Nov 11, 2026, 1:10 PM",
+        "event_id": "E-1155"
+      }
+    ],
+    "uncertainty": 0.075,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-02",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2350",
+    "deal_id": "DT-11163",
+    "type": "DUPLICATE_COVERAGE",
+    "title": "GAP waiver duplicates loan payoff coverage on the buyer’s auto policy",
+    "severity": "medium",
+    "status": "Open",
+    "detected_at": "2026-11-12T22:38:00.000Z",
+    "version_from": 1,
+    "version_to": 1,
+    "rule_id": "CA-CARS-ADDON-01",
+    "evidence": [
+      {
+        "label": "Existing coverage",
+        "value": "Loan/lease payoff coverage on current auto policy"
+      },
+      {
+        "label": "GAP waiver",
+        "value": "$839.00 · ShieldPoint · 72 months",
+        "event_id": "E-1156"
+      },
+      {
+        "label": "Loan-to-value",
+        "value": "98%"
+      }
+    ],
+    "uncertainty": 0.317,
+    "refund_exposure": 839,
+    "customer_exposure": 1180.99,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  },
+  {
+    "id": "F-2351",
+    "deal_id": "DT-11163",
+    "type": "MISSING_REASON",
+    "title": "Missing change reason on 1 event",
+    "severity": "low",
+    "status": "Open",
+    "detected_at": "2026-11-12T22:38:00.000Z",
+    "version_from": 1,
+    "version_to": 2,
+    "rule_id": "CA-CARS-RECORD-01",
+    "evidence": [
+      {
+        "label": "Price changed: 26797.00 → 26133.00",
+        "value": "No reason recorded · Nov 12, 2026, 2:02 PM",
+        "event_id": "E-1157"
+      }
+    ],
+    "uncertainty": 0.031,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "assignee_id": "U-01",
+    "label": "Potential violation – human review required"
+  }
+]

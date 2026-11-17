@@ -1,0 +1,3568 @@
+[
+  {
+    "id": "DT-9920",
+    "dealer_id": "DLR-05",
+    "customer_display": "N. Abernathy",
+    "vehicle": {
+      "year": 2025,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "LX",
+      "vin": "7FAB00KK4SH126196",
+      "condition": "used",
+      "msrp": 35202,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-01",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-01T18:01:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 28244,
+        "down_payment": 4025,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 26836,
+        "apr": 8,
+        "term_months": 60,
+        "monthly_payment": 544.14,
+        "total_of_payments": 32648.24,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2617,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-01T18:12:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer countered on price",
+        "vehicle_price": 27070,
+        "down_payment": 4025,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25662,
+        "apr": 8,
+        "term_months": 60,
+        "monthly_payment": 520.33,
+        "total_of_payments": 31219.97,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2617,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-01T18:48:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 27070,
+        "down_payment": 4025,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25662,
+        "apr": 8,
+        "term_months": 60,
+        "monthly_payment": 520.33,
+        "total_of_payments": 31219.97,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2617,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 37,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 1
+  },
+  {
+    "id": "DT-9945",
+    "dealer_id": "DLR-05",
+    "customer_display": "R. Nguyen",
+    "vehicle": {
+      "year": 2022,
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "XSE",
+      "vin": "4T1LTXVW4NF392829",
+      "condition": "used",
+      "msrp": 31188,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-02",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-02T16:27:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 14980,
+        "down_payment": 609,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 14371,
+        "apr": 11.8,
+        "term_months": 60,
+        "monthly_payment": 318.22,
+        "total_of_payments": 19093.47,
+        "products": [],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-02T16:41:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Applied manufacturer incentive",
+        "vehicle_price": 14439,
+        "down_payment": 609,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 13830,
+        "apr": 11.8,
+        "term_months": 60,
+        "monthly_payment": 306.24,
+        "total_of_payments": 18374.69,
+        "products": [],
+        "label": "Price revised"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-02T16:53:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Applied manufacturer incentive",
+        "vehicle_price": 13570,
+        "down_payment": 609,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 12961,
+        "apr": 11.8,
+        "term_months": 60,
+        "monthly_payment": 287,
+        "total_of_payments": 17220.12,
+        "products": [],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-02T17:40:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 13570,
+        "down_payment": 609,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 15765,
+        "apr": 11.8,
+        "term_months": 60,
+        "monthly_payment": 349.09,
+        "total_of_payments": 20945.55,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 682,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2122,
+            "term_months": 48,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Add-ons added"
+      },
+      {
+        "version": 5,
+        "created_at": "2026-10-02T17:55:00.000Z",
+        "actor_id": "U-03",
+        "reason": "Lender re-tiered after income verification",
+        "vehicle_price": 13570,
+        "down_payment": 609,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 15765,
+        "apr": 12.55,
+        "term_months": 60,
+        "monthly_payment": 355.08,
+        "total_of_payments": 21304.86,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 682,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2122,
+            "term_months": 48,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Rate changed"
+      },
+      {
+        "version": 6,
+        "created_at": "2026-10-02T18:12:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 13570,
+        "down_payment": 609,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 15765,
+        "apr": 12.55,
+        "term_months": 60,
+        "monthly_payment": 355.08,
+        "total_of_payments": 21304.86,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 682,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2122,
+            "term_months": 48,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 6,
+    "risk_score": 77,
+    "refund_exposure": 3163.31,
+    "customer_exposure": 3725.43,
+    "open_findings": 3
+  },
+  {
+    "id": "DT-10089",
+    "dealer_id": "DLR-01",
+    "customer_display": "Z. Kaur",
+    "vehicle": {
+      "year": 2026,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "SEL",
+      "vin": "KM846REXXTV287568",
+      "condition": "new",
+      "msrp": 37462,
+      "factory_warranty_months": 60,
+      "factory_warranty_miles": 60000
+    },
+    "lender_id": "LND-03",
+    "deal_date": "2026-10-07",
+    "status": "Ready to fund",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-07T16:37:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 37443,
+        "down_payment": 7268,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30175,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 616.18,
+        "total_of_payments": 36970.91,
+        "products": [],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-07T16:45:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer countered on price",
+        "vehicle_price": 36690,
+        "down_payment": 7268,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 29422,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 600.81,
+        "total_of_payments": 36048.32,
+        "products": [],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-07T17:29:00.000Z",
+        "actor_id": "U-03",
+        "reason": "Customer requested after test drive",
+        "vehicle_price": 36690,
+        "down_payment": 7268,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30582,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 624.49,
+        "total_of_payments": 37469.57,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 945,
+            "term_months": 60
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 215,
+            "term_months": 60
+          }
+        ],
+        "label": "Add-ons added"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-07T17:47:00.000Z",
+        "actor_id": "U-03",
+        "reason": "Customer asked for a lower payment",
+        "vehicle_price": 36690,
+        "down_payment": 7268,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30582,
+        "apr": 8.3,
+        "term_months": 72,
+        "monthly_payment": 540.69,
+        "total_of_payments": 38929.85,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 945,
+            "term_months": 60
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 215,
+            "term_months": 60
+          }
+        ],
+        "label": "Term extended"
+      },
+      {
+        "version": 5,
+        "created_at": "2026-10-07T18:09:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 36690,
+        "down_payment": 7268,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30582,
+        "apr": 8.3,
+        "term_months": 72,
+        "monthly_payment": 540.69,
+        "total_of_payments": 38929.85,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 945,
+            "term_months": 60
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 215,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 5,
+    "risk_score": 15,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 0
+  },
+  {
+    "id": "DT-10277",
+    "dealer_id": "DLR-01",
+    "customer_display": "D. Okafor",
+    "vehicle": {
+      "year": 2026,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "Limited",
+      "vin": "KM8WMR5Z5TJ943778",
+      "condition": "new",
+      "msrp": 37172,
+      "factory_warranty_months": 60,
+      "factory_warranty_miles": 60000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-13",
+    "status": "Funded",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-13T20:14:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer accepted price",
+        "vehicle_price": 36057,
+        "down_payment": 4309,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 33890,
+        "apr": 5.5,
+        "term_months": 72,
+        "monthly_payment": 553.69,
+        "total_of_payments": 39865.75,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1534,
+            "term_months": 72,
+            "max_miles": 75000
+          },
+          {
+            "code": "PREPAID_MAINT",
+            "name": "Prepaid maintenance",
+            "provider_id": "PRV-02",
+            "price": 608,
+            "term_months": 36,
+            "max_miles": 36000
+          }
+        ],
+        "label": "Quote, price agreed"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-13T21:00:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 36057,
+        "down_payment": 4309,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 33890,
+        "apr": 5.5,
+        "term_months": 72,
+        "monthly_payment": 553.69,
+        "total_of_payments": 39865.75,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1534,
+            "term_months": 72,
+            "max_miles": 75000
+          },
+          {
+            "code": "PREPAID_MAINT",
+            "name": "Prepaid maintenance",
+            "provider_id": "PRV-02",
+            "price": 608,
+            "term_months": 36,
+            "max_miles": 36000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 2,
+    "risk_score": 12,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 0
+  },
+  {
+    "id": "DT-10370",
+    "dealer_id": "DLR-04",
+    "customer_display": "H. Sandoval",
+    "vehicle": {
+      "year": 2026,
+      "make": "Ford",
+      "model": "F-150",
+      "trim": "Lariat",
+      "vin": "1FTEKEBK6TL611887",
+      "condition": "new",
+      "msrp": 49503,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-16",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-16T18:50:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 49799,
+        "down_payment": 2095,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 49400,
+        "apr": 7,
+        "term_months": 84,
+        "monthly_payment": 745.58,
+        "total_of_payments": 62628.58,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 780,
+            "term_months": 60
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 916,
+            "term_months": 84
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-16T19:00:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Applied manufacturer incentive",
+        "vehicle_price": 48813,
+        "down_payment": 2095,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 48414,
+        "apr": 7,
+        "term_months": 84,
+        "monthly_payment": 730.7,
+        "total_of_payments": 61378.55,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 780,
+            "term_months": 60
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 916,
+            "term_months": 84
+          }
+        ],
+        "label": "Price revised"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-16T19:08:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 47835,
+        "down_payment": 2095,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 47436,
+        "apr": 7,
+        "term_months": 84,
+        "monthly_payment": 715.94,
+        "total_of_payments": 60138.65,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 780,
+            "term_months": 60
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 916,
+            "term_months": 84
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-16T19:41:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 47835,
+        "down_payment": 2095,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 47436,
+        "apr": 7,
+        "term_months": 84,
+        "monthly_payment": 715.94,
+        "total_of_payments": 60138.65,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 780,
+            "term_months": 60
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 916,
+            "term_months": 84
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 4,
+    "risk_score": 37,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 1
+  },
+  {
+    "id": "DT-10424",
+    "dealer_id": "DLR-05",
+    "customer_display": "K. Yamamoto",
+    "vehicle": {
+      "year": 2026,
+      "make": "Tesla",
+      "model": "Model Y",
+      "trim": "Performance AWD",
+      "vin": "7SAREAE87TB883589",
+      "condition": "new",
+      "msrp": 50466,
+      "factory_warranty_months": 48,
+      "factory_warranty_miles": 50000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-18",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-18T19:42:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 50058,
+        "down_payment": 4535,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 46911,
+        "apr": 5.1,
+        "term_months": 60,
+        "monthly_payment": 887.42,
+        "total_of_payments": 53245.15,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 637,
+            "term_months": 60
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 751,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-18T19:49:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 49346,
+        "down_payment": 4535,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 46199,
+        "apr": 5.1,
+        "term_months": 60,
+        "monthly_payment": 873.95,
+        "total_of_payments": 52437.02,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 637,
+            "term_months": 60
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 751,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-18T20:36:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 49346,
+        "down_payment": 4535,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 46199,
+        "apr": 5.1,
+        "term_months": 60,
+        "monthly_payment": 873.95,
+        "total_of_payments": 52437.02,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 637,
+            "term_months": 60
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 751,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 37,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 1
+  },
+  {
+    "id": "DT-10482",
+    "dealer_id": "DLR-01",
+    "customer_display": "M. Alvarez",
+    "vehicle": {
+      "year": 2026,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "vin": "2T3NA1X54TX288089",
+      "condition": "new",
+      "msrp": 34615,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-20",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-20T17:05:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer accepted price",
+        "vehicle_price": 34000,
+        "down_payment": 6000,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 28000,
+        "apr": 7.9,
+        "term_months": 60,
+        "monthly_payment": 566.4,
+        "total_of_payments": 33984,
+        "products": [],
+        "label": "Quote, price agreed"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-20T17:40:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 34000,
+        "down_payment": 6000,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 31300,
+        "apr": 7.9,
+        "term_months": 60,
+        "monthly_payment": 633.15,
+        "total_of_payments": 37989.25,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 900,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2400,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Add-ons added"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-20T17:55:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 34000,
+        "down_payment": 6000,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 31300,
+        "apr": 7.9,
+        "term_months": 72,
+        "monthly_payment": 547.26,
+        "total_of_payments": 39402.96,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 900,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2400,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Term extended"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-20T18:10:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 34000,
+        "down_payment": 6000,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 31300,
+        "apr": 7.9,
+        "term_months": 72,
+        "monthly_payment": 547.26,
+        "total_of_payments": 39402.96,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 900,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2400,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 4,
+    "risk_score": 87,
+    "refund_exposure": 3300,
+    "customer_exposure": 5418.96,
+    "open_findings": 4
+  },
+  {
+    "id": "DT-10544",
+    "dealer_id": "DLR-03",
+    "customer_display": "M. Fitzgerald",
+    "vehicle": {
+      "year": 2026,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "EX",
+      "vin": "7FA3UFCD5TB336497",
+      "condition": "new",
+      "msrp": 37559,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-22",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-22T21:23:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 37229,
+        "down_payment": 2189,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 35040,
+        "apr": 5,
+        "term_months": 60,
+        "monthly_payment": 661.25,
+        "total_of_payments": 39674.88,
+        "products": [],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-22T21:36:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Applied manufacturer incentive",
+        "vehicle_price": 36361,
+        "down_payment": 2189,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 34172,
+        "apr": 5,
+        "term_months": 60,
+        "monthly_payment": 644.87,
+        "total_of_payments": 38692.07,
+        "products": [],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-22T22:28:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 36361,
+        "down_payment": 2189,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 37066,
+        "apr": 5,
+        "term_months": 60,
+        "monthly_payment": 699.48,
+        "total_of_payments": 41968.87,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 831,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2063,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Add-ons added"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-22T22:38:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 36361,
+        "down_payment": 2189,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 37066,
+        "apr": 5,
+        "term_months": 72,
+        "monthly_payment": 596.95,
+        "total_of_payments": 42980.07,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 831,
+            "term_months": 72
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2063,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Term extended"
+      },
+      {
+        "version": 5,
+        "created_at": "2026-10-22T22:56:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 36361,
+        "down_payment": 2189,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 37066,
+        "apr": 5,
+        "term_months": 72,
+        "monthly_payment": 596.95,
+        "total_of_payments": 42980.07,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 831,
+            "term_months": 72
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2063,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 5,
+    "risk_score": 86,
+    "refund_exposure": 2894,
+    "customer_exposure": 4288,
+    "open_findings": 4
+  },
+  {
+    "id": "DT-10578",
+    "dealer_id": "DLR-02",
+    "customer_display": "S. Achebe",
+    "vehicle": {
+      "year": 2026,
+      "make": "Honda",
+      "model": "Accord",
+      "trim": "Sport-L",
+      "vin": "1HGV3LT16TN718549",
+      "condition": "new",
+      "msrp": 36294,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-23",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-23T18:36:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 37209,
+        "down_payment": 11983,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 32535.32,
+        "apr": 6.1,
+        "term_months": 72,
+        "monthly_payment": 540.74,
+        "total_of_payments": 38933.38,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6108.32,
+            "term_months": 72,
+            "max_miles": 75000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1201,
+            "term_months": 72
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-23T18:54:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Applied manufacturer incentive",
+        "vehicle_price": 36456,
+        "down_payment": 11983,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 31782.32,
+        "apr": 6.1,
+        "term_months": 72,
+        "monthly_payment": 528.23,
+        "total_of_payments": 38032.3,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6108.32,
+            "term_months": 72,
+            "max_miles": 75000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1201,
+            "term_months": 72
+          }
+        ],
+        "label": "Price revised"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-23T19:12:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer countered on price",
+        "vehicle_price": 35307,
+        "down_payment": 11983,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30633.32,
+        "apr": 6.1,
+        "term_months": 72,
+        "monthly_payment": 509.13,
+        "total_of_payments": 36657.35,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6108.32,
+            "term_months": 72,
+            "max_miles": 75000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1201,
+            "term_months": 72
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-23T19:45:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 35307,
+        "down_payment": 11983,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30633.32,
+        "apr": 6.1,
+        "term_months": 72,
+        "monthly_payment": 509.13,
+        "total_of_payments": 36657.35,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6108.32,
+            "term_months": 72,
+            "max_miles": 75000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1201,
+            "term_months": 72
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 4,
+    "risk_score": 62,
+    "refund_exposure": 6108.32,
+    "customer_exposure": 7309.52,
+    "open_findings": 3
+  },
+  {
+    "id": "DT-10607",
+    "dealer_id": "DLR-03",
+    "customer_display": "V. Petrov",
+    "vehicle": {
+      "year": 2026,
+      "make": "Kia",
+      "model": "Sportage",
+      "trim": "SX-Prestige",
+      "vin": "KNDZEK8T3TG667689",
+      "condition": "new",
+      "msrp": 33837,
+      "factory_warranty_months": 60,
+      "factory_warranty_miles": 60000
+    },
+    "lender_id": "LND-03",
+    "deal_date": "2026-10-24",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-24T19:08:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 33560,
+        "down_payment": 10721,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25062.51,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 511.78,
+        "total_of_payments": 30707,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 2223.51,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-24T19:15:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 32626,
+        "down_payment": 10721,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 24128.51,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 492.71,
+        "total_of_payments": 29562.65,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 2223.51,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-24T19:55:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 32626,
+        "down_payment": 10721,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 24128.51,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 492.71,
+        "total_of_payments": 29562.65,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 2223.51,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 64,
+    "refund_exposure": 2223.51,
+    "customer_exposure": 2724.28,
+    "open_findings": 5
+  },
+  {
+    "id": "DT-10634",
+    "dealer_id": "DLR-04",
+    "customer_display": "J. Esposito",
+    "vehicle": {
+      "year": 2026,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "vin": "2T3X0UBF0TC209036",
+      "condition": "new",
+      "msrp": 33274,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-25",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-25T21:32:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 34656,
+        "down_payment": 2146,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 34884,
+        "apr": 5,
+        "term_months": 72,
+        "monthly_payment": 561.8,
+        "total_of_payments": 40449.92,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1840,
+            "term_months": 72
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 534,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-25T21:46:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Corrected doc fee entry",
+        "vehicle_price": 33637,
+        "down_payment": 2146,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 33865,
+        "apr": 5,
+        "term_months": 72,
+        "monthly_payment": 545.39,
+        "total_of_payments": 39268.34,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1840,
+            "term_months": 72
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 534,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-25T22:04:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 32609,
+        "down_payment": 2146,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 32837,
+        "apr": 5,
+        "term_months": 72,
+        "monthly_payment": 528.84,
+        "total_of_payments": 38076.31,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1840,
+            "term_months": 72
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 534,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-10-25T22:32:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 32609,
+        "down_payment": 2146,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 32837,
+        "apr": 5,
+        "term_months": 72,
+        "monthly_payment": 528.84,
+        "total_of_payments": 38076.31,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1840,
+            "term_months": 72
+          },
+          {
+            "code": "PAINT_FABRIC",
+            "name": "Paint and fabric protection",
+            "provider_id": "PRV-03",
+            "price": 534,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 4,
+    "risk_score": 40,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-10662",
+    "dealer_id": "DLR-01",
+    "customer_display": "C. Mendoza",
+    "vehicle": {
+      "year": 2026,
+      "make": "Kia",
+      "model": "Sportage",
+      "trim": "EX",
+      "vin": "KNDKJ0UT6TP198170",
+      "condition": "new",
+      "msrp": 30519,
+      "factory_warranty_months": 60,
+      "factory_warranty_miles": 60000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-26",
+    "status": "Funded",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-26T22:22:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 30299,
+        "down_payment": 5594,
+        "trade_in_value": 6423,
+        "trade_in_payoff": 1798,
+        "amount_financed": 22035,
+        "apr": 6.3,
+        "term_months": 60,
+        "monthly_payment": 429.08,
+        "total_of_payments": 25744.73,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1955,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-26T22:36:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Corrected doc fee entry",
+        "vehicle_price": 29411,
+        "down_payment": 5594,
+        "trade_in_value": 6423,
+        "trade_in_payoff": 1798,
+        "amount_financed": 21147,
+        "apr": 6.3,
+        "term_months": 60,
+        "monthly_payment": 411.79,
+        "total_of_payments": 24707.23,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1955,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-26T23:11:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 29411,
+        "down_payment": 5594,
+        "trade_in_value": 6423,
+        "trade_in_payoff": 1798,
+        "amount_financed": 21147,
+        "apr": 6.3,
+        "term_months": 60,
+        "monthly_payment": 411.79,
+        "total_of_payments": 24707.23,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1955,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 15,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 0
+  },
+  {
+    "id": "DT-10681",
+    "dealer_id": "DLR-02",
+    "customer_display": "T. Haddad",
+    "vehicle": {
+      "year": 2023,
+      "make": "Kia",
+      "model": "Sportage",
+      "trim": "SX-Prestige",
+      "vin": "KNDNG2TE8PB795298",
+      "condition": "used",
+      "msrp": 34862,
+      "factory_warranty_months": 60,
+      "factory_warranty_miles": 60000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-27",
+    "status": "Ready to fund",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-27T19:38:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 19829,
+        "down_payment": 1325,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 19200,
+        "apr": 13.6,
+        "term_months": 72,
+        "monthly_payment": 391.53,
+        "total_of_payments": 28190.13,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 696,
+            "term_months": 72
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-27T19:53:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 18770,
+        "down_payment": 1325,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18141,
+        "apr": 13.6,
+        "term_months": 72,
+        "monthly_payment": 369.93,
+        "total_of_payments": 26635.27,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 696,
+            "term_months": 72
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-27T20:27:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 18770,
+        "down_payment": 1325,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18141,
+        "apr": 13.6,
+        "term_months": 72,
+        "monthly_payment": 369.93,
+        "total_of_payments": 26635.27,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 696,
+            "term_months": 72
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 37,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 1
+  },
+  {
+    "id": "DT-10715",
+    "dealer_id": "DLR-02",
+    "customer_display": "J. Whitfield",
+    "vehicle": {
+      "year": 2026,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "vin": "2T3WVG7U7TU144864",
+      "condition": "new",
+      "msrp": 31195,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-10-28",
+    "status": "Funded",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-28T19:02:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 30630,
+        "down_payment": 3405,
+        "trade_in_value": 9258,
+        "trade_in_payoff": 8249,
+        "amount_financed": 29437,
+        "apr": 7.9,
+        "term_months": 60,
+        "monthly_payment": 595.47,
+        "total_of_payments": 35728.1,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 3221,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-28T19:10:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Removed dealer-installed accessories",
+        "vehicle_price": 29844,
+        "down_payment": 3405,
+        "trade_in_value": 9258,
+        "trade_in_payoff": 8249,
+        "amount_financed": 28651,
+        "apr": 7.9,
+        "term_months": 60,
+        "monthly_payment": 579.57,
+        "total_of_payments": 34774.13,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 3221,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-28T19:42:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 29844,
+        "down_payment": 3405,
+        "trade_in_value": 9258,
+        "trade_in_payoff": 8249,
+        "amount_financed": 28651,
+        "apr": 7.9,
+        "term_months": 60,
+        "monthly_payment": 579.57,
+        "total_of_payments": 34774.13,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 3221,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 13,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 0
+  },
+  {
+    "id": "DT-10756",
+    "dealer_id": "DLR-01",
+    "customer_display": "L. Romero",
+    "vehicle": {
+      "year": 2021,
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "LE",
+      "vin": "4T19GSTX2MM706839",
+      "condition": "used",
+      "msrp": 29417,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-29",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-29T19:13:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 10930,
+        "down_payment": 706,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 14842.5,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 303.09,
+        "total_of_payments": 18185.27,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 2231.5,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2387,
+            "term_months": 48,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-29T19:22:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer countered on price",
+        "vehicle_price": 9769,
+        "down_payment": 706,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 13681.5,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 279.38,
+        "total_of_payments": 16762.8,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 2231.5,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2387,
+            "term_months": 48,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-29T19:54:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 9769,
+        "down_payment": 706,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 13681.5,
+        "apr": 8.3,
+        "term_months": 60,
+        "monthly_payment": 279.38,
+        "total_of_payments": 16762.8,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 2231.5,
+            "term_months": 60
+          },
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2387,
+            "term_months": 48,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 58,
+    "refund_exposure": 2231.5,
+    "customer_exposure": 2734.07,
+    "open_findings": 3
+  },
+  {
+    "id": "DT-10776",
+    "dealer_id": "DLR-03",
+    "customer_display": "P. Castillo",
+    "vehicle": {
+      "year": 2022,
+      "make": "Ford",
+      "model": "F-150",
+      "trim": "XL",
+      "vin": "1FTTBYC63NU692127",
+      "condition": "used",
+      "msrp": 48581,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-10-30",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-10-30T19:00:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 20184,
+        "down_payment": 2992,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 22201,
+        "apr": 10.3,
+        "term_months": 72,
+        "monthly_payment": 414.66,
+        "total_of_payments": 29855.43,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 5009,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-10-30T19:14:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Matched competing dealer offer",
+        "vehicle_price": 19894,
+        "down_payment": 2992,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 21911,
+        "apr": 10.3,
+        "term_months": 72,
+        "monthly_payment": 409.24,
+        "total_of_payments": 29465.44,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 5009,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-10-30T19:47:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 19894,
+        "down_payment": 2992,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 21911,
+        "apr": 10.3,
+        "term_months": 72,
+        "monthly_payment": 409.24,
+        "total_of_payments": 29465.44,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 5009,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 43,
+    "refund_exposure": 2576,
+    "customer_exposure": 3464.15,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-10842",
+    "dealer_id": "DLR-05",
+    "customer_display": "R. Holloway",
+    "vehicle": {
+      "year": 2023,
+      "make": "Honda",
+      "model": "Accord",
+      "trim": "EX",
+      "vin": "1HG07KX6XPL141038",
+      "condition": "used",
+      "msrp": 29942,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-11-01",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-01T23:05:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 16622,
+        "down_payment": 874,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 17810,
+        "apr": 12.2,
+        "term_months": 60,
+        "monthly_payment": 397.98,
+        "total_of_payments": 23878.56,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1096,
+            "term_months": 60
+          },
+          {
+            "code": "PREPAID_MAINT",
+            "name": "Prepaid maintenance",
+            "provider_id": "PRV-02",
+            "price": 966,
+            "term_months": 36,
+            "max_miles": 36000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-01T23:22:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 15917,
+        "down_payment": 874,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 17105,
+        "apr": 12.2,
+        "term_months": 60,
+        "monthly_payment": 382.22,
+        "total_of_payments": 22933.34,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1096,
+            "term_months": 60
+          },
+          {
+            "code": "PREPAID_MAINT",
+            "name": "Prepaid maintenance",
+            "provider_id": "PRV-02",
+            "price": 966,
+            "term_months": 36,
+            "max_miles": 36000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-01T23:51:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 15917,
+        "down_payment": 874,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 17105,
+        "apr": 12.2,
+        "term_months": 60,
+        "monthly_payment": 382.22,
+        "total_of_payments": 22933.34,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1096,
+            "term_months": 60
+          },
+          {
+            "code": "PREPAID_MAINT",
+            "name": "Prepaid maintenance",
+            "provider_id": "PRV-02",
+            "price": 966,
+            "term_months": 36,
+            "max_miles": 36000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 40,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-10876",
+    "dealer_id": "DLR-04",
+    "customer_display": "B. Ashworth",
+    "vehicle": {
+      "year": 2023,
+      "make": "Ford",
+      "model": "F-150",
+      "trim": "XLT",
+      "vin": "1FTTZVX57PS985796",
+      "condition": "used",
+      "msrp": 40237,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-11-02",
+    "status": "On hold",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-02T23:23:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 21728,
+        "down_payment": 3648,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18080,
+        "apr": 12.6,
+        "term_months": 72,
+        "monthly_payment": 359.13,
+        "total_of_payments": 25857.65,
+        "products": [],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-02T23:29:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer countered on price",
+        "vehicle_price": 20561,
+        "down_payment": 3648,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 16913,
+        "apr": 12.6,
+        "term_months": 72,
+        "monthly_payment": 335.95,
+        "total_of_payments": 24188.63,
+        "products": [],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-03T00:15:00.000Z",
+        "actor_id": "U-03",
+        "reason": "Customer asked for extended coverage",
+        "vehicle_price": 20561,
+        "down_payment": 3648,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18586,
+        "apr": 12.6,
+        "term_months": 72,
+        "monthly_payment": 369.19,
+        "total_of_payments": 26581.32,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1673,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Add-ons added"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-11-03T00:31:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 20561,
+        "down_payment": 3648,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18586,
+        "apr": 12.6,
+        "term_months": 84,
+        "monthly_payment": 334.09,
+        "total_of_payments": 28063.32,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1673,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Term extended"
+      },
+      {
+        "version": 5,
+        "created_at": "2026-11-03T00:41:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 20561,
+        "down_payment": 3648,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18586,
+        "apr": 13.85,
+        "term_months": 84,
+        "monthly_payment": 346.76,
+        "total_of_payments": 29128.14,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1673,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Rate changed"
+      },
+      {
+        "version": 6,
+        "created_at": "2026-11-03T01:03:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 20561,
+        "down_payment": 3648,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 18586,
+        "apr": 13.85,
+        "term_months": 84,
+        "monthly_payment": 346.76,
+        "total_of_payments": 29128.14,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1673,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 6,
+    "risk_score": 95,
+    "refund_exposure": 2737.82,
+    "customer_exposure": 3874.69,
+    "open_findings": 4
+  },
+  {
+    "id": "DT-10897",
+    "dealer_id": "DLR-05",
+    "customer_display": "E. Lindqvist",
+    "vehicle": {
+      "year": 2026,
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "SE",
+      "vin": "4T1JFN0B0TD315441",
+      "condition": "new",
+      "msrp": 35368,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-03",
+    "deal_date": "2026-11-03",
+    "status": "Ready to fund",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-03T21:27:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 34906,
+        "down_payment": 2182,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 34768,
+        "apr": 6.5,
+        "term_months": 60,
+        "monthly_payment": 680.28,
+        "total_of_payments": 40816.55,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1841,
+            "term_months": 60
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 203,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-03T21:45:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Applied manufacturer incentive",
+        "vehicle_price": 34314,
+        "down_payment": 2182,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 34176,
+        "apr": 6.5,
+        "term_months": 60,
+        "monthly_payment": 668.69,
+        "total_of_payments": 40121.56,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1841,
+            "term_months": 60
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 203,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-03T22:27:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 34314,
+        "down_payment": 2182,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 34176,
+        "apr": 6.5,
+        "term_months": 60,
+        "monthly_payment": 668.69,
+        "total_of_payments": 40121.56,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1841,
+            "term_months": 60
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 203,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 41,
+    "refund_exposure": 901,
+    "customer_exposure": 1057.75,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-10927",
+    "dealer_id": "DLR-02",
+    "customer_display": "Y. Tanaka",
+    "vehicle": {
+      "year": 2026,
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trim": "RST",
+      "vin": "1GCXLSU92TD635096",
+      "condition": "new",
+      "msrp": 45518,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-03",
+    "deal_date": "2026-11-04",
+    "status": "Ready to fund",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-04T18:15:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 46009,
+        "down_payment": 3197,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 45020,
+        "apr": 7.3,
+        "term_months": 72,
+        "monthly_payment": 774.05,
+        "total_of_payments": 55731.46,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1832,
+            "term_months": 72
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 376,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-04T18:34:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 45163,
+        "down_payment": 3197,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 44174,
+        "apr": 7.3,
+        "term_months": 72,
+        "monthly_payment": 759.5,
+        "total_of_payments": 54684.18,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1832,
+            "term_months": 72
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 376,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-04T19:06:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 45163,
+        "down_payment": 3197,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 44174,
+        "apr": 7.3,
+        "term_months": 72,
+        "monthly_payment": 759.5,
+        "total_of_payments": 54684.18,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 1832,
+            "term_months": 72
+          },
+          {
+            "code": "THEFT_ETCH",
+            "name": "Theft deterrent etch",
+            "provider_id": "PRV-01",
+            "price": 376,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 44,
+    "refund_exposure": 892,
+    "customer_exposure": 1104.23,
+    "open_findings": 3
+  },
+  {
+    "id": "DT-10961",
+    "dealer_id": "DLR-02",
+    "customer_display": "T. Quintero",
+    "vehicle": {
+      "year": 2026,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "trim": "SEL",
+      "vin": "KM8X62AB9TC918630",
+      "condition": "new",
+      "msrp": 34612,
+      "factory_warranty_months": 60,
+      "factory_warranty_miles": 60000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-11-05",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-05T22:20:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 34711,
+        "down_payment": 11055,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 26033,
+        "apr": 7.9,
+        "term_months": 72,
+        "monthly_payment": 455.17,
+        "total_of_payments": 32772.44,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1498,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 879,
+            "term_months": 72
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-05T22:30:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 34439,
+        "down_payment": 11055,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25761,
+        "apr": 7.9,
+        "term_months": 72,
+        "monthly_payment": 450.42,
+        "total_of_payments": 32430.02,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1498,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 879,
+            "term_months": 72
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-05T23:03:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 34439,
+        "down_payment": 11055,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25761,
+        "apr": 7.9,
+        "term_months": 72,
+        "monthly_payment": 450.42,
+        "total_of_payments": 32430.02,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 1498,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 879,
+            "term_months": 72
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 60,
+    "refund_exposure": 2377,
+    "customer_exposure": 1885.8,
+    "open_findings": 4
+  },
+  {
+    "id": "DT-10990",
+    "dealer_id": "DLR-01",
+    "customer_display": "W. Calloway",
+    "vehicle": {
+      "year": 2026,
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "SE",
+      "vin": "4T1W5WPW6TK631350",
+      "condition": "new",
+      "msrp": 29157,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-03",
+    "deal_date": "2026-11-06",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-06T19:53:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 29151,
+        "down_payment": 4746,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30523.32,
+        "apr": 6,
+        "term_months": 60,
+        "monthly_payment": 590.1,
+        "total_of_payments": 35406.08,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6118.32,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-06T20:07:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 28784,
+        "down_payment": 4746,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30156.32,
+        "apr": 6,
+        "term_months": 60,
+        "monthly_payment": 583.01,
+        "total_of_payments": 34980.37,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6118.32,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-06T20:42:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 28784,
+        "down_payment": 4746,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30156.32,
+        "apr": 6,
+        "term_months": 60,
+        "monthly_payment": 583.01,
+        "total_of_payments": 34980.37,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6118.32,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 62,
+    "refund_exposure": 6118.32,
+    "customer_exposure": 7097.06,
+    "open_findings": 3
+  },
+  {
+    "id": "DT-11026",
+    "dealer_id": "DLR-02",
+    "customer_display": "G. Moreau",
+    "vehicle": {
+      "year": 2024,
+      "make": "Tesla",
+      "model": "Model Y",
+      "trim": "Performance AWD",
+      "vin": "7SAM7T7H8RD387887",
+      "condition": "used",
+      "msrp": 52869,
+      "factory_warranty_months": 48,
+      "factory_warranty_miles": 50000
+    },
+    "lender_id": "LND-01",
+    "deal_date": "2026-11-07",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-07T18:35:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 33541,
+        "down_payment": 6470,
+        "trade_in_value": 12709,
+        "trade_in_payoff": 10078,
+        "amount_financed": 25517,
+        "apr": 13.8,
+        "term_months": 60,
+        "monthly_payment": 591.09,
+        "total_of_payments": 35465.61,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1077,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-07T18:54:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 32826,
+        "down_payment": 6470,
+        "trade_in_value": 12709,
+        "trade_in_payoff": 10078,
+        "amount_financed": 24802,
+        "apr": 13.8,
+        "term_months": 60,
+        "monthly_payment": 574.53,
+        "total_of_payments": 34471.84,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1077,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-07T19:26:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 32826,
+        "down_payment": 6470,
+        "trade_in_value": 12709,
+        "trade_in_payoff": 10078,
+        "amount_financed": 24802,
+        "apr": 13.8,
+        "term_months": 60,
+        "monthly_payment": 574.53,
+        "total_of_payments": 34471.84,
+        "products": [
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1077,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 40,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-11044",
+    "dealer_id": "DLR-03",
+    "customer_display": "L. Brennan",
+    "vehicle": {
+      "year": 2025,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "LX",
+      "vin": "7FA8XLTN4SL258615",
+      "condition": "used",
+      "msrp": 33113,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-11-08",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-08T19:57:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 25970,
+        "down_payment": 3959,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25215,
+        "apr": 13.1,
+        "term_months": 48,
+        "monthly_payment": 677.71,
+        "total_of_payments": 32529.96,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 3204,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-08T20:11:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Customer countered on price",
+        "vehicle_price": 24884,
+        "down_payment": 3959,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 24129,
+        "apr": 13.1,
+        "term_months": 48,
+        "monthly_payment": 648.52,
+        "total_of_payments": 31128.91,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 3204,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-08T20:50:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 24884,
+        "down_payment": 3959,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 24129,
+        "apr": 13.1,
+        "term_months": 48,
+        "monthly_payment": 648.52,
+        "total_of_payments": 31128.91,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 3204,
+            "term_months": 72,
+            "max_miles": 75000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 44,
+    "refund_exposure": 3204,
+    "customer_exposure": 4133.49,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-11078",
+    "dealer_id": "DLR-03",
+    "customer_display": "F. Rahimi",
+    "vehicle": {
+      "year": 2026,
+      "make": "Tesla",
+      "model": "Model Y",
+      "trim": "Long Range AWD",
+      "vin": "7SAA0NLA7TC684142",
+      "condition": "new",
+      "msrp": 49491,
+      "factory_warranty_months": 48,
+      "factory_warranty_miles": 50000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-11-09",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-09T21:02:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 49641,
+        "down_payment": 7985,
+        "trade_in_value": 13309,
+        "trade_in_payoff": 5909,
+        "amount_financed": 38321.3,
+        "apr": 6,
+        "term_months": 72,
+        "monthly_payment": 635.09,
+        "total_of_payments": 45726.81,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2175,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1890.3,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-09T21:14:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Corrected doc fee entry",
+        "vehicle_price": 49361,
+        "down_payment": 7985,
+        "trade_in_value": 13309,
+        "trade_in_payoff": 5909,
+        "amount_financed": 38041.3,
+        "apr": 6,
+        "term_months": 72,
+        "monthly_payment": 630.45,
+        "total_of_payments": 45392.7,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2175,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1890.3,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-09T21:21:00.000Z",
+        "actor_id": "U-04",
+        "reason": "Matched competing dealer offer",
+        "vehicle_price": 48689,
+        "down_payment": 7985,
+        "trade_in_value": 13309,
+        "trade_in_payoff": 5909,
+        "amount_financed": 37369.3,
+        "apr": 6,
+        "term_months": 72,
+        "monthly_payment": 619.32,
+        "total_of_payments": 44590.84,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2175,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1890.3,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 4,
+        "created_at": "2026-11-09T21:59:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 48689,
+        "down_payment": 7985,
+        "trade_in_value": 13309,
+        "trade_in_payoff": 5909,
+        "amount_financed": 37369.3,
+        "apr": 6,
+        "term_months": 72,
+        "monthly_payment": 619.32,
+        "total_of_payments": 44590.84,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 2175,
+            "term_months": 60,
+            "max_miles": 60000
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 1890.3,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 4,
+    "risk_score": 55,
+    "refund_exposure": 3252.3,
+    "customer_exposure": 2595.31,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-11113",
+    "dealer_id": "DLR-04",
+    "customer_display": "A. Delgado",
+    "vehicle": {
+      "year": 2026,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "EX",
+      "vin": "7FAFYX18XTK438472",
+      "condition": "new",
+      "msrp": 38759,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-11-10",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-10T20:55:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 39401,
+        "down_payment": 5701,
+        "trade_in_value": 6168,
+        "trade_in_payoff": 6304,
+        "amount_financed": 39938.32,
+        "apr": 5.3,
+        "term_months": 60,
+        "monthly_payment": 759.19,
+        "total_of_payments": 45551.22,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6102.32,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-10T21:14:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 38313,
+        "down_payment": 5701,
+        "trade_in_value": 6168,
+        "trade_in_payoff": 6304,
+        "amount_financed": 38850.32,
+        "apr": 5.3,
+        "term_months": 60,
+        "monthly_payment": 738.51,
+        "total_of_payments": 44310.31,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6102.32,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-10T21:52:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 38313,
+        "down_payment": 5701,
+        "trade_in_value": 6168,
+        "trade_in_payoff": 6304,
+        "amount_financed": 38850.32,
+        "apr": 5.3,
+        "term_months": 60,
+        "monthly_payment": 738.51,
+        "total_of_payments": 44310.31,
+        "products": [
+          {
+            "code": "VSC",
+            "name": "Service contract",
+            "provider_id": "PRV-02",
+            "price": 6102.32,
+            "term_months": 60,
+            "max_miles": 60000
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 62,
+    "refund_exposure": 6102.32,
+    "customer_exposure": 6959.93,
+    "open_findings": 3
+  },
+  {
+    "id": "DT-11135",
+    "dealer_id": "DLR-04",
+    "customer_display": "D. Varga",
+    "vehicle": {
+      "year": 2023,
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trim": "RST",
+      "vin": "1GCCH7N04PN496585",
+      "condition": "used",
+      "msrp": 56242,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-03",
+    "deal_date": "2026-11-11",
+    "status": "Ready to fund",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-11T20:16:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 31173,
+        "down_payment": 1532,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 31256,
+        "apr": 13,
+        "term_months": 72,
+        "monthly_payment": 627.44,
+        "total_of_payments": 45175.41,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 762,
+            "term_months": 72
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 853,
+            "term_months": 60
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-11T20:29:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 30584,
+        "down_payment": 1532,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30667,
+        "apr": 13,
+        "term_months": 72,
+        "monthly_payment": 615.61,
+        "total_of_payments": 44324.11,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 762,
+            "term_months": 72
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 853,
+            "term_months": 60
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-11T21:10:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 30584,
+        "down_payment": 1532,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 30667,
+        "apr": 13,
+        "term_months": 72,
+        "monthly_payment": 615.61,
+        "total_of_payments": 44324.11,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 762,
+            "term_months": 72
+          },
+          {
+            "code": "TIRE_WHEEL",
+            "name": "Tire and wheel protection",
+            "provider_id": "PRV-03",
+            "price": 853,
+            "term_months": 60
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 40,
+    "refund_exposure": 0,
+    "customer_exposure": 0,
+    "open_findings": 2
+  },
+  {
+    "id": "DT-11163",
+    "dealer_id": "DLR-03",
+    "customer_display": "O. Adeyemi",
+    "vehicle": {
+      "year": 2022,
+      "make": "Ford",
+      "model": "F-150",
+      "trim": "XL",
+      "vin": "1FTRBFBD2NH789147",
+      "condition": "used",
+      "msrp": 61679,
+      "factory_warranty_months": 36,
+      "factory_warranty_miles": 36000
+    },
+    "lender_id": "LND-02",
+    "deal_date": "2026-11-12",
+    "status": "In review",
+    "fi_manager_id": "U-03",
+    "salesperson_id": "U-04",
+    "versions": [
+      {
+        "version": 1,
+        "created_at": "2026-11-12T21:52:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 26797,
+        "down_payment": 1362,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 26274,
+        "apr": 12,
+        "term_months": 72,
+        "monthly_payment": 513.66,
+        "total_of_payments": 36983.65,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 839,
+            "term_months": 72
+          }
+        ],
+        "label": "Quote"
+      },
+      {
+        "version": 2,
+        "created_at": "2026-11-12T22:02:00.000Z",
+        "actor_id": "U-04",
+        "reason": null,
+        "vehicle_price": 26133,
+        "down_payment": 1362,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25610,
+        "apr": 12,
+        "term_months": 72,
+        "monthly_payment": 500.68,
+        "total_of_payments": 36048.99,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 839,
+            "term_months": 72
+          }
+        ],
+        "label": "Price revised, price agreed"
+      },
+      {
+        "version": 3,
+        "created_at": "2026-11-12T22:36:00.000Z",
+        "actor_id": "U-03",
+        "reason": null,
+        "vehicle_price": 26133,
+        "down_payment": 1362,
+        "trade_in_value": 0,
+        "trade_in_payoff": 0,
+        "amount_financed": 25610,
+        "apr": 12,
+        "term_months": 72,
+        "monthly_payment": 500.68,
+        "total_of_payments": 36048.99,
+        "products": [
+          {
+            "code": "GAP",
+            "name": "GAP waiver",
+            "provider_id": "PRV-01",
+            "price": 839,
+            "term_months": 72
+          }
+        ],
+        "label": "Contract signed"
+      }
+    ],
+    "current_version": 3,
+    "risk_score": 47,
+    "refund_exposure": 839,
+    "customer_exposure": 1180.99,
+    "open_findings": 2
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PRV-01",
+    "name": "ShieldPoint",
+    "product_codes": [
+      "GAP",
+      "THEFT_ETCH"
+    ]
+  },
+  {
+    "id": "PRV-02",
+    "name": "DriveCare",
+    "product_codes": [
+      "VSC",
+      "PREPAID_MAINT"
+    ]
+  },
+  {
+    "id": "PRV-03",
+    "name": "TreadSafe",
+    "product_codes": [
+      "TIRE_WHEEL",
+      "PAINT_FABRIC"
+    ]
+  }
+]

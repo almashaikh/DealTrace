@@ -1,0 +1,164 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* DealTrace is light-only. `dark:` utilities in shadcn components only apply under a .dark ancestor, which we never set. */
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------
+   DealTrace design tokens (docs/DESIGN.md). Use only these colours.
+   --------------------------------------------------------------- */
+:root {
+  --dt-brand: #2b59c3;
+  --dt-brand-hover: #234aa6;
+  --dt-brand-subtle: #eef3fc;
+
+  --dt-bg-app: #f7f8fa;
+  --dt-bg-surface: #ffffff;
+  --dt-border: #e4e7ec;
+
+  --dt-text: #101828;
+  --dt-text-muted: #667085;
+
+  --dt-sev-critical: #b42318;
+  --dt-sev-high: #c4320a;
+  --dt-sev-medium: #b54708;
+  --dt-sev-low: #475467;
+
+  --dt-success: #067647;
+
+  /* shadcn/ui theme variables, mapped onto the tokens above */
+  --radius: 0.5rem; /* 8px: cards and sheets */
+
+  --background: var(--dt-bg-app);
+  --foreground: var(--dt-text);
+
+  --card: var(--dt-bg-surface);
+  --card-foreground: var(--dt-text);
+
+  --popover: var(--dt-bg-surface);
+  --popover-foreground: var(--dt-text);
+
+  --primary: var(--dt-brand);
+  --primary-foreground: var(--dt-bg-surface);
+
+  --secondary: var(--dt-bg-surface);
+  --secondary-foreground: var(--dt-text);
+
+  --muted: var(--dt-bg-app);
+  --muted-foreground: var(--dt-text-muted);
+
+  --accent: var(--dt-bg-app);
+  --accent-foreground: var(--dt-text);
+
+  --destructive: var(--dt-sev-critical);
+
+  --border: var(--dt-border);
+  --input: var(--dt-border);
+  --ring: var(--dt-brand);
+
+  /* Charts: brand for the series that matters, quiet grey for the rest */
+  --chart-1: var(--dt-brand);
+  --chart-2: var(--dt-text-muted);
+  --chart-3: var(--dt-border);
+  --chart-4: var(--dt-sev-low);
+  --chart-5: var(--dt-brand-hover);
+}
+
+@theme inline {
+  /* Fonts */
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radius: 6px for inputs and buttons, 8px for cards and sheets, never larger */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 8px;
+  --radius-2xl: 8px;
+  --radius-3xl: 8px;
+
+  /* Shadows only on popovers, menus, dialogs and sheets, very soft */
+  --shadow-md: 0 4px 12px -2px rgb(16 24 40 / 0.08), 0 2px 4px -2px rgb(16 24 40 / 0.06);
+  --shadow-lg: 0 12px 24px -6px rgb(16 24 40 / 0.1), 0 4px 8px -4px rgb(16 24 40 / 0.06);
+
+  /* DealTrace utilities: bg-brand, text-sev-high, bg-sev-high/10, border-border, ... */
+  --color-brand: var(--dt-brand);
+  --color-brand-hover: var(--dt-brand-hover);
+  --color-brand-subtle: var(--dt-brand-subtle);
+  --color-app: var(--dt-bg-app);
+  --color-surface: var(--dt-bg-surface);
+  --color-text: var(--dt-text);
+  --color-text-muted: var(--dt-text-muted);
+  --color-sev-critical: var(--dt-sev-critical);
+  --color-sev-high: var(--dt-sev-high);
+  --color-sev-medium: var(--dt-sev-medium);
+  --color-sev-low: var(--dt-sev-low);
+  --color-success: var(--dt-success);
+
+  /* shadcn/ui colour utilities */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-size: 14px;
+    line-height: 20px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Icons use a 1.75 stroke everywhere */
+  svg.lucide {
+    stroke-width: 1.75;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--dt-brand);
+    outline-offset: 2px;
+  }
+}
+
+/* React Flow controls: flat, bordered, no shadow (shadows are for popovers only) */
+.react-flow__controls {
+  box-shadow: none;
+  border: 1px solid var(--dt-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.react-flow__controls-button {
+  border-bottom: 1px solid var(--dt-border);
+  color: var(--dt-text);
+}
+.react-flow .react-flow__attribution {
+  font-size: 11px;
+}

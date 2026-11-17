@@ -1,0 +1,2972 @@
+[
+  {
+    "id": "AU-30417",
+    "timestamp": "2026-09-15T16:42:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule published",
+    "entity": "rule",
+    "entity_id": "CA-CARS-ADDON-01",
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "827d3d7d65ac191da9982f88f192b5644d55430b443b66b4dc1e3851f2bb093c"
+  },
+  {
+    "id": "AU-30418",
+    "timestamp": "2026-09-15T16:47:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule published",
+    "entity": "rule",
+    "entity_id": "CA-CARS-RECORD-01",
+    "prev_hash": "827d3d7d65ac191da9982f88f192b5644d55430b443b66b4dc1e3851f2bb093c",
+    "hash": "61e396c87d31fd1186b41329f7eff756594766ad3611679cb5afe65c586e3536"
+  },
+  {
+    "id": "AU-30419",
+    "timestamp": "2026-09-16T17:05:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule published",
+    "entity": "rule",
+    "entity_id": "CA-GAP-PRICE-01",
+    "prev_hash": "61e396c87d31fd1186b41329f7eff756594766ad3611679cb5afe65c586e3536",
+    "hash": "f75238214d713a8f76d635f73609f1292e8c977affc82a8e28186fde62ad8df9"
+  },
+  {
+    "id": "AU-30420",
+    "timestamp": "2026-09-16T17:11:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule published",
+    "entity": "rule",
+    "entity_id": "CA-GAP-COVERAGE-01",
+    "prev_hash": "f75238214d713a8f76d635f73609f1292e8c977affc82a8e28186fde62ad8df9",
+    "hash": "e473c0d4cfe86403edb3c6a10a15087c0d1076d1baa6844a64c30aa2c9cd7c60"
+  },
+  {
+    "id": "AU-30421",
+    "timestamp": "2026-09-16T17:18:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule published",
+    "entity": "rule",
+    "entity_id": "CA-GAP-LTV-01",
+    "prev_hash": "e473c0d4cfe86403edb3c6a10a15087c0d1076d1baa6844a64c30aa2c9cd7c60",
+    "hash": "e96439cb9e566497bc61960406e961a8a1baaa27b19fd688354b4fad2379efb9"
+  },
+  {
+    "id": "AU-30422",
+    "timestamp": "2026-09-16T17:26:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule published",
+    "entity": "rule",
+    "entity_id": "CA-GAP-DISCLOSURE-01",
+    "prev_hash": "e96439cb9e566497bc61960406e961a8a1baaa27b19fd688354b4fad2379efb9",
+    "hash": "207b5f16fdd521b88d46d3666d9d14f94461870b86d11906f81889fd7f73ab7e"
+  },
+  {
+    "id": "AU-30423",
+    "timestamp": "2026-10-01T15:30:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "207b5f16fdd521b88d46d3666d9d14f94461870b86d11906f81889fd7f73ab7e",
+    "hash": "b0f5bf62dc3031ec1447799d6f0678af23b6335d74d74a58d62a889c23357a50"
+  },
+  {
+    "id": "AU-30424",
+    "timestamp": "2026-10-01T15:52:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "b0f5bf62dc3031ec1447799d6f0678af23b6335d74d74a58d62a889c23357a50",
+    "hash": "1e34c903d35e576dde078f10cdf992261518ff90241435c755391a4108c0fcaf"
+  },
+  {
+    "id": "AU-30425",
+    "timestamp": "2026-10-01T16:02:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "1e34c903d35e576dde078f10cdf992261518ff90241435c755391a4108c0fcaf",
+    "hash": "b0e0cf4b89af6cb4d3a67accefdb2163063a50c10aeb6cf6e0b75fc4b44ea483"
+  },
+  {
+    "id": "AU-30426",
+    "timestamp": "2026-10-01T18:49:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-9920",
+    "prev_hash": "b0e0cf4b89af6cb4d3a67accefdb2163063a50c10aeb6cf6e0b75fc4b44ea483",
+    "hash": "509ba96acf05790b6ad3ecbdb6448b2d31c9a082d2845de5d4a2d515dd7e87cc"
+  },
+  {
+    "id": "AU-30427",
+    "timestamp": "2026-10-01T18:50:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2278",
+    "prev_hash": "509ba96acf05790b6ad3ecbdb6448b2d31c9a082d2845de5d4a2d515dd7e87cc",
+    "hash": "68289dbbbc68bbc21b426aebd201239f49d27080f54430e2153127de8e2f6315"
+  },
+  {
+    "id": "AU-30428",
+    "timestamp": "2026-10-01T18:50:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2279",
+    "prev_hash": "68289dbbbc68bbc21b426aebd201239f49d27080f54430e2153127de8e2f6315",
+    "hash": "74536694a5f4cfccc396c6b1482615762c6f96c50ec9c349fd91145aaadac9cf"
+  },
+  {
+    "id": "AU-30429",
+    "timestamp": "2026-10-01T21:16:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2278",
+    "prev_hash": "74536694a5f4cfccc396c6b1482615762c6f96c50ec9c349fd91145aaadac9cf",
+    "hash": "4faf17d0dcd9ccc146486909fd4550a041fa2cd65303ea5a132be1934a64ccaf"
+  },
+  {
+    "id": "AU-30430",
+    "timestamp": "2026-10-02T15:16:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "4faf17d0dcd9ccc146486909fd4550a041fa2cd65303ea5a132be1934a64ccaf",
+    "hash": "396be9243596ceeb2765baef8af3701bfa9a65f80228be869288a92dbebf82ca"
+  },
+  {
+    "id": "AU-30431",
+    "timestamp": "2026-10-02T15:49:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "396be9243596ceeb2765baef8af3701bfa9a65f80228be869288a92dbebf82ca",
+    "hash": "fb2a6fb7425ca62592eb08f1793022448c777772cf421686ef5b7860a225bf7d"
+  },
+  {
+    "id": "AU-30432",
+    "timestamp": "2026-10-02T16:02:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "fb2a6fb7425ca62592eb08f1793022448c777772cf421686ef5b7860a225bf7d",
+    "hash": "c87b312651bccc3eb75179b3a55e76cdbdc5f88ebff8af0dddf7e4e423cca950"
+  },
+  {
+    "id": "AU-30433",
+    "timestamp": "2026-10-02T18:13:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-9945",
+    "prev_hash": "c87b312651bccc3eb75179b3a55e76cdbdc5f88ebff8af0dddf7e4e423cca950",
+    "hash": "d473400b167b6fbd782c24fc02312b88c914eae3dfc82f1415fd26fb56f0d7a3"
+  },
+  {
+    "id": "AU-30434",
+    "timestamp": "2026-10-02T18:14:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2280",
+    "prev_hash": "d473400b167b6fbd782c24fc02312b88c914eae3dfc82f1415fd26fb56f0d7a3",
+    "hash": "bf54e27894b9726995d17b8278425ff44469a6f37370943501cb4573381d7ee2"
+  },
+  {
+    "id": "AU-30435",
+    "timestamp": "2026-10-02T18:14:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2281",
+    "prev_hash": "bf54e27894b9726995d17b8278425ff44469a6f37370943501cb4573381d7ee2",
+    "hash": "b111c6749f4fdbaabcf790539d19e1fd614c3c6407876413c28452c6ee72b742"
+  },
+  {
+    "id": "AU-30436",
+    "timestamp": "2026-10-02T18:14:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2282",
+    "prev_hash": "b111c6749f4fdbaabcf790539d19e1fd614c3c6407876413c28452c6ee72b742",
+    "hash": "2d0d0c5007e9dcc4a517088f6d2936741ab8e411230f962535614ab1d54080f9"
+  },
+  {
+    "id": "AU-30437",
+    "timestamp": "2026-10-02T19:07:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2280",
+    "prev_hash": "2d0d0c5007e9dcc4a517088f6d2936741ab8e411230f962535614ab1d54080f9",
+    "hash": "fe6c5b52df1bc5f75d85c4e580ab0e747d1b2cbdfe30b9864b10c552f6e6e9aa"
+  },
+  {
+    "id": "AU-30438",
+    "timestamp": "2026-10-02T19:10:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2281",
+    "prev_hash": "fe6c5b52df1bc5f75d85c4e580ab0e747d1b2cbdfe30b9864b10c552f6e6e9aa",
+    "hash": "55f4bf591f7a88a64b6fa3c9ad42169f3db30676ca4b4b13befa4a6431da0f05"
+  },
+  {
+    "id": "AU-30439",
+    "timestamp": "2026-10-02T19:39:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2282",
+    "prev_hash": "55f4bf591f7a88a64b6fa3c9ad42169f3db30676ca4b4b13befa4a6431da0f05",
+    "hash": "6f31dd403df2d02d96c8133cd90501e54de3730810963fa331cc4ac549fcc3be"
+  },
+  {
+    "id": "AU-30440",
+    "timestamp": "2026-10-03T04:02:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-9945",
+    "prev_hash": "6f31dd403df2d02d96c8133cd90501e54de3730810963fa331cc4ac549fcc3be",
+    "hash": "787152a74b379cc7ac4538b640aa2f8018b0d4402c2c05259646b7f8d8f0caf0"
+  },
+  {
+    "id": "AU-30441",
+    "timestamp": "2026-10-03T12:51:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-9945",
+    "prev_hash": "787152a74b379cc7ac4538b640aa2f8018b0d4402c2c05259646b7f8d8f0caf0",
+    "hash": "548f7856cf49a94c48f5291f780381cd7fbd5d5615e44c57a252d560b7674aeb"
+  },
+  {
+    "id": "AU-30442",
+    "timestamp": "2026-10-03T20:13:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-9945",
+    "prev_hash": "548f7856cf49a94c48f5291f780381cd7fbd5d5615e44c57a252d560b7674aeb",
+    "hash": "0da7c648ae5334651d0310eec5c01c3ea195341ec605b93d57e86a7a08685cb0"
+  },
+  {
+    "id": "AU-30443",
+    "timestamp": "2026-10-05T15:27:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "0da7c648ae5334651d0310eec5c01c3ea195341ec605b93d57e86a7a08685cb0",
+    "hash": "33139a864fa9610da2d43f4a591983264906185530a17768008a5954d58d9780"
+  },
+  {
+    "id": "AU-30444",
+    "timestamp": "2026-10-05T15:48:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "33139a864fa9610da2d43f4a591983264906185530a17768008a5954d58d9780",
+    "hash": "f9eb15f2f63796b2ae4776d97a7764a4d3e49d2c17ecc19750acbdbe722990d0"
+  },
+  {
+    "id": "AU-30445",
+    "timestamp": "2026-10-05T16:34:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "f9eb15f2f63796b2ae4776d97a7764a4d3e49d2c17ecc19750acbdbe722990d0",
+    "hash": "cc2be5ce86b933a385205b98aa3051217221ec2262eabfa2650dbdf52835061e"
+  },
+  {
+    "id": "AU-30446",
+    "timestamp": "2026-10-06T15:22:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "cc2be5ce86b933a385205b98aa3051217221ec2262eabfa2650dbdf52835061e",
+    "hash": "314832b87ba65d70ce33d0606bf3c27b6d927b508d601758fa511fe744851369"
+  },
+  {
+    "id": "AU-30447",
+    "timestamp": "2026-10-06T15:50:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "314832b87ba65d70ce33d0606bf3c27b6d927b508d601758fa511fe744851369",
+    "hash": "ae3777fc4f92ec2fdf49eadc11f8884a1c0f30441c6782b45a3ba38ccee62d4e"
+  },
+  {
+    "id": "AU-30448",
+    "timestamp": "2026-10-06T16:11:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "ae3777fc4f92ec2fdf49eadc11f8884a1c0f30441c6782b45a3ba38ccee62d4e",
+    "hash": "df0e17ea825b21348dd0c715d44fca420ddb5910ff81b2e1a2413b8121492907"
+  },
+  {
+    "id": "AU-30449",
+    "timestamp": "2026-10-07T15:28:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "df0e17ea825b21348dd0c715d44fca420ddb5910ff81b2e1a2413b8121492907",
+    "hash": "fca151d4d16378e7190be7b93cac383d4cd103e5322b9e69770c3f084c661e3a"
+  },
+  {
+    "id": "AU-30450",
+    "timestamp": "2026-10-07T15:47:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "fca151d4d16378e7190be7b93cac383d4cd103e5322b9e69770c3f084c661e3a",
+    "hash": "22dcbfa2d6e53f2f142f2fa0e295e09fdb00f3eae7f3f239f306f76294b76f1c"
+  },
+  {
+    "id": "AU-30451",
+    "timestamp": "2026-10-07T18:10:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10089",
+    "prev_hash": "22dcbfa2d6e53f2f142f2fa0e295e09fdb00f3eae7f3f239f306f76294b76f1c",
+    "hash": "01a37d305cba65c96c1e05c0ce8a3922d14e3d71969ba30ed34406942982c00c"
+  },
+  {
+    "id": "AU-30452",
+    "timestamp": "2026-10-07T18:11:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2283",
+    "prev_hash": "01a37d305cba65c96c1e05c0ce8a3922d14e3d71969ba30ed34406942982c00c",
+    "hash": "30085bbad9bd9b5c04243bbbc11c3d7b4698f38ba63f17ea756e32b8f2fdd71e"
+  },
+  {
+    "id": "AU-30453",
+    "timestamp": "2026-10-07T18:11:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2284",
+    "prev_hash": "30085bbad9bd9b5c04243bbbc11c3d7b4698f38ba63f17ea756e32b8f2fdd71e",
+    "hash": "18d76fa1959a50106b4f4ae2c1931ef07eef7202c207266c373d7dd4630d7abd"
+  },
+  {
+    "id": "AU-30454",
+    "timestamp": "2026-10-07T20:28:00.000Z",
+    "actor_id": "U-01",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2283",
+    "prev_hash": "18d76fa1959a50106b4f4ae2c1931ef07eef7202c207266c373d7dd4630d7abd",
+    "hash": "6ca76f093550fb395b0acc45ca065041714378eea9c65e541b073b41c38bd7cb"
+  },
+  {
+    "id": "AU-30455",
+    "timestamp": "2026-10-07T22:04:00.000Z",
+    "actor_id": "U-01",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2284",
+    "prev_hash": "6ca76f093550fb395b0acc45ca065041714378eea9c65e541b073b41c38bd7cb",
+    "hash": "afd7e6b69a8cc1f77213018d0169855e199e98970179c2bd32a3ac8dd5e6c4d7"
+  },
+  {
+    "id": "AU-30456",
+    "timestamp": "2026-10-08T15:29:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "afd7e6b69a8cc1f77213018d0169855e199e98970179c2bd32a3ac8dd5e6c4d7",
+    "hash": "e2fb0c1406e59caf3b899abacb18aa2e5f44720bdc04a270cc767b61b7db081f"
+  },
+  {
+    "id": "AU-30457",
+    "timestamp": "2026-10-08T15:50:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "e2fb0c1406e59caf3b899abacb18aa2e5f44720bdc04a270cc767b61b7db081f",
+    "hash": "4384e2cd2537d6940299b17d4a7e5c00619e576013b20461256d5464b9ba4efa"
+  },
+  {
+    "id": "AU-30458",
+    "timestamp": "2026-10-08T16:38:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "4384e2cd2537d6940299b17d4a7e5c00619e576013b20461256d5464b9ba4efa",
+    "hash": "5fc5fe7ab01c086245d776085d20cc01f38041ff03eb25b99ac9f7d809fd0561"
+  },
+  {
+    "id": "AU-30459",
+    "timestamp": "2026-10-09T15:29:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "5fc5fe7ab01c086245d776085d20cc01f38041ff03eb25b99ac9f7d809fd0561",
+    "hash": "d100ad68b21a2f49d9bf129f69812b58f7e07d810fb8d5f4fa3b6c3f4315bc4c"
+  },
+  {
+    "id": "AU-30460",
+    "timestamp": "2026-10-09T15:44:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "d100ad68b21a2f49d9bf129f69812b58f7e07d810fb8d5f4fa3b6c3f4315bc4c",
+    "hash": "dab86b447a711581b07bf61730218c75fdaeb7a105ad89474ce7eb5c0dded680"
+  },
+  {
+    "id": "AU-30461",
+    "timestamp": "2026-10-09T16:33:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "dab86b447a711581b07bf61730218c75fdaeb7a105ad89474ce7eb5c0dded680",
+    "hash": "a585572402fb24b18bf9a30d19c00d212662b96bca3065b1c2ff0cf3bc89a3a4"
+  },
+  {
+    "id": "AU-30462",
+    "timestamp": "2026-10-09T16:56:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10089",
+    "prev_hash": "a585572402fb24b18bf9a30d19c00d212662b96bca3065b1c2ff0cf3bc89a3a4",
+    "hash": "f35d59d67475f8fb1f281ac734d3e88f1f8e823e45064a953ef5432569773318"
+  },
+  {
+    "id": "AU-30463",
+    "timestamp": "2026-10-09T23:48:00.000Z",
+    "actor_id": "U-01",
+    "action": "Report exported",
+    "entity": "report",
+    "entity_id": "RPT-1107",
+    "prev_hash": "f35d59d67475f8fb1f281ac734d3e88f1f8e823e45064a953ef5432569773318",
+    "hash": "ebf078a5247305faee1ade334d1d204ef68a73dc30603286a0ded49cd8aef721"
+  },
+  {
+    "id": "AU-30464",
+    "timestamp": "2026-10-10T01:47:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10089",
+    "prev_hash": "ebf078a5247305faee1ade334d1d204ef68a73dc30603286a0ded49cd8aef721",
+    "hash": "05d3625aeb210773a3f44aa8de06e6369e4fc0edec9b9b6a4b1f31b3898d6356"
+  },
+  {
+    "id": "AU-30465",
+    "timestamp": "2026-10-12T15:40:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "05d3625aeb210773a3f44aa8de06e6369e4fc0edec9b9b6a4b1f31b3898d6356",
+    "hash": "7c399b13e69b7d4a0cbfd0fa16cdb927168d17e075c6e8254631e2ddbafd6c64"
+  },
+  {
+    "id": "AU-30466",
+    "timestamp": "2026-10-12T15:44:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "7c399b13e69b7d4a0cbfd0fa16cdb927168d17e075c6e8254631e2ddbafd6c64",
+    "hash": "8830e4e225235248243ced17d483cf94b961b2e0b4762daeb5a041efdb27c98a"
+  },
+  {
+    "id": "AU-30467",
+    "timestamp": "2026-10-13T15:23:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "8830e4e225235248243ced17d483cf94b961b2e0b4762daeb5a041efdb27c98a",
+    "hash": "272ec4ff5754ee631732bf835e9643f6eb8099e57186a1003066e6dec76d9e7f"
+  },
+  {
+    "id": "AU-30468",
+    "timestamp": "2026-10-13T15:42:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "272ec4ff5754ee631732bf835e9643f6eb8099e57186a1003066e6dec76d9e7f",
+    "hash": "48ee2e16b5b8d2ac6992404147cf6d52476ffdf3d010e1a87f0017e14ca15a1e"
+  },
+  {
+    "id": "AU-30469",
+    "timestamp": "2026-10-13T16:00:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "48ee2e16b5b8d2ac6992404147cf6d52476ffdf3d010e1a87f0017e14ca15a1e",
+    "hash": "d6635d6ad23ae94aaa74e5f009d8998bf595f5249a7e3271ab3935496adbcaa2"
+  },
+  {
+    "id": "AU-30470",
+    "timestamp": "2026-10-13T21:01:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10277",
+    "prev_hash": "d6635d6ad23ae94aaa74e5f009d8998bf595f5249a7e3271ab3935496adbcaa2",
+    "hash": "e80c68ceffe9b58364703aedf774e2f44070f600e696dcbe77e385310be598bd"
+  },
+  {
+    "id": "AU-30471",
+    "timestamp": "2026-10-13T21:02:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2285",
+    "prev_hash": "e80c68ceffe9b58364703aedf774e2f44070f600e696dcbe77e385310be598bd",
+    "hash": "4455260ce9a5fa0f3b7f4da94899aad7565ce2f88d5c89c40059db9b3ddabafd"
+  },
+  {
+    "id": "AU-30472",
+    "timestamp": "2026-10-13T21:02:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2286",
+    "prev_hash": "4455260ce9a5fa0f3b7f4da94899aad7565ce2f88d5c89c40059db9b3ddabafd",
+    "hash": "caeb0a49c22a19334a5cba7cbfcfb93223c70f379daf0a197d180ad9b6d02d3f"
+  },
+  {
+    "id": "AU-30473",
+    "timestamp": "2026-10-14T01:02:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2285",
+    "prev_hash": "caeb0a49c22a19334a5cba7cbfcfb93223c70f379daf0a197d180ad9b6d02d3f",
+    "hash": "c196fcfe2d20108f9fd7dee76d6085991fe35d8762152f35da8c78a996eb4ede"
+  },
+  {
+    "id": "AU-30474",
+    "timestamp": "2026-10-14T01:18:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2286",
+    "prev_hash": "c196fcfe2d20108f9fd7dee76d6085991fe35d8762152f35da8c78a996eb4ede",
+    "hash": "16338ec080e546b424624a2be9d4ad480e4ad65c71ee18dd712bd1678bd0eba9"
+  },
+  {
+    "id": "AU-30475",
+    "timestamp": "2026-10-14T15:46:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "16338ec080e546b424624a2be9d4ad480e4ad65c71ee18dd712bd1678bd0eba9",
+    "hash": "7ac8a8f0b0e3d7abf60bdfa04dba8767ac79fed69b28bf8a88afcf94cc3b168e"
+  },
+  {
+    "id": "AU-30476",
+    "timestamp": "2026-10-14T15:53:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "7ac8a8f0b0e3d7abf60bdfa04dba8767ac79fed69b28bf8a88afcf94cc3b168e",
+    "hash": "657a996ed8114c2f07720052c6a359cdc4fb5ddec6ed381c7ee91523f8a11e96"
+  },
+  {
+    "id": "AU-30477",
+    "timestamp": "2026-10-14T16:37:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "657a996ed8114c2f07720052c6a359cdc4fb5ddec6ed381c7ee91523f8a11e96",
+    "hash": "288957359c64acb7f410212fedaed8524c126dd3deadb3c5bc60cac9b3b30d20"
+  },
+  {
+    "id": "AU-30478",
+    "timestamp": "2026-10-15T02:14:00.000Z",
+    "actor_id": "U-05",
+    "action": "Deal funded",
+    "entity": "deal",
+    "entity_id": "DT-10277",
+    "prev_hash": "288957359c64acb7f410212fedaed8524c126dd3deadb3c5bc60cac9b3b30d20",
+    "hash": "56a21f520c05584fd5ed82ffd52d67a14047f35c407514cdda6edd3d77d8f36d"
+  },
+  {
+    "id": "AU-30479",
+    "timestamp": "2026-10-15T15:43:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "56a21f520c05584fd5ed82ffd52d67a14047f35c407514cdda6edd3d77d8f36d",
+    "hash": "c82e1260b8f681c619419873748dd90b01f884af0b3be10952db50c20d43a40b"
+  },
+  {
+    "id": "AU-30480",
+    "timestamp": "2026-10-15T15:50:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "c82e1260b8f681c619419873748dd90b01f884af0b3be10952db50c20d43a40b",
+    "hash": "30b21cf05484253f6bde1fd9bb8a15c869a2b0a71770b8ea60feb941af0bf57e"
+  },
+  {
+    "id": "AU-30481",
+    "timestamp": "2026-10-15T21:55:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10277",
+    "prev_hash": "30b21cf05484253f6bde1fd9bb8a15c869a2b0a71770b8ea60feb941af0bf57e",
+    "hash": "f9c0e78b261b0ff4e4993f065e48e0f7f2b92aa2849a8506e47f53f8ed4a48f8"
+  },
+  {
+    "id": "AU-30482",
+    "timestamp": "2026-10-16T12:47:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10277",
+    "prev_hash": "f9c0e78b261b0ff4e4993f065e48e0f7f2b92aa2849a8506e47f53f8ed4a48f8",
+    "hash": "b20ac0f8d80e26ab043ea90726eaa5dee520f5ec5160524c517ab921147135b5"
+  },
+  {
+    "id": "AU-30483",
+    "timestamp": "2026-10-16T15:35:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "b20ac0f8d80e26ab043ea90726eaa5dee520f5ec5160524c517ab921147135b5",
+    "hash": "5ef5be281b5cae7bcd0f71af4d9ddb439255ccef8f2eaaf52e57bc959a6374e9"
+  },
+  {
+    "id": "AU-30484",
+    "timestamp": "2026-10-16T15:47:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "5ef5be281b5cae7bcd0f71af4d9ddb439255ccef8f2eaaf52e57bc959a6374e9",
+    "hash": "86b4ec22dc07505f4a8bc573b7b810f0604c8250f158853fbfdd252fbc45fcf5"
+  },
+  {
+    "id": "AU-30485",
+    "timestamp": "2026-10-16T16:10:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "86b4ec22dc07505f4a8bc573b7b810f0604c8250f158853fbfdd252fbc45fcf5",
+    "hash": "f27051edf477a95b237df833a9823f67ab27044366596cb00d18f798cd0973d5"
+  },
+  {
+    "id": "AU-30486",
+    "timestamp": "2026-10-16T19:42:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10370",
+    "prev_hash": "f27051edf477a95b237df833a9823f67ab27044366596cb00d18f798cd0973d5",
+    "hash": "41ad92d7ae2560d86cd6f46f286e63e0d2c0dd3f9887fdfe78b728d01a032f13"
+  },
+  {
+    "id": "AU-30487",
+    "timestamp": "2026-10-16T19:43:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2287",
+    "prev_hash": "41ad92d7ae2560d86cd6f46f286e63e0d2c0dd3f9887fdfe78b728d01a032f13",
+    "hash": "73b82c8187c7946627af9581b9b02c2501eec2d80d455a0f871cc8d1ba832b7d"
+  },
+  {
+    "id": "AU-30488",
+    "timestamp": "2026-10-16T19:43:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2288",
+    "prev_hash": "73b82c8187c7946627af9581b9b02c2501eec2d80d455a0f871cc8d1ba832b7d",
+    "hash": "6fb370506903e331045a25db764747bb3ad8a24bca5d64d1503f90d8d2b87300"
+  },
+  {
+    "id": "AU-30489",
+    "timestamp": "2026-10-16T23:20:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: dismiss",
+    "entity": "finding",
+    "entity_id": "F-2287",
+    "prev_hash": "6fb370506903e331045a25db764747bb3ad8a24bca5d64d1503f90d8d2b87300",
+    "hash": "96f2f21bc190e00f19d42c098b648363f01414d6abfa1b17200f5661baca93d5"
+  },
+  {
+    "id": "AU-30490",
+    "timestamp": "2026-10-16T23:44:00.000Z",
+    "actor_id": "U-01",
+    "action": "Report exported",
+    "entity": "report",
+    "entity_id": "RPT-1114",
+    "prev_hash": "96f2f21bc190e00f19d42c098b648363f01414d6abfa1b17200f5661baca93d5",
+    "hash": "fd5cdfca97d5e7b894d47f7dd79d1a3b2a69439d27f4653f0efa8c0deae97208"
+  },
+  {
+    "id": "AU-30491",
+    "timestamp": "2026-10-17T04:06:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10370",
+    "prev_hash": "fd5cdfca97d5e7b894d47f7dd79d1a3b2a69439d27f4653f0efa8c0deae97208",
+    "hash": "2d498da6e7a3ac3e743bba20fb37d089c01fe30027f2082f795b9d929923d5c0"
+  },
+  {
+    "id": "AU-30492",
+    "timestamp": "2026-10-18T04:09:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10370",
+    "prev_hash": "2d498da6e7a3ac3e743bba20fb37d089c01fe30027f2082f795b9d929923d5c0",
+    "hash": "7baea2f44f0770c20cb249ac817579f77b18be13a078020fac28641bca5953fd"
+  },
+  {
+    "id": "AU-30493",
+    "timestamp": "2026-10-18T20:37:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10424",
+    "prev_hash": "7baea2f44f0770c20cb249ac817579f77b18be13a078020fac28641bca5953fd",
+    "hash": "baeac849e34f14aae6842839a8b474ccac01afea912de5546d5eafe88ded4585"
+  },
+  {
+    "id": "AU-30494",
+    "timestamp": "2026-10-18T20:38:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2289",
+    "prev_hash": "baeac849e34f14aae6842839a8b474ccac01afea912de5546d5eafe88ded4585",
+    "hash": "42769ceec128f90a1b491dde15fe3437122b1fe5a3f665cd65aa63ecbb96bf36"
+  },
+  {
+    "id": "AU-30495",
+    "timestamp": "2026-10-18T20:38:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2290",
+    "prev_hash": "42769ceec128f90a1b491dde15fe3437122b1fe5a3f665cd65aa63ecbb96bf36",
+    "hash": "59abfc1e854714fe9635c92e4a8a2a2a33e24e77c7f524e9f1e9f7df9d804a19"
+  },
+  {
+    "id": "AU-30496",
+    "timestamp": "2026-10-19T00:18:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2289",
+    "prev_hash": "59abfc1e854714fe9635c92e4a8a2a2a33e24e77c7f524e9f1e9f7df9d804a19",
+    "hash": "9b30d4832cadec74300dcbd1365e989c8e3a728b35f300665ac511d1718fa98d"
+  },
+  {
+    "id": "AU-30497",
+    "timestamp": "2026-10-19T03:39:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10370",
+    "prev_hash": "9b30d4832cadec74300dcbd1365e989c8e3a728b35f300665ac511d1718fa98d",
+    "hash": "bc581b4fabbb7f2a4b18ad0535087360d166a0657b50fac33d3885cff430edd0"
+  },
+  {
+    "id": "AU-30498",
+    "timestamp": "2026-10-19T15:22:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "bc581b4fabbb7f2a4b18ad0535087360d166a0657b50fac33d3885cff430edd0",
+    "hash": "89434e9716c42ebfc31e878cfb4c9e249687de7298eb8ebfd78618bdecb09519"
+  },
+  {
+    "id": "AU-30499",
+    "timestamp": "2026-10-19T15:45:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "89434e9716c42ebfc31e878cfb4c9e249687de7298eb8ebfd78618bdecb09519",
+    "hash": "12f6abb2ba969e16787e3d4d9785a2a783104559c2e3906d2ff3748a0f47406d"
+  },
+  {
+    "id": "AU-30500",
+    "timestamp": "2026-10-19T16:21:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "12f6abb2ba969e16787e3d4d9785a2a783104559c2e3906d2ff3748a0f47406d",
+    "hash": "d4a2ef14e2c37d3fd7f2dda0e1b29b41babec728508c5482fb482f7083fcee8c"
+  },
+  {
+    "id": "AU-30501",
+    "timestamp": "2026-10-20T15:43:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "d4a2ef14e2c37d3fd7f2dda0e1b29b41babec728508c5482fb482f7083fcee8c",
+    "hash": "6a563d6dc89d64c475a15e33b8873f43d6572059d25282ecdef46707b77ec2bb"
+  },
+  {
+    "id": "AU-30502",
+    "timestamp": "2026-10-20T15:51:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "6a563d6dc89d64c475a15e33b8873f43d6572059d25282ecdef46707b77ec2bb",
+    "hash": "3278c286f491baa376c4aa9e2c7c4e2eafb0cfcdba51553caa111c4cd85a0efb"
+  },
+  {
+    "id": "AU-30503",
+    "timestamp": "2026-10-20T16:30:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "3278c286f491baa376c4aa9e2c7c4e2eafb0cfcdba51553caa111c4cd85a0efb",
+    "hash": "9c5c2360dd1f35dd5bb5872944eadf8598a93c8cd8c3b3171dd02d58ac15dd0a"
+  },
+  {
+    "id": "AU-30504",
+    "timestamp": "2026-10-20T18:11:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10482",
+    "prev_hash": "9c5c2360dd1f35dd5bb5872944eadf8598a93c8cd8c3b3171dd02d58ac15dd0a",
+    "hash": "f6fc66780c2d6fc45a751f97e06d16d48e627078a286fbefcbed1f0d9bac5e85"
+  },
+  {
+    "id": "AU-30505",
+    "timestamp": "2026-10-20T18:12:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2291",
+    "prev_hash": "f6fc66780c2d6fc45a751f97e06d16d48e627078a286fbefcbed1f0d9bac5e85",
+    "hash": "cbc2310f5b0e057f128c6f3a8eeaa95e417531d4188ee3239155c969fdda6afb"
+  },
+  {
+    "id": "AU-30506",
+    "timestamp": "2026-10-20T18:12:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2292",
+    "prev_hash": "cbc2310f5b0e057f128c6f3a8eeaa95e417531d4188ee3239155c969fdda6afb",
+    "hash": "d09934ef933df59cd6447a89c6588a29210ca6f49dd9b61575805acb8e6f4675"
+  },
+  {
+    "id": "AU-30507",
+    "timestamp": "2026-10-20T18:12:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2293",
+    "prev_hash": "d09934ef933df59cd6447a89c6588a29210ca6f49dd9b61575805acb8e6f4675",
+    "hash": "e02c689ac8e3aae5e6e0bb6f2ffb923f33356f22886d85f402c832ec8d28b0cb"
+  },
+  {
+    "id": "AU-30508",
+    "timestamp": "2026-10-20T18:12:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2294",
+    "prev_hash": "e02c689ac8e3aae5e6e0bb6f2ffb923f33356f22886d85f402c832ec8d28b0cb",
+    "hash": "fa67019323b8094203434a18035d4a013f17cf98605a3eeb38a45e661a692d94"
+  },
+  {
+    "id": "AU-30509",
+    "timestamp": "2026-10-21T00:02:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10424",
+    "prev_hash": "fa67019323b8094203434a18035d4a013f17cf98605a3eeb38a45e661a692d94",
+    "hash": "144bd1e028df9e799ed01161a1de3979cc1df802e71854d8ebdb0c2475b10052"
+  },
+  {
+    "id": "AU-30510",
+    "timestamp": "2026-10-21T15:18:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "144bd1e028df9e799ed01161a1de3979cc1df802e71854d8ebdb0c2475b10052",
+    "hash": "2e0f1a9a37873a88bc43fbb10f4fd19cd44e7bbefc66fa37877fe703a43c1f10"
+  },
+  {
+    "id": "AU-30511",
+    "timestamp": "2026-10-21T15:57:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "2e0f1a9a37873a88bc43fbb10f4fd19cd44e7bbefc66fa37877fe703a43c1f10",
+    "hash": "c971ed3c5713a1abe91fb640fc7559b5354f182de40de6674f29c925fa96e356"
+  },
+  {
+    "id": "AU-30512",
+    "timestamp": "2026-10-22T13:10:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10482",
+    "prev_hash": "c971ed3c5713a1abe91fb640fc7559b5354f182de40de6674f29c925fa96e356",
+    "hash": "8a24f4faec3210718d91fce968f8e508051eb60bc2cd8d2329cb8251470e6a5e"
+  },
+  {
+    "id": "AU-30513",
+    "timestamp": "2026-10-22T15:16:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "8a24f4faec3210718d91fce968f8e508051eb60bc2cd8d2329cb8251470e6a5e",
+    "hash": "e26839771b832f144c307e3cc5ee7d817f45073c43ec1cb4577bc3294e82e684"
+  },
+  {
+    "id": "AU-30514",
+    "timestamp": "2026-10-22T15:58:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "e26839771b832f144c307e3cc5ee7d817f45073c43ec1cb4577bc3294e82e684",
+    "hash": "8a1f39b89a9580f74b7eaf3c5d0e96f18ccce9595d02e4750114694d9046a35e"
+  },
+  {
+    "id": "AU-30515",
+    "timestamp": "2026-10-22T16:16:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "8a1f39b89a9580f74b7eaf3c5d0e96f18ccce9595d02e4750114694d9046a35e",
+    "hash": "815c1ef5ee6b0c555036ec93944052c5c07ceefa86809a8a5e1f2340daa95cbc"
+  },
+  {
+    "id": "AU-30516",
+    "timestamp": "2026-10-22T22:57:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10544",
+    "prev_hash": "815c1ef5ee6b0c555036ec93944052c5c07ceefa86809a8a5e1f2340daa95cbc",
+    "hash": "9b40e17421517c541f9c1ca677ef41bf07ac0b4120fd3625c0c038795fb28b03"
+  },
+  {
+    "id": "AU-30517",
+    "timestamp": "2026-10-22T22:58:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2295",
+    "prev_hash": "9b40e17421517c541f9c1ca677ef41bf07ac0b4120fd3625c0c038795fb28b03",
+    "hash": "11a5138dc24eeff52564034a093cfeccde23961099b9ef9ad0c16f9c1f6e0a93"
+  },
+  {
+    "id": "AU-30518",
+    "timestamp": "2026-10-22T22:58:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2296",
+    "prev_hash": "11a5138dc24eeff52564034a093cfeccde23961099b9ef9ad0c16f9c1f6e0a93",
+    "hash": "ae14e547c963ef1379a043c38047e22ee6ffff1b718c84dc8715d5f1a61daff0"
+  },
+  {
+    "id": "AU-30519",
+    "timestamp": "2026-10-22T22:58:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2297",
+    "prev_hash": "ae14e547c963ef1379a043c38047e22ee6ffff1b718c84dc8715d5f1a61daff0",
+    "hash": "de0ae8435368e3c2e12c426b39156491f4413ee0fbd33979810afd48177cbb19"
+  },
+  {
+    "id": "AU-30520",
+    "timestamp": "2026-10-22T22:58:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2298",
+    "prev_hash": "de0ae8435368e3c2e12c426b39156491f4413ee0fbd33979810afd48177cbb19",
+    "hash": "64c41909ad9b7e09d4c93a86e34988a789be942770be8116fb7f85b03ff9eef9"
+  },
+  {
+    "id": "AU-30521",
+    "timestamp": "2026-10-23T02:00:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10482",
+    "prev_hash": "64c41909ad9b7e09d4c93a86e34988a789be942770be8116fb7f85b03ff9eef9",
+    "hash": "140d624f1ffd9608bb9934c730f6d922f0a89e2ad6cd6447d966f273f3b43ce0"
+  },
+  {
+    "id": "AU-30522",
+    "timestamp": "2026-10-23T15:16:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "140d624f1ffd9608bb9934c730f6d922f0a89e2ad6cd6447d966f273f3b43ce0",
+    "hash": "5d1e86be195c4d05f991b47cc06e99e4c9937b87e8b4f63d123ba70047877a71"
+  },
+  {
+    "id": "AU-30523",
+    "timestamp": "2026-10-23T15:36:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "5d1e86be195c4d05f991b47cc06e99e4c9937b87e8b4f63d123ba70047877a71",
+    "hash": "b61f7d986f864a4b7c2a918cda16e1af1ffbbeb9a56546840eb870c4e99f0460"
+  },
+  {
+    "id": "AU-30524",
+    "timestamp": "2026-10-23T19:46:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10578",
+    "prev_hash": "b61f7d986f864a4b7c2a918cda16e1af1ffbbeb9a56546840eb870c4e99f0460",
+    "hash": "fa3b841e9aa191d2e53d2ea74c430b9a0785878564edff40cbffd6830d00039f"
+  },
+  {
+    "id": "AU-30525",
+    "timestamp": "2026-10-23T19:47:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2299",
+    "prev_hash": "fa3b841e9aa191d2e53d2ea74c430b9a0785878564edff40cbffd6830d00039f",
+    "hash": "a2060b6619c522cd65ec3c238b94203e4f3bfb47e8dd16a875982432a9f75937"
+  },
+  {
+    "id": "AU-30526",
+    "timestamp": "2026-10-23T19:47:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2300",
+    "prev_hash": "a2060b6619c522cd65ec3c238b94203e4f3bfb47e8dd16a875982432a9f75937",
+    "hash": "418bd158c1723645539942b1bf28d61e4a3a4aa529b0fd6a34c03af0ff93d327"
+  },
+  {
+    "id": "AU-30527",
+    "timestamp": "2026-10-23T19:47:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2301",
+    "prev_hash": "418bd158c1723645539942b1bf28d61e4a3a4aa529b0fd6a34c03af0ff93d327",
+    "hash": "e5c7c2764c8b92050771de45a424028654162cc82a57d0acddbe0612d235d768"
+  },
+  {
+    "id": "AU-30528",
+    "timestamp": "2026-10-23T20:16:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2299",
+    "prev_hash": "e5c7c2764c8b92050771de45a424028654162cc82a57d0acddbe0612d235d768",
+    "hash": "e00218e2600c119d625ad7cd4b38dbc0cacbe771534424a92f07d1329685db85"
+  },
+  {
+    "id": "AU-30529",
+    "timestamp": "2026-10-23T23:50:00.000Z",
+    "actor_id": "U-01",
+    "action": "Report exported",
+    "entity": "report",
+    "entity_id": "RPT-1121",
+    "prev_hash": "e00218e2600c119d625ad7cd4b38dbc0cacbe771534424a92f07d1329685db85",
+    "hash": "6c13743342f9e65ab8e9c289479276d49997a41df9f7ca272c714eb2d321eaa5"
+  },
+  {
+    "id": "AU-30530",
+    "timestamp": "2026-10-24T19:56:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10607",
+    "prev_hash": "6c13743342f9e65ab8e9c289479276d49997a41df9f7ca272c714eb2d321eaa5",
+    "hash": "63521f44fbf2b177b506b7db5094e0faef0a15d7f48dd5a955182d7a50043a4b"
+  },
+  {
+    "id": "AU-30531",
+    "timestamp": "2026-10-24T19:57:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2302",
+    "prev_hash": "63521f44fbf2b177b506b7db5094e0faef0a15d7f48dd5a955182d7a50043a4b",
+    "hash": "c3b1c82c3844aca10ac33dc35e53a5e933835ba3e8d3ab65a9991f03eae7e67c"
+  },
+  {
+    "id": "AU-30532",
+    "timestamp": "2026-10-24T19:57:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2303",
+    "prev_hash": "c3b1c82c3844aca10ac33dc35e53a5e933835ba3e8d3ab65a9991f03eae7e67c",
+    "hash": "c2c3044b80bec92c6386c234031284080f53c63883839f8de36c0a61fd0479e3"
+  },
+  {
+    "id": "AU-30533",
+    "timestamp": "2026-10-24T19:57:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2304",
+    "prev_hash": "c2c3044b80bec92c6386c234031284080f53c63883839f8de36c0a61fd0479e3",
+    "hash": "824b77432994a6bc97b34f7cb0434c16cfb268da22921a241c065c806f216a7b"
+  },
+  {
+    "id": "AU-30534",
+    "timestamp": "2026-10-24T19:57:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2305",
+    "prev_hash": "824b77432994a6bc97b34f7cb0434c16cfb268da22921a241c065c806f216a7b",
+    "hash": "2a433adf325f5e3ff6455e7f70c993f82bf19e8df621d5a4f3007c84ee435f54"
+  },
+  {
+    "id": "AU-30535",
+    "timestamp": "2026-10-24T19:57:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2306",
+    "prev_hash": "2a433adf325f5e3ff6455e7f70c993f82bf19e8df621d5a4f3007c84ee435f54",
+    "hash": "6db2fabc3c1f281cacb115b570f846c0b648bb49f7bfe5f860887aa1cf91a45c"
+  },
+  {
+    "id": "AU-30536",
+    "timestamp": "2026-10-24T21:31:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2303",
+    "prev_hash": "6db2fabc3c1f281cacb115b570f846c0b648bb49f7bfe5f860887aa1cf91a45c",
+    "hash": "d3f363b342f105117034bc329d6b937bbb52ceee32ef69510df471678b0bd61e"
+  },
+  {
+    "id": "AU-30537",
+    "timestamp": "2026-10-24T22:03:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10607",
+    "prev_hash": "d3f363b342f105117034bc329d6b937bbb52ceee32ef69510df471678b0bd61e",
+    "hash": "a955aa865c1c69ced21e8c57c84ba9b9602ccfeab66c63d67fb6ddac3ad76fd3"
+  },
+  {
+    "id": "AU-30538",
+    "timestamp": "2026-10-25T07:59:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10578",
+    "prev_hash": "a955aa865c1c69ced21e8c57c84ba9b9602ccfeab66c63d67fb6ddac3ad76fd3",
+    "hash": "acba346d95259a7e1c0ddb4383c0c5512f5e11cf064d291c0dbe81f59ef40101"
+  },
+  {
+    "id": "AU-30539",
+    "timestamp": "2026-10-25T22:33:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10634",
+    "prev_hash": "acba346d95259a7e1c0ddb4383c0c5512f5e11cf064d291c0dbe81f59ef40101",
+    "hash": "4b63e883eef2da0b696c7250ba9f995d692cbf331d884b9a82761643728e4447"
+  },
+  {
+    "id": "AU-30540",
+    "timestamp": "2026-10-25T22:34:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2307",
+    "prev_hash": "4b63e883eef2da0b696c7250ba9f995d692cbf331d884b9a82761643728e4447",
+    "hash": "300f59dad22b6454bd86ed7b93aca85372509df9aef0fe38b57d4f644f55a849"
+  },
+  {
+    "id": "AU-30541",
+    "timestamp": "2026-10-25T22:34:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2308",
+    "prev_hash": "300f59dad22b6454bd86ed7b93aca85372509df9aef0fe38b57d4f644f55a849",
+    "hash": "f85d837c8e71f51493568fed7bc034f3e83af8afd108966d3f4755ca86626dc5"
+  },
+  {
+    "id": "AU-30542",
+    "timestamp": "2026-10-25T22:34:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2309",
+    "prev_hash": "f85d837c8e71f51493568fed7bc034f3e83af8afd108966d3f4755ca86626dc5",
+    "hash": "b2ec5787d1e81693bb811ae9d59e827cd3abece2b9bd92c53e5fbb65b0672515"
+  },
+  {
+    "id": "AU-30543",
+    "timestamp": "2026-10-25T23:01:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10578",
+    "prev_hash": "b2ec5787d1e81693bb811ae9d59e827cd3abece2b9bd92c53e5fbb65b0672515",
+    "hash": "e2e5493f3f30d71327442e28cdd2b8e8f72fa3cca0824d9d6ce99f8805edd563"
+  },
+  {
+    "id": "AU-30544",
+    "timestamp": "2026-10-25T23:53:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10607",
+    "prev_hash": "e2e5493f3f30d71327442e28cdd2b8e8f72fa3cca0824d9d6ce99f8805edd563",
+    "hash": "ef50862c8f570e382be56587a802ec754d097bb6ea98fe287891795594631010"
+  },
+  {
+    "id": "AU-30545",
+    "timestamp": "2026-10-26T01:18:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2307",
+    "prev_hash": "ef50862c8f570e382be56587a802ec754d097bb6ea98fe287891795594631010",
+    "hash": "2316f1be818742d29a3f1c2d42a2d092628d193b4d10926f1786f93ec3ac0338"
+  },
+  {
+    "id": "AU-30546",
+    "timestamp": "2026-10-26T02:17:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10578",
+    "prev_hash": "2316f1be818742d29a3f1c2d42a2d092628d193b4d10926f1786f93ec3ac0338",
+    "hash": "3e66a0965d7026bfaaab307da7038dbfdf6b11494e68a11f1ae22487f1c52352"
+  },
+  {
+    "id": "AU-30547",
+    "timestamp": "2026-10-26T15:46:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "3e66a0965d7026bfaaab307da7038dbfdf6b11494e68a11f1ae22487f1c52352",
+    "hash": "ff9586818a1a2e7afa8b70c1f13ab3f3aaf0282e340b630a095d03a1e5074281"
+  },
+  {
+    "id": "AU-30548",
+    "timestamp": "2026-10-26T15:55:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "ff9586818a1a2e7afa8b70c1f13ab3f3aaf0282e340b630a095d03a1e5074281",
+    "hash": "c0e2191efe94b649e7902743cd9073fb8ca3cb518db4829acd9fc91ed85be652"
+  },
+  {
+    "id": "AU-30549",
+    "timestamp": "2026-10-26T19:34:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10634",
+    "prev_hash": "c0e2191efe94b649e7902743cd9073fb8ca3cb518db4829acd9fc91ed85be652",
+    "hash": "a6d34ad68496966839b90eed08727cb46f967a3ef52ddbdbc55d79aa3b2654a3"
+  },
+  {
+    "id": "AU-30550",
+    "timestamp": "2026-10-26T23:04:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10607",
+    "prev_hash": "a6d34ad68496966839b90eed08727cb46f967a3ef52ddbdbc55d79aa3b2654a3",
+    "hash": "eca3c5724b33c6da61e799de721f6d38bfa7f5571c34db7beb2c198f035fa7c8"
+  },
+  {
+    "id": "AU-30551",
+    "timestamp": "2026-10-26T23:12:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10662",
+    "prev_hash": "eca3c5724b33c6da61e799de721f6d38bfa7f5571c34db7beb2c198f035fa7c8",
+    "hash": "c0a0d04afd83f1067c4f911979634bd99ae13d927c8ca53d2f63b8242d919399"
+  },
+  {
+    "id": "AU-30552",
+    "timestamp": "2026-10-26T23:13:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2310",
+    "prev_hash": "c0a0d04afd83f1067c4f911979634bd99ae13d927c8ca53d2f63b8242d919399",
+    "hash": "bdb8d841f3a8286b50140fd8918486009da8309ef97c29ae8c1fdb44fa675cac"
+  },
+  {
+    "id": "AU-30553",
+    "timestamp": "2026-10-26T23:13:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2311",
+    "prev_hash": "bdb8d841f3a8286b50140fd8918486009da8309ef97c29ae8c1fdb44fa675cac",
+    "hash": "ef813ebdddea1e9740b7010b39375c84b25bc2b46ac7536c82edc1207f8b9328"
+  },
+  {
+    "id": "AU-30554",
+    "timestamp": "2026-10-27T01:54:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: dismiss",
+    "entity": "finding",
+    "entity_id": "F-2310",
+    "prev_hash": "ef813ebdddea1e9740b7010b39375c84b25bc2b46ac7536c82edc1207f8b9328",
+    "hash": "01f25675c771dabde92dccbcfd18bdc26eedd0c76d43d3ae6e6acf74a7ed7633"
+  },
+  {
+    "id": "AU-30555",
+    "timestamp": "2026-10-27T02:42:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2311",
+    "prev_hash": "01f25675c771dabde92dccbcfd18bdc26eedd0c76d43d3ae6e6acf74a7ed7633",
+    "hash": "5d41878f399c94b6ec7773d475dab4e7d8e6267d8843ba5022c019b2a7fdb843"
+  },
+  {
+    "id": "AU-30556",
+    "timestamp": "2026-10-27T13:50:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10634",
+    "prev_hash": "5d41878f399c94b6ec7773d475dab4e7d8e6267d8843ba5022c019b2a7fdb843",
+    "hash": "f6059fa0a82d5ff7431edea2d48f91300ac650558ae38b5287ce91562b32e1c6"
+  },
+  {
+    "id": "AU-30557",
+    "timestamp": "2026-10-27T15:27:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "f6059fa0a82d5ff7431edea2d48f91300ac650558ae38b5287ce91562b32e1c6",
+    "hash": "6fe2653a9d91b2e1990278d911c1a6675c727dc163147136190af273f95ca37f"
+  },
+  {
+    "id": "AU-30558",
+    "timestamp": "2026-10-27T15:38:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "6fe2653a9d91b2e1990278d911c1a6675c727dc163147136190af273f95ca37f",
+    "hash": "b6b3e5e6a59f4e94a0a858f7a8011abef1084238a133acddef7c7bd0b984cb67"
+  },
+  {
+    "id": "AU-30559",
+    "timestamp": "2026-10-27T16:32:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "b6b3e5e6a59f4e94a0a858f7a8011abef1084238a133acddef7c7bd0b984cb67",
+    "hash": "1967406df42beefe1a2d9194a4042e454b71ff787165ec1cac6d4f7932b1a056"
+  },
+  {
+    "id": "AU-30560",
+    "timestamp": "2026-10-27T20:28:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10681",
+    "prev_hash": "1967406df42beefe1a2d9194a4042e454b71ff787165ec1cac6d4f7932b1a056",
+    "hash": "852b80e1aa28eea784077ed6023fdbec1024b6aa70ff20546bbe6f9f1b2e59a2"
+  },
+  {
+    "id": "AU-30561",
+    "timestamp": "2026-10-27T20:29:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2312",
+    "prev_hash": "852b80e1aa28eea784077ed6023fdbec1024b6aa70ff20546bbe6f9f1b2e59a2",
+    "hash": "c9cefe5b1ad0a3854291f3af656fc6fda000e649a83268062f0ba397d0c54392"
+  },
+  {
+    "id": "AU-30562",
+    "timestamp": "2026-10-27T20:29:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2313",
+    "prev_hash": "c9cefe5b1ad0a3854291f3af656fc6fda000e649a83268062f0ba397d0c54392",
+    "hash": "acd58a17e4996b8f9ee47df3d14c0955e4b8040b2f2e59a1708d214cced1d1d4"
+  },
+  {
+    "id": "AU-30563",
+    "timestamp": "2026-10-27T23:44:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2312",
+    "prev_hash": "acd58a17e4996b8f9ee47df3d14c0955e4b8040b2f2e59a1708d214cced1d1d4",
+    "hash": "811eb22525aef79957c343d35bb437556898b2e419e8677f14fa939506e3e1ae"
+  },
+  {
+    "id": "AU-30564",
+    "timestamp": "2026-10-28T02:13:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10681",
+    "prev_hash": "811eb22525aef79957c343d35bb437556898b2e419e8677f14fa939506e3e1ae",
+    "hash": "531d8c5bf9d2afda6fc55058641e05d7ba188c8b922ff207be9b0db2fa53d7c8"
+  },
+  {
+    "id": "AU-30565",
+    "timestamp": "2026-10-28T08:25:00.000Z",
+    "actor_id": "U-05",
+    "action": "Deal funded",
+    "entity": "deal",
+    "entity_id": "DT-10662",
+    "prev_hash": "531d8c5bf9d2afda6fc55058641e05d7ba188c8b922ff207be9b0db2fa53d7c8",
+    "hash": "e17ff15b4ac4cc4e3b7e442b5f95244c6190afc59e81ba0e952cc7fc076a06d6"
+  },
+  {
+    "id": "AU-30566",
+    "timestamp": "2026-10-28T15:33:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "e17ff15b4ac4cc4e3b7e442b5f95244c6190afc59e81ba0e952cc7fc076a06d6",
+    "hash": "790fee281e4c0e422042d66a505cf49807b628a8f460f49bba1585b647c2a9af"
+  },
+  {
+    "id": "AU-30567",
+    "timestamp": "2026-10-28T15:43:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "790fee281e4c0e422042d66a505cf49807b628a8f460f49bba1585b647c2a9af",
+    "hash": "2e15204f8e7114ec2f2c3b48eb518e209d632328cbe8e72ee7f2600e201e6096"
+  },
+  {
+    "id": "AU-30568",
+    "timestamp": "2026-10-28T17:00:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10662",
+    "prev_hash": "2e15204f8e7114ec2f2c3b48eb518e209d632328cbe8e72ee7f2600e201e6096",
+    "hash": "aceca75206085b7e241c0ab18c1c446b597699606934965992a6b9460ef20cf5"
+  },
+  {
+    "id": "AU-30569",
+    "timestamp": "2026-10-28T17:44:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10681",
+    "prev_hash": "aceca75206085b7e241c0ab18c1c446b597699606934965992a6b9460ef20cf5",
+    "hash": "79c8adf37258483fb9fb9bb117c95c41fa572255e71c737ab307203355993359"
+  },
+  {
+    "id": "AU-30570",
+    "timestamp": "2026-10-28T18:06:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10681",
+    "prev_hash": "79c8adf37258483fb9fb9bb117c95c41fa572255e71c737ab307203355993359",
+    "hash": "db679500e245b9c5999b0999e76f45ab4336c67fc2523c1f1d71771c713384b9"
+  },
+  {
+    "id": "AU-30571",
+    "timestamp": "2026-10-28T19:43:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10715",
+    "prev_hash": "db679500e245b9c5999b0999e76f45ab4336c67fc2523c1f1d71771c713384b9",
+    "hash": "3c3259b3047971ee07618a428765ba74dfa2a7d926c0cbb57420d6c2f6f155e9"
+  },
+  {
+    "id": "AU-30572",
+    "timestamp": "2026-10-28T19:44:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2314",
+    "prev_hash": "3c3259b3047971ee07618a428765ba74dfa2a7d926c0cbb57420d6c2f6f155e9",
+    "hash": "781e4c5b20b0b82ade0fe65cc5adad590d72df709970db9c7aba8c9f9abcf2a3"
+  },
+  {
+    "id": "AU-30573",
+    "timestamp": "2026-10-28T19:44:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2315",
+    "prev_hash": "781e4c5b20b0b82ade0fe65cc5adad590d72df709970db9c7aba8c9f9abcf2a3",
+    "hash": "805312c3ccb7702d8b13d4167dda2f23d3c91ad1d594bc792a4806a3de8b4262"
+  },
+  {
+    "id": "AU-30574",
+    "timestamp": "2026-10-28T22:03:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: dismiss",
+    "entity": "finding",
+    "entity_id": "F-2314",
+    "prev_hash": "805312c3ccb7702d8b13d4167dda2f23d3c91ad1d594bc792a4806a3de8b4262",
+    "hash": "b3b0fdc70f8363d7c648cc535eb6bdd01106a83d718f4bfa50789cd488888db1"
+  },
+  {
+    "id": "AU-30575",
+    "timestamp": "2026-10-28T22:27:00.000Z",
+    "actor_id": "U-02",
+    "action": "Decision recorded: approve",
+    "entity": "finding",
+    "entity_id": "F-2315",
+    "prev_hash": "b3b0fdc70f8363d7c648cc535eb6bdd01106a83d718f4bfa50789cd488888db1",
+    "hash": "e18b3d5bf97991a0e819863ca3a5ffbdba23dbe67d0229cbe4eb991b4fcf54a5"
+  },
+  {
+    "id": "AU-30576",
+    "timestamp": "2026-10-29T09:07:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10662",
+    "prev_hash": "e18b3d5bf97991a0e819863ca3a5ffbdba23dbe67d0229cbe4eb991b4fcf54a5",
+    "hash": "0b754580d44813c7c76bc18d4865fd7c21a4a078bcffbd776ee606f434e56bba"
+  },
+  {
+    "id": "AU-30577",
+    "timestamp": "2026-10-29T14:14:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10715",
+    "prev_hash": "0b754580d44813c7c76bc18d4865fd7c21a4a078bcffbd776ee606f434e56bba",
+    "hash": "514d3812cf829f9be8d9818870202e3db9b7cbcd3e906ef0213b6eb7054e8f20"
+  },
+  {
+    "id": "AU-30578",
+    "timestamp": "2026-10-29T14:49:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10662",
+    "prev_hash": "514d3812cf829f9be8d9818870202e3db9b7cbcd3e906ef0213b6eb7054e8f20",
+    "hash": "1a53cc0703ad9bb426a344a17610ff8b4c60e90b9a35dc5299dc6609a4250c95"
+  },
+  {
+    "id": "AU-30579",
+    "timestamp": "2026-10-29T15:46:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "1a53cc0703ad9bb426a344a17610ff8b4c60e90b9a35dc5299dc6609a4250c95",
+    "hash": "39efe715603b62889d9e88f3f35bcbeed77763fb49ae8238dc00fc1373f746af"
+  },
+  {
+    "id": "AU-30580",
+    "timestamp": "2026-10-29T15:55:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "39efe715603b62889d9e88f3f35bcbeed77763fb49ae8238dc00fc1373f746af",
+    "hash": "915a9deea88f91a7a91323c04892afc3586912f095e12ce88e863a9d09f29507"
+  },
+  {
+    "id": "AU-30581",
+    "timestamp": "2026-10-29T19:55:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10756",
+    "prev_hash": "915a9deea88f91a7a91323c04892afc3586912f095e12ce88e863a9d09f29507",
+    "hash": "c9a8beaf7c14bd2453af264934eea79b2a3673a3c7aab41899a7c1500d258b14"
+  },
+  {
+    "id": "AU-30582",
+    "timestamp": "2026-10-29T19:56:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2316",
+    "prev_hash": "c9a8beaf7c14bd2453af264934eea79b2a3673a3c7aab41899a7c1500d258b14",
+    "hash": "bb1394cc26b77a142723340cebf1a50d4f07f0e0ed062addb6e57f452aff3b09"
+  },
+  {
+    "id": "AU-30583",
+    "timestamp": "2026-10-29T19:56:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2317",
+    "prev_hash": "bb1394cc26b77a142723340cebf1a50d4f07f0e0ed062addb6e57f452aff3b09",
+    "hash": "bdf6abe3964517b0f2de47ac0db7869a8e310e5bdad5ddeaf2db791e92a75061"
+  },
+  {
+    "id": "AU-30584",
+    "timestamp": "2026-10-29T19:56:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2318",
+    "prev_hash": "bdf6abe3964517b0f2de47ac0db7869a8e310e5bdad5ddeaf2db791e92a75061",
+    "hash": "aff9aba99f41a9d9cedf11f4c847f9b362176c4c0e00cb116fa36921a24eaa77"
+  },
+  {
+    "id": "AU-30585",
+    "timestamp": "2026-10-30T03:49:00.000Z",
+    "actor_id": "U-05",
+    "action": "Deal funded",
+    "entity": "deal",
+    "entity_id": "DT-10715",
+    "prev_hash": "aff9aba99f41a9d9cedf11f4c847f9b362176c4c0e00cb116fa36921a24eaa77",
+    "hash": "86a624f736cba0fd3b0c2b37aa7b0600f7fcc5914f363a440618949900fb4dfb"
+  },
+  {
+    "id": "AU-30586",
+    "timestamp": "2026-10-30T04:50:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10715",
+    "prev_hash": "86a624f736cba0fd3b0c2b37aa7b0600f7fcc5914f363a440618949900fb4dfb",
+    "hash": "3adf46df42ac119410c8ad6530411012e7a9129ebd27aabf04251b539fc64617"
+  },
+  {
+    "id": "AU-30587",
+    "timestamp": "2026-10-30T15:30:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "3adf46df42ac119410c8ad6530411012e7a9129ebd27aabf04251b539fc64617",
+    "hash": "a1b559717d72b7d4895e341af83f9e7f26f6bcbfc85a621e4333ab006832e019"
+  },
+  {
+    "id": "AU-30588",
+    "timestamp": "2026-10-30T15:50:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "a1b559717d72b7d4895e341af83f9e7f26f6bcbfc85a621e4333ab006832e019",
+    "hash": "7256336ea0973adb6aac956e402f98fa40e742f591dbba226cbd1ccee4f63431"
+  },
+  {
+    "id": "AU-30589",
+    "timestamp": "2026-10-30T16:13:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "7256336ea0973adb6aac956e402f98fa40e742f591dbba226cbd1ccee4f63431",
+    "hash": "d945a0ceb3468dfca8bd2db4d0aca44136a8f70dcb2828ecdd66dd1ce5822537"
+  },
+  {
+    "id": "AU-30590",
+    "timestamp": "2026-10-30T19:48:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10776",
+    "prev_hash": "d945a0ceb3468dfca8bd2db4d0aca44136a8f70dcb2828ecdd66dd1ce5822537",
+    "hash": "6862de78547b8113b23453ec4e30321a0c08cebcf9abfd2aaec1fadf2d0429ef"
+  },
+  {
+    "id": "AU-30591",
+    "timestamp": "2026-10-30T19:49:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2319",
+    "prev_hash": "6862de78547b8113b23453ec4e30321a0c08cebcf9abfd2aaec1fadf2d0429ef",
+    "hash": "cc2f5480a738cf84be5ed838c6516d174e7a9fcc2dcf69fb3cb1a5985efef28f"
+  },
+  {
+    "id": "AU-30592",
+    "timestamp": "2026-10-30T19:49:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2320",
+    "prev_hash": "cc2f5480a738cf84be5ed838c6516d174e7a9fcc2dcf69fb3cb1a5985efef28f",
+    "hash": "967eb2e32d3e74c13be4bbbbffa0b5dfab142a52beb56a68fe29a0160cfff0df"
+  },
+  {
+    "id": "AU-30593",
+    "timestamp": "2026-10-30T23:45:00.000Z",
+    "actor_id": "U-01",
+    "action": "Report exported",
+    "entity": "report",
+    "entity_id": "RPT-1128",
+    "prev_hash": "967eb2e32d3e74c13be4bbbbffa0b5dfab142a52beb56a68fe29a0160cfff0df",
+    "hash": "ce5c98a184b0614a3ce2880503e05a2d5e83063c67d1c4bb28643450ce614aed"
+  },
+  {
+    "id": "AU-30594",
+    "timestamp": "2026-10-31T11:17:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10776",
+    "prev_hash": "ce5c98a184b0614a3ce2880503e05a2d5e83063c67d1c4bb28643450ce614aed",
+    "hash": "38811606e19a2a91ca2885db3cd68c7e531e23d0b42106388693487b982f0b26"
+  },
+  {
+    "id": "AU-30595",
+    "timestamp": "2026-10-31T12:46:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10715",
+    "prev_hash": "38811606e19a2a91ca2885db3cd68c7e531e23d0b42106388693487b982f0b26",
+    "hash": "fbde628f309c092759cc898acd7e237123170e3a2fdd29f6698e5ffe34e968ce"
+  },
+  {
+    "id": "AU-30596",
+    "timestamp": "2026-10-31T14:30:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10756",
+    "prev_hash": "fbde628f309c092759cc898acd7e237123170e3a2fdd29f6698e5ffe34e968ce",
+    "hash": "5bdf50ac92728a4258946dea750d25dad1cbe1fe91d14f59eede1cd740c5e345"
+  },
+  {
+    "id": "AU-30597",
+    "timestamp": "2026-11-01T09:46:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10756",
+    "prev_hash": "5bdf50ac92728a4258946dea750d25dad1cbe1fe91d14f59eede1cd740c5e345",
+    "hash": "b95e09307d22e139dcc79de3b10fcccae41dabfe83d468df5874c46ed5f1ff9d"
+  },
+  {
+    "id": "AU-30598",
+    "timestamp": "2026-11-01T21:10:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10776",
+    "prev_hash": "b95e09307d22e139dcc79de3b10fcccae41dabfe83d468df5874c46ed5f1ff9d",
+    "hash": "2382b9f7c638c258694f8e6a725285eeb66890d69118cb908d15a69656e23839"
+  },
+  {
+    "id": "AU-30599",
+    "timestamp": "2026-11-01T23:19:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10776",
+    "prev_hash": "2382b9f7c638c258694f8e6a725285eeb66890d69118cb908d15a69656e23839",
+    "hash": "9e78373be8c60846e38bc3647770b25893a07740501de2b4d3493c798f599d16"
+  },
+  {
+    "id": "AU-30600",
+    "timestamp": "2026-11-01T23:52:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10842",
+    "prev_hash": "9e78373be8c60846e38bc3647770b25893a07740501de2b4d3493c798f599d16",
+    "hash": "8ed82d773562790bc52176145d30e40cfdf4b72d8e8d2f79ff99a3d499b051da"
+  },
+  {
+    "id": "AU-30601",
+    "timestamp": "2026-11-01T23:53:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2321",
+    "prev_hash": "8ed82d773562790bc52176145d30e40cfdf4b72d8e8d2f79ff99a3d499b051da",
+    "hash": "5109f646ae99285228e16e42c228e4a99feb68d17e7c5cb9b2781c05cb99b04d"
+  },
+  {
+    "id": "AU-30602",
+    "timestamp": "2026-11-01T23:53:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2322",
+    "prev_hash": "5109f646ae99285228e16e42c228e4a99feb68d17e7c5cb9b2781c05cb99b04d",
+    "hash": "d8e6f8b4731133e8da5f2a8f21178fba2768417e09763b720d9a00580ea54777"
+  },
+  {
+    "id": "AU-30603",
+    "timestamp": "2026-11-02T00:57:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10842",
+    "prev_hash": "d8e6f8b4731133e8da5f2a8f21178fba2768417e09763b720d9a00580ea54777",
+    "hash": "e0b24d1ba5395f142d8232909d99644e3990401e113f195ede0dfbb29abf26e4"
+  },
+  {
+    "id": "AU-30604",
+    "timestamp": "2026-11-02T16:21:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "e0b24d1ba5395f142d8232909d99644e3990401e113f195ede0dfbb29abf26e4",
+    "hash": "8ad6ab1dd50ef9c1892c7ddaf58e1941763cf122fb3c25927959d1e3a53d083d"
+  },
+  {
+    "id": "AU-30605",
+    "timestamp": "2026-11-02T16:36:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "8ad6ab1dd50ef9c1892c7ddaf58e1941763cf122fb3c25927959d1e3a53d083d",
+    "hash": "763dd0472e009b5766fa3ddc62b652dea24eaa4c697537bfd44a9b174f375206"
+  },
+  {
+    "id": "AU-30606",
+    "timestamp": "2026-11-02T17:37:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "763dd0472e009b5766fa3ddc62b652dea24eaa4c697537bfd44a9b174f375206",
+    "hash": "f76959a344092745793b7ac85f89a95d07d8c937bc35a6424321caa738b3e00c"
+  },
+  {
+    "id": "AU-30607",
+    "timestamp": "2026-11-03T01:04:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10876",
+    "prev_hash": "f76959a344092745793b7ac85f89a95d07d8c937bc35a6424321caa738b3e00c",
+    "hash": "7cdf13801438e0d5e454a5b51fe73573a4690774daa9dc89d69e090d5b19c48b"
+  },
+  {
+    "id": "AU-30608",
+    "timestamp": "2026-11-03T01:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2323",
+    "prev_hash": "7cdf13801438e0d5e454a5b51fe73573a4690774daa9dc89d69e090d5b19c48b",
+    "hash": "bedeafe24093e4bdadb309d79cd01d5d1a78f681f485528cf0b2300d497edc0e"
+  },
+  {
+    "id": "AU-30609",
+    "timestamp": "2026-11-03T01:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2324",
+    "prev_hash": "bedeafe24093e4bdadb309d79cd01d5d1a78f681f485528cf0b2300d497edc0e",
+    "hash": "5f547cc6e11f7c0ad08eb3f54dd9166c257b8d522af9014d21912afc3511c7ee"
+  },
+  {
+    "id": "AU-30610",
+    "timestamp": "2026-11-03T01:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2325",
+    "prev_hash": "5f547cc6e11f7c0ad08eb3f54dd9166c257b8d522af9014d21912afc3511c7ee",
+    "hash": "470d5ec18d5fc86d4442b2291b8a22af48e71f22b7758d7ee6481ad2bdf725ae"
+  },
+  {
+    "id": "AU-30611",
+    "timestamp": "2026-11-03T01:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2326",
+    "prev_hash": "470d5ec18d5fc86d4442b2291b8a22af48e71f22b7758d7ee6481ad2bdf725ae",
+    "hash": "1e1f3146b8ec6bef6b3108da52e14f0440c2466d3990613e3971f1c416da3192"
+  },
+  {
+    "id": "AU-30612",
+    "timestamp": "2026-11-03T02:06:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2325",
+    "prev_hash": "1e1f3146b8ec6bef6b3108da52e14f0440c2466d3990613e3971f1c416da3192",
+    "hash": "60ee2d573d0959d10456234497bff37e0fafed4d720f0ce11009d2e745b4aeee"
+  },
+  {
+    "id": "AU-30613",
+    "timestamp": "2026-11-03T02:14:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2324",
+    "prev_hash": "60ee2d573d0959d10456234497bff37e0fafed4d720f0ce11009d2e745b4aeee",
+    "hash": "594d7d18e08314623f94d11ca953cf8df2df1697a6bd9ad1dfc85d9a39f772ea"
+  },
+  {
+    "id": "AU-30614",
+    "timestamp": "2026-11-03T02:19:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2323",
+    "prev_hash": "594d7d18e08314623f94d11ca953cf8df2df1697a6bd9ad1dfc85d9a39f772ea",
+    "hash": "66f41626370181e8f67a8f218b8c064f6c363f77bef290d2d555e44e8a9931dd"
+  },
+  {
+    "id": "AU-30615",
+    "timestamp": "2026-11-03T02:39:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2326",
+    "prev_hash": "66f41626370181e8f67a8f218b8c064f6c363f77bef290d2d555e44e8a9931dd",
+    "hash": "55d0bbedc17227f1592f31ddd382c0015244af3c136c27cc30d1c5770db8eb10"
+  },
+  {
+    "id": "AU-30616",
+    "timestamp": "2026-11-03T16:31:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "55d0bbedc17227f1592f31ddd382c0015244af3c136c27cc30d1c5770db8eb10",
+    "hash": "f66c89367baa76272510c3af7b72b5df85c1912a8c29df84b4e6953d3d6f68ad"
+  },
+  {
+    "id": "AU-30617",
+    "timestamp": "2026-11-03T16:47:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "f66c89367baa76272510c3af7b72b5df85c1912a8c29df84b4e6953d3d6f68ad",
+    "hash": "a88bc6a7cc60c9b79002fd508ab8485dd081c55e251c9a7837612570cf8620fc"
+  },
+  {
+    "id": "AU-30618",
+    "timestamp": "2026-11-03T17:06:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "a88bc6a7cc60c9b79002fd508ab8485dd081c55e251c9a7837612570cf8620fc",
+    "hash": "d2a8439330f0dd92e4c5757463cdae37e4554c989031e1ed726afdf658a89056"
+  },
+  {
+    "id": "AU-30619",
+    "timestamp": "2026-11-03T22:28:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10897",
+    "prev_hash": "d2a8439330f0dd92e4c5757463cdae37e4554c989031e1ed726afdf658a89056",
+    "hash": "ca07c2f50a5abe60ef538bfe541889a7c0d8f186823acc709c5dde345fef6143"
+  },
+  {
+    "id": "AU-30620",
+    "timestamp": "2026-11-03T22:29:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2327",
+    "prev_hash": "ca07c2f50a5abe60ef538bfe541889a7c0d8f186823acc709c5dde345fef6143",
+    "hash": "fd970a2603d961d3a532256ae78cf2859e089a06cb9719c28ef79114132dce8f"
+  },
+  {
+    "id": "AU-30621",
+    "timestamp": "2026-11-03T22:29:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2328",
+    "prev_hash": "fd970a2603d961d3a532256ae78cf2859e089a06cb9719c28ef79114132dce8f",
+    "hash": "640bfbeaee7f851a92cc7c45074ed56ba496ffe5acb3a2b7888f1c68f985fe8d"
+  },
+  {
+    "id": "AU-30622",
+    "timestamp": "2026-11-03T22:30:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10842",
+    "prev_hash": "640bfbeaee7f851a92cc7c45074ed56ba496ffe5acb3a2b7888f1c68f985fe8d",
+    "hash": "ffcc9d5176eea7d1c97fa31f3c09b6f48b3cabd613fac83b5fdb154ac283bda1"
+  },
+  {
+    "id": "AU-30623",
+    "timestamp": "2026-11-04T05:44:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10876",
+    "prev_hash": "ffcc9d5176eea7d1c97fa31f3c09b6f48b3cabd613fac83b5fdb154ac283bda1",
+    "hash": "da19c7b12037ae06be219854270eed412953752ba3448e8a159b2b765a25b3ff"
+  },
+  {
+    "id": "AU-30624",
+    "timestamp": "2026-11-04T16:26:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "da19c7b12037ae06be219854270eed412953752ba3448e8a159b2b765a25b3ff",
+    "hash": "d658eee161fea9bbf1580e74efbf1e48e8a59810f5df3d6452868266f0f50b62"
+  },
+  {
+    "id": "AU-30625",
+    "timestamp": "2026-11-04T16:36:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "d658eee161fea9bbf1580e74efbf1e48e8a59810f5df3d6452868266f0f50b62",
+    "hash": "da0c343b9edb5bc0ea0cebee2518aae420515f322364b7090b4737d0661be929"
+  },
+  {
+    "id": "AU-30626",
+    "timestamp": "2026-11-04T18:02:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule drafted",
+    "entity": "rule",
+    "entity_id": "TX-GAP-01",
+    "prev_hash": "da0c343b9edb5bc0ea0cebee2518aae420515f322364b7090b4737d0661be929",
+    "hash": "685ff354d9a13c110e8198cf57f9c2841f9e6d5862e855653f7947a796a98b4c"
+  },
+  {
+    "id": "AU-30627",
+    "timestamp": "2026-11-04T18:09:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule drafted",
+    "entity": "rule",
+    "entity_id": "TX-ADDON-01",
+    "prev_hash": "685ff354d9a13c110e8198cf57f9c2841f9e6d5862e855653f7947a796a98b4c",
+    "hash": "b6e797818e25d6a9327613dba85f61b80f06cff6b6a8c4f15f7b2145ce91aaa1"
+  },
+  {
+    "id": "AU-30628",
+    "timestamp": "2026-11-04T19:07:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10927",
+    "prev_hash": "b6e797818e25d6a9327613dba85f61b80f06cff6b6a8c4f15f7b2145ce91aaa1",
+    "hash": "653588350294a5f69d107a96f7376e3fd2c6a67fd2b03f84dd5eaa2b40767e55"
+  },
+  {
+    "id": "AU-30629",
+    "timestamp": "2026-11-04T19:08:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2329",
+    "prev_hash": "653588350294a5f69d107a96f7376e3fd2c6a67fd2b03f84dd5eaa2b40767e55",
+    "hash": "b3e339a7d70951253fa95cf78fb39e0efa2a390e07aa80915ecfd4f382b770a9"
+  },
+  {
+    "id": "AU-30630",
+    "timestamp": "2026-11-04T19:08:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2330",
+    "prev_hash": "b3e339a7d70951253fa95cf78fb39e0efa2a390e07aa80915ecfd4f382b770a9",
+    "hash": "f7c2e2ba01c40cd91cd9bb12418ed6f5e08c3991bdf65eefb2a672c3a10f5ccc"
+  },
+  {
+    "id": "AU-30631",
+    "timestamp": "2026-11-04T19:08:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2331",
+    "prev_hash": "f7c2e2ba01c40cd91cd9bb12418ed6f5e08c3991bdf65eefb2a672c3a10f5ccc",
+    "hash": "a1f3b33828013c05410affffa713107883f918e19a12bc26fe1866f7b32a5881"
+  },
+  {
+    "id": "AU-30632",
+    "timestamp": "2026-11-04T22:37:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10897",
+    "prev_hash": "a1f3b33828013c05410affffa713107883f918e19a12bc26fe1866f7b32a5881",
+    "hash": "1d65cac987300d984ea35155470e8fcdad2df3c56b5f2e61dc30d91c0c9851a1"
+  },
+  {
+    "id": "AU-30633",
+    "timestamp": "2026-11-05T07:44:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10897",
+    "prev_hash": "1d65cac987300d984ea35155470e8fcdad2df3c56b5f2e61dc30d91c0c9851a1",
+    "hash": "e815c20a6fa47028a58118127c65431c880ee13a0c3bdfd965ee00205af0144c"
+  },
+  {
+    "id": "AU-30634",
+    "timestamp": "2026-11-05T16:27:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "e815c20a6fa47028a58118127c65431c880ee13a0c3bdfd965ee00205af0144c",
+    "hash": "b604a1b81d3193773de8aadad53205e3cd581a17ef5faeb0e7a16a6580aea78a"
+  },
+  {
+    "id": "AU-30635",
+    "timestamp": "2026-11-05T16:47:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "b604a1b81d3193773de8aadad53205e3cd581a17ef5faeb0e7a16a6580aea78a",
+    "hash": "e6a009abfdc96db7f4d9360a4dfa0d9a5c34b3811a53029d754cae7763608cfc"
+  },
+  {
+    "id": "AU-30636",
+    "timestamp": "2026-11-05T17:29:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "e6a009abfdc96db7f4d9360a4dfa0d9a5c34b3811a53029d754cae7763608cfc",
+    "hash": "b5e9785234cc3873b204893711f6b04b2b8de86ce82430e472fa52ce44009287"
+  },
+  {
+    "id": "AU-30637",
+    "timestamp": "2026-11-05T20:50:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10897",
+    "prev_hash": "b5e9785234cc3873b204893711f6b04b2b8de86ce82430e472fa52ce44009287",
+    "hash": "707b0fbc58d8d1c49e73ece4f4d89c5b8c200aad48b8303aac5ca104025cb214"
+  },
+  {
+    "id": "AU-30638",
+    "timestamp": "2026-11-05T23:04:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10961",
+    "prev_hash": "707b0fbc58d8d1c49e73ece4f4d89c5b8c200aad48b8303aac5ca104025cb214",
+    "hash": "51be8fb5631a55793d44a8767d49682b87a792d29d9bac42df73bc2266e2a825"
+  },
+  {
+    "id": "AU-30639",
+    "timestamp": "2026-11-05T23:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2332",
+    "prev_hash": "51be8fb5631a55793d44a8767d49682b87a792d29d9bac42df73bc2266e2a825",
+    "hash": "dcaa3ade622879144fa817cd4fac62e06db1d153241a0f29dca74ba9572d46cd"
+  },
+  {
+    "id": "AU-30640",
+    "timestamp": "2026-11-05T23:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2333",
+    "prev_hash": "dcaa3ade622879144fa817cd4fac62e06db1d153241a0f29dca74ba9572d46cd",
+    "hash": "e6e40fc6e742409d56648a091b1a89854121bc385908db02efb242803dd589ed"
+  },
+  {
+    "id": "AU-30641",
+    "timestamp": "2026-11-05T23:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2334",
+    "prev_hash": "e6e40fc6e742409d56648a091b1a89854121bc385908db02efb242803dd589ed",
+    "hash": "40b7e7dcd540f94c6751125c1eab65fd7c54d9b5d13e1ba6eaf624f09c232d30"
+  },
+  {
+    "id": "AU-30642",
+    "timestamp": "2026-11-05T23:05:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2335",
+    "prev_hash": "40b7e7dcd540f94c6751125c1eab65fd7c54d9b5d13e1ba6eaf624f09c232d30",
+    "hash": "11c0bb546aa1db5e6cb3f0a33e9dd8acfbe9b74b88c07dc40c49615052c8ef32"
+  },
+  {
+    "id": "AU-30643",
+    "timestamp": "2026-11-05T23:21:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10897",
+    "prev_hash": "11c0bb546aa1db5e6cb3f0a33e9dd8acfbe9b74b88c07dc40c49615052c8ef32",
+    "hash": "ce1e29d2b9509070a57b6b1bef3a1e5a1b575389a884bc797d8a6df41313fc19"
+  },
+  {
+    "id": "AU-30644",
+    "timestamp": "2026-11-06T00:18:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10961",
+    "prev_hash": "ce1e29d2b9509070a57b6b1bef3a1e5a1b575389a884bc797d8a6df41313fc19",
+    "hash": "dedabdc916eaf684388fc9af1305c7eea2c65910c4d9eb600768dea2bd39c48a"
+  },
+  {
+    "id": "AU-30645",
+    "timestamp": "2026-11-06T01:16:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10927",
+    "prev_hash": "dedabdc916eaf684388fc9af1305c7eea2c65910c4d9eb600768dea2bd39c48a",
+    "hash": "113e67ecfa94024e2fb425e2cf2afed6709774620c1c67cbd9f9b020d089f32f"
+  },
+  {
+    "id": "AU-30646",
+    "timestamp": "2026-11-06T08:51:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10927",
+    "prev_hash": "113e67ecfa94024e2fb425e2cf2afed6709774620c1c67cbd9f9b020d089f32f",
+    "hash": "f0f8291dd6bc98a99220bfa19509b767d53d6933171c47910e6200a837bf5297"
+  },
+  {
+    "id": "AU-30647",
+    "timestamp": "2026-11-06T12:43:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10897",
+    "prev_hash": "f0f8291dd6bc98a99220bfa19509b767d53d6933171c47910e6200a837bf5297",
+    "hash": "fbb3dbb619805edacb097f622bebae138fad9eb3ae6d856aed221814a36846af"
+  },
+  {
+    "id": "AU-30648",
+    "timestamp": "2026-11-06T15:38:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10927",
+    "prev_hash": "fbb3dbb619805edacb097f622bebae138fad9eb3ae6d856aed221814a36846af",
+    "hash": "85070bc688ee76ea466384493faa19df9993ef68b8dae651cbfdf504e21ce91e"
+  },
+  {
+    "id": "AU-30649",
+    "timestamp": "2026-11-06T16:26:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "85070bc688ee76ea466384493faa19df9993ef68b8dae651cbfdf504e21ce91e",
+    "hash": "68b9766a431124151d04723bda70cec0f7932092f85e3ed7f2509daf32d6d7a5"
+  },
+  {
+    "id": "AU-30650",
+    "timestamp": "2026-11-06T16:31:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "68b9766a431124151d04723bda70cec0f7932092f85e3ed7f2509daf32d6d7a5",
+    "hash": "4e7155f465b1f76fb8698d531496b2751f1718382415e76f89f7addde5b57ccc"
+  },
+  {
+    "id": "AU-30651",
+    "timestamp": "2026-11-06T17:31:00.000Z",
+    "actor_id": "U-01",
+    "action": "Rule drafted",
+    "entity": "rule",
+    "entity_id": "NY-ADDON-01",
+    "prev_hash": "4e7155f465b1f76fb8698d531496b2751f1718382415e76f89f7addde5b57ccc",
+    "hash": "31ec345a1d9f21033a246386d987b296b0520d445fbde0db27ddfa2afb396d7c"
+  },
+  {
+    "id": "AU-30652",
+    "timestamp": "2026-11-06T17:34:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "31ec345a1d9f21033a246386d987b296b0520d445fbde0db27ddfa2afb396d7c",
+    "hash": "c665b5d837920f6d816c68a153620311b56b665126e2fb9c7752ba9a5289d8b3"
+  },
+  {
+    "id": "AU-30653",
+    "timestamp": "2026-11-06T19:29:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10961",
+    "prev_hash": "c665b5d837920f6d816c68a153620311b56b665126e2fb9c7752ba9a5289d8b3",
+    "hash": "6a3a6f34237bb12b417c1933a2d3fcebbaa5d5c16ecb8e1bd35dd1cbc4957661"
+  },
+  {
+    "id": "AU-30654",
+    "timestamp": "2026-11-06T19:37:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10927",
+    "prev_hash": "6a3a6f34237bb12b417c1933a2d3fcebbaa5d5c16ecb8e1bd35dd1cbc4957661",
+    "hash": "215a6aaf068b176310b35ac860bc7bbf4a0157c7bbbf5907ec590318ce211500"
+  },
+  {
+    "id": "AU-30655",
+    "timestamp": "2026-11-06T20:43:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-10990",
+    "prev_hash": "215a6aaf068b176310b35ac860bc7bbf4a0157c7bbbf5907ec590318ce211500",
+    "hash": "7b81f3cdccb3b9613520f3a840dcac1486504163b63391373df8e2c7b00e31bd"
+  },
+  {
+    "id": "AU-30656",
+    "timestamp": "2026-11-06T20:44:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2336",
+    "prev_hash": "7b81f3cdccb3b9613520f3a840dcac1486504163b63391373df8e2c7b00e31bd",
+    "hash": "f3874d8fd6d3c29085fa8604c1f4b5afb0c3d9fdf837978fe5a3ec760efc9254"
+  },
+  {
+    "id": "AU-30657",
+    "timestamp": "2026-11-06T20:44:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2337",
+    "prev_hash": "f3874d8fd6d3c29085fa8604c1f4b5afb0c3d9fdf837978fe5a3ec760efc9254",
+    "hash": "aff4037201c2bbf59a80232504a94af4124cf489b3c13d5ef34cf05febc375a2"
+  },
+  {
+    "id": "AU-30658",
+    "timestamp": "2026-11-06T20:44:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2338",
+    "prev_hash": "aff4037201c2bbf59a80232504a94af4124cf489b3c13d5ef34cf05febc375a2",
+    "hash": "4947339bc9c3aa6142fd97992ba4fc660e87e82df7f32b8ded45a7df95a75a46"
+  },
+  {
+    "id": "AU-30659",
+    "timestamp": "2026-11-06T22:22:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10927",
+    "prev_hash": "4947339bc9c3aa6142fd97992ba4fc660e87e82df7f32b8ded45a7df95a75a46",
+    "hash": "981406b34ac78f41e75afefc8e3cbe956e974bbb2fce498c6537500a53f53569"
+  },
+  {
+    "id": "AU-30660",
+    "timestamp": "2026-11-07T00:46:00.000Z",
+    "actor_id": "U-01",
+    "action": "Report exported",
+    "entity": "report",
+    "entity_id": "RPT-1104",
+    "prev_hash": "981406b34ac78f41e75afefc8e3cbe956e974bbb2fce498c6537500a53f53569",
+    "hash": "a90c1bc9bae58f82b4a33fd468478c7a5660982169785b9dc3791c9b891ac839"
+  },
+  {
+    "id": "AU-30661",
+    "timestamp": "2026-11-07T19:27:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-11026",
+    "prev_hash": "a90c1bc9bae58f82b4a33fd468478c7a5660982169785b9dc3791c9b891ac839",
+    "hash": "763836c867660d422477a3be4d918d248b645e6dfa41a3c467ff78ec9fe05269"
+  },
+  {
+    "id": "AU-30662",
+    "timestamp": "2026-11-07T19:28:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2339",
+    "prev_hash": "763836c867660d422477a3be4d918d248b645e6dfa41a3c467ff78ec9fe05269",
+    "hash": "eccae80c5aa19d7d6deb25a000bbb6a9ba3ea5d1a6f52aea2ce142ac996baca9"
+  },
+  {
+    "id": "AU-30663",
+    "timestamp": "2026-11-07T19:28:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2340",
+    "prev_hash": "eccae80c5aa19d7d6deb25a000bbb6a9ba3ea5d1a6f52aea2ce142ac996baca9",
+    "hash": "bf1ec1bae587f24daadfa6659c924450e70749ee12b806a878bb1abbfd1396c9"
+  },
+  {
+    "id": "AU-30664",
+    "timestamp": "2026-11-08T03:44:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10961",
+    "prev_hash": "bf1ec1bae587f24daadfa6659c924450e70749ee12b806a878bb1abbfd1396c9",
+    "hash": "6c327d0e315dd6c6f4b2098cab810f8ca49a7f57bc0f77137410ebb7fc466ad7"
+  },
+  {
+    "id": "AU-30665",
+    "timestamp": "2026-11-08T04:22:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10961",
+    "prev_hash": "6c327d0e315dd6c6f4b2098cab810f8ca49a7f57bc0f77137410ebb7fc466ad7",
+    "hash": "98b8810ea4191c2c643182744d0dcf50bb4597d1016d16df8c05f819ca4ece33"
+  },
+  {
+    "id": "AU-30666",
+    "timestamp": "2026-11-08T06:05:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10961",
+    "prev_hash": "98b8810ea4191c2c643182744d0dcf50bb4597d1016d16df8c05f819ca4ece33",
+    "hash": "08bfc692aba09059b1a1a85f2727556ce5452606b4282a54083d4e04dbfac667"
+  },
+  {
+    "id": "AU-30667",
+    "timestamp": "2026-11-08T07:09:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11026",
+    "prev_hash": "08bfc692aba09059b1a1a85f2727556ce5452606b4282a54083d4e04dbfac667",
+    "hash": "6fa774502aafef15d38d8cbaef1ad9fe4b687e3d6275a15e24b23e6aea686c0f"
+  },
+  {
+    "id": "AU-30668",
+    "timestamp": "2026-11-08T10:22:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10990",
+    "prev_hash": "6fa774502aafef15d38d8cbaef1ad9fe4b687e3d6275a15e24b23e6aea686c0f",
+    "hash": "c66159a2a9f1958aba56620b2638d14318eca02a53b27571cc471ad91f4a39d8"
+  },
+  {
+    "id": "AU-30669",
+    "timestamp": "2026-11-08T20:51:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-11044",
+    "prev_hash": "c66159a2a9f1958aba56620b2638d14318eca02a53b27571cc471ad91f4a39d8",
+    "hash": "22628671d8e39b0d530e11bfa4b8ba3f1980cd0ac684fcec84a3669f9b2518f5"
+  },
+  {
+    "id": "AU-30670",
+    "timestamp": "2026-11-08T20:52:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2341",
+    "prev_hash": "22628671d8e39b0d530e11bfa4b8ba3f1980cd0ac684fcec84a3669f9b2518f5",
+    "hash": "be4e4429c484986cc26cb77119d63f841f80238f1e57eaa3da4655290709f5f0"
+  },
+  {
+    "id": "AU-30671",
+    "timestamp": "2026-11-08T20:52:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2342",
+    "prev_hash": "be4e4429c484986cc26cb77119d63f841f80238f1e57eaa3da4655290709f5f0",
+    "hash": "b66e223845ebb6e76f346c96304d5511686f71a4baee3149b53f5ca516c8582f"
+  },
+  {
+    "id": "AU-30672",
+    "timestamp": "2026-11-09T05:02:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11026",
+    "prev_hash": "b66e223845ebb6e76f346c96304d5511686f71a4baee3149b53f5ca516c8582f",
+    "hash": "87cee5dc45e9e5c9c057af5ebaa2377045c248e3a190e83345c39880cfbf3e20"
+  },
+  {
+    "id": "AU-30673",
+    "timestamp": "2026-11-09T09:51:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-10990",
+    "prev_hash": "87cee5dc45e9e5c9c057af5ebaa2377045c248e3a190e83345c39880cfbf3e20",
+    "hash": "207c1da31ab8796a1f6369f39211c016dfdc9444bd0fb872b4c673fb44851471"
+  },
+  {
+    "id": "AU-30674",
+    "timestamp": "2026-11-09T16:45:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "207c1da31ab8796a1f6369f39211c016dfdc9444bd0fb872b4c673fb44851471",
+    "hash": "34d95f647b31b273a63b2f12f898275a8c5811ea2c2f6e21aba79168b890ca0e"
+  },
+  {
+    "id": "AU-30675",
+    "timestamp": "2026-11-09T16:48:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "34d95f647b31b273a63b2f12f898275a8c5811ea2c2f6e21aba79168b890ca0e",
+    "hash": "432a8cc04442e4240e1f3ff5726fa3e742dd3cd02dfe8a94829cdc784ec80353"
+  },
+  {
+    "id": "AU-30676",
+    "timestamp": "2026-11-09T17:16:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "432a8cc04442e4240e1f3ff5726fa3e742dd3cd02dfe8a94829cdc784ec80353",
+    "hash": "033edc148a281577e5de0ae5066775d5c22559aaea92329440a7cfebeea6921d"
+  },
+  {
+    "id": "AU-30677",
+    "timestamp": "2026-11-09T22:00:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-11078",
+    "prev_hash": "033edc148a281577e5de0ae5066775d5c22559aaea92329440a7cfebeea6921d",
+    "hash": "4772685c88c8235ef87d3f87d47d04a15e9b2d80981ce63690b82c432cb31721"
+  },
+  {
+    "id": "AU-30678",
+    "timestamp": "2026-11-09T22:01:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2343",
+    "prev_hash": "4772685c88c8235ef87d3f87d47d04a15e9b2d80981ce63690b82c432cb31721",
+    "hash": "69d2f6a9bd0836eae1a5d572c28c87f132faba0b2ca2f906208f9e45de01f466"
+  },
+  {
+    "id": "AU-30679",
+    "timestamp": "2026-11-09T22:01:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2344",
+    "prev_hash": "69d2f6a9bd0836eae1a5d572c28c87f132faba0b2ca2f906208f9e45de01f466",
+    "hash": "6314e44f09f87a0738169dc03829555f3ebf681d0e8643a290d98c36b31748c4"
+  },
+  {
+    "id": "AU-30680",
+    "timestamp": "2026-11-09T22:38:00.000Z",
+    "actor_id": "U-01",
+    "action": "Finding assigned",
+    "entity": "finding",
+    "entity_id": "F-2343",
+    "prev_hash": "6314e44f09f87a0738169dc03829555f3ebf681d0e8643a290d98c36b31748c4",
+    "hash": "70eed8d766ea878937a2f02b810e0114874f10679ac9420dc910f23fbf62579c"
+  },
+  {
+    "id": "AU-30681",
+    "timestamp": "2026-11-10T06:03:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11078",
+    "prev_hash": "70eed8d766ea878937a2f02b810e0114874f10679ac9420dc910f23fbf62579c",
+    "hash": "ea2b9615074998f67064f1c124b4927b8d24ba5beb7c58725d216e1102479fa6"
+  },
+  {
+    "id": "AU-30682",
+    "timestamp": "2026-11-10T16:29:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "ea2b9615074998f67064f1c124b4927b8d24ba5beb7c58725d216e1102479fa6",
+    "hash": "e1671b45499509c39fa38b82198d8ef887124be422e06225d50340f51c41541a"
+  },
+  {
+    "id": "AU-30683",
+    "timestamp": "2026-11-10T16:42:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "e1671b45499509c39fa38b82198d8ef887124be422e06225d50340f51c41541a",
+    "hash": "5a3073d3e750ef27a0215f16242fc9031552e46dda13fd0ee863b9721e85caf2"
+  },
+  {
+    "id": "AU-30684",
+    "timestamp": "2026-11-10T17:10:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "5a3073d3e750ef27a0215f16242fc9031552e46dda13fd0ee863b9721e85caf2",
+    "hash": "957d85dd3ec4ef3e7b623b0ede1761cb169529cc5c8696029744ffc564a22f66"
+  },
+  {
+    "id": "AU-30685",
+    "timestamp": "2026-11-10T21:53:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-11113",
+    "prev_hash": "957d85dd3ec4ef3e7b623b0ede1761cb169529cc5c8696029744ffc564a22f66",
+    "hash": "d0ce2cb3d094020760e48053835b0db66f002c3ba9f86e74b5742733e452fbb1"
+  },
+  {
+    "id": "AU-30686",
+    "timestamp": "2026-11-10T21:54:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2345",
+    "prev_hash": "d0ce2cb3d094020760e48053835b0db66f002c3ba9f86e74b5742733e452fbb1",
+    "hash": "0ded9bd4d556ba2c30c6ddf6356c09b04181df67697e9cf3c8a188d934ecaa90"
+  },
+  {
+    "id": "AU-30687",
+    "timestamp": "2026-11-10T21:54:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2346",
+    "prev_hash": "0ded9bd4d556ba2c30c6ddf6356c09b04181df67697e9cf3c8a188d934ecaa90",
+    "hash": "c8a6fa9da713f2a8a8a5d525489cdace9166ac37368c3597c67f6f17642a74fe"
+  },
+  {
+    "id": "AU-30688",
+    "timestamp": "2026-11-10T21:54:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2347",
+    "prev_hash": "c8a6fa9da713f2a8a8a5d525489cdace9166ac37368c3597c67f6f17642a74fe",
+    "hash": "71831dbb93818825cd4b2b3f9a53aa6dfb03dcffa94a5ee3fcc02d1d7bae9509"
+  },
+  {
+    "id": "AU-30689",
+    "timestamp": "2026-11-10T22:23:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11113",
+    "prev_hash": "71831dbb93818825cd4b2b3f9a53aa6dfb03dcffa94a5ee3fcc02d1d7bae9509",
+    "hash": "76763165b6425301c7bb0db85c6338fcb1ee2cce34bb62dbc751d948cf72686e"
+  },
+  {
+    "id": "AU-30690",
+    "timestamp": "2026-11-10T23:38:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11113",
+    "prev_hash": "76763165b6425301c7bb0db85c6338fcb1ee2cce34bb62dbc751d948cf72686e",
+    "hash": "c928e7cc4dca53b1cecc4ed302c7a35f7069a1d65de08cbd6ea05f8d830fb808"
+  },
+  {
+    "id": "AU-30691",
+    "timestamp": "2026-11-11T04:36:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11044",
+    "prev_hash": "c928e7cc4dca53b1cecc4ed302c7a35f7069a1d65de08cbd6ea05f8d830fb808",
+    "hash": "da9a8d054eb21ef40c03835d6d7f438b78d5607ae43d1fd7b15c5b27f4d89e6b"
+  },
+  {
+    "id": "AU-30692",
+    "timestamp": "2026-11-11T06:03:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11078",
+    "prev_hash": "da9a8d054eb21ef40c03835d6d7f438b78d5607ae43d1fd7b15c5b27f4d89e6b",
+    "hash": "7a7e6944ab05df84ca5306b02c7b5c66b9d217683f8a2a4b55e14815d4ea2a97"
+  },
+  {
+    "id": "AU-30693",
+    "timestamp": "2026-11-11T06:15:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11078",
+    "prev_hash": "7a7e6944ab05df84ca5306b02c7b5c66b9d217683f8a2a4b55e14815d4ea2a97",
+    "hash": "0882bd429eceb4d4153a997dbc270f4da15db606732126573182a96e182c9d30"
+  },
+  {
+    "id": "AU-30694",
+    "timestamp": "2026-11-11T14:34:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11113",
+    "prev_hash": "0882bd429eceb4d4153a997dbc270f4da15db606732126573182a96e182c9d30",
+    "hash": "25b81151d140baebf73fc01c9ce426a81c9d653c3f0c58be75604665b508d3ce"
+  },
+  {
+    "id": "AU-30695",
+    "timestamp": "2026-11-11T16:14:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "25b81151d140baebf73fc01c9ce426a81c9d653c3f0c58be75604665b508d3ce",
+    "hash": "afd973f008926f3eeaf2ff5336d9c572232dd102681ac61790c2bbea40ca6968"
+  },
+  {
+    "id": "AU-30696",
+    "timestamp": "2026-11-11T16:35:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "afd973f008926f3eeaf2ff5336d9c572232dd102681ac61790c2bbea40ca6968",
+    "hash": "373127d59156459946e2bc1050a6f56c803bcf08abf588b9e768e1f9d5be5b12"
+  },
+  {
+    "id": "AU-30697",
+    "timestamp": "2026-11-11T17:20:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "373127d59156459946e2bc1050a6f56c803bcf08abf588b9e768e1f9d5be5b12",
+    "hash": "aa17043b88d8f77cab84d678e7e45cdf85b4b47120af57ef2ec4091c92ac62a4"
+  },
+  {
+    "id": "AU-30698",
+    "timestamp": "2026-11-11T21:11:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-11135",
+    "prev_hash": "aa17043b88d8f77cab84d678e7e45cdf85b4b47120af57ef2ec4091c92ac62a4",
+    "hash": "a75efb8ed4eec356769df20efcfa5afc07229e9fc25ec1472984409f235960a2"
+  },
+  {
+    "id": "AU-30699",
+    "timestamp": "2026-11-11T21:12:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2348",
+    "prev_hash": "a75efb8ed4eec356769df20efcfa5afc07229e9fc25ec1472984409f235960a2",
+    "hash": "40f4ec97af6c42567e14e70045856f9e8123fd72fea900fcf7c0bff4f032eb5c"
+  },
+  {
+    "id": "AU-30700",
+    "timestamp": "2026-11-11T21:12:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2349",
+    "prev_hash": "40f4ec97af6c42567e14e70045856f9e8123fd72fea900fcf7c0bff4f032eb5c",
+    "hash": "9b61b86962e0b87d611ac3ed8abd5df367855421105b2922a8356b5c7eff44e9"
+  },
+  {
+    "id": "AU-30701",
+    "timestamp": "2026-11-12T14:21:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11135",
+    "prev_hash": "9b61b86962e0b87d611ac3ed8abd5df367855421105b2922a8356b5c7eff44e9",
+    "hash": "8338ae3f0a908a90a812672d10abab680fb2f5b76d2398ee84029f28a9186f41"
+  },
+  {
+    "id": "AU-30702",
+    "timestamp": "2026-11-12T16:33:00.000Z",
+    "actor_id": "U-02",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-02",
+    "prev_hash": "8338ae3f0a908a90a812672d10abab680fb2f5b76d2398ee84029f28a9186f41",
+    "hash": "686c15fe3043ffefd31b40bb814716f74bd0844c3b414068c28d3ebc9aa49d9f"
+  },
+  {
+    "id": "AU-30703",
+    "timestamp": "2026-11-12T16:40:00.000Z",
+    "actor_id": "U-01",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-01",
+    "prev_hash": "686c15fe3043ffefd31b40bb814716f74bd0844c3b414068c28d3ebc9aa49d9f",
+    "hash": "0bd41be0f96307033f2231ebdc48b4268e7444329939227173536933564da15b"
+  },
+  {
+    "id": "AU-30704",
+    "timestamp": "2026-11-12T17:07:00.000Z",
+    "actor_id": "U-05",
+    "action": "Signed in",
+    "entity": "user",
+    "entity_id": "U-05",
+    "prev_hash": "0bd41be0f96307033f2231ebdc48b4268e7444329939227173536933564da15b",
+    "hash": "87cac0f3b51ee31bde0011daa7023381e58d21081dc9fc9b688ccee5dc4ddf9b"
+  },
+  {
+    "id": "AU-30705",
+    "timestamp": "2026-11-12T18:28:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11113",
+    "prev_hash": "87cac0f3b51ee31bde0011daa7023381e58d21081dc9fc9b688ccee5dc4ddf9b",
+    "hash": "4f45a962563b92a155aedd37c0d4e07ca4468b5a4fe5916217b0c4f0bb001edb"
+  },
+  {
+    "id": "AU-30706",
+    "timestamp": "2026-11-12T22:37:00.000Z",
+    "actor_id": "system",
+    "action": "Deal scanned",
+    "entity": "deal",
+    "entity_id": "DT-11163",
+    "prev_hash": "4f45a962563b92a155aedd37c0d4e07ca4468b5a4fe5916217b0c4f0bb001edb",
+    "hash": "0802ac76dbc034e27de7c77ed74133e6763398e8e657b751f9fbea1c7b713ae7"
+  },
+  {
+    "id": "AU-30707",
+    "timestamp": "2026-11-12T22:38:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2350",
+    "prev_hash": "0802ac76dbc034e27de7c77ed74133e6763398e8e657b751f9fbea1c7b713ae7",
+    "hash": "dd2beeb1d84c02104e965add0d448bf510d51a2c519944d6c5b5549208550923"
+  },
+  {
+    "id": "AU-30708",
+    "timestamp": "2026-11-12T22:38:00.000Z",
+    "actor_id": "system",
+    "action": "Finding created",
+    "entity": "finding",
+    "entity_id": "F-2351",
+    "prev_hash": "dd2beeb1d84c02104e965add0d448bf510d51a2c519944d6c5b5549208550923",
+    "hash": "1fadb66ed42606ad158f0419fe60f87a3f0ffba32e2161f00e666e1287e62834"
+  },
+  {
+    "id": "AU-30709",
+    "timestamp": "2026-11-13T05:55:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11135",
+    "prev_hash": "1fadb66ed42606ad158f0419fe60f87a3f0ffba32e2161f00e666e1287e62834",
+    "hash": "db754198d09a77bcd54ac26e4dec741612a5a17edd7052f41506cc620fc81306"
+  },
+  {
+    "id": "AU-30710",
+    "timestamp": "2026-11-13T08:39:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11113",
+    "prev_hash": "db754198d09a77bcd54ac26e4dec741612a5a17edd7052f41506cc620fc81306",
+    "hash": "3bd87a326eeab94c8ff9f64e149bb25bb26a55beb17e176b8af6244772c8e6a4"
+  },
+  {
+    "id": "AU-30711",
+    "timestamp": "2026-11-13T15:53:00.000Z",
+    "actor_id": "U-01",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11163",
+    "prev_hash": "3bd87a326eeab94c8ff9f64e149bb25bb26a55beb17e176b8af6244772c8e6a4",
+    "hash": "b0e5ee41e53ee3d6d6114b99bb938838a68e8910286115a2cf3d0be8518c2258"
+  },
+  {
+    "id": "AU-30712",
+    "timestamp": "2026-11-13T23:09:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11163",
+    "prev_hash": "b0e5ee41e53ee3d6d6114b99bb938838a68e8910286115a2cf3d0be8518c2258",
+    "hash": "0a940c874254742195651c54f5d987b0d02e34e48f59af22d6cf492b4355316d"
+  },
+  {
+    "id": "AU-30713",
+    "timestamp": "2026-11-14T02:19:00.000Z",
+    "actor_id": "U-02",
+    "action": "Deal viewed",
+    "entity": "deal",
+    "entity_id": "DT-11163",
+    "prev_hash": "0a940c874254742195651c54f5d987b0d02e34e48f59af22d6cf492b4355316d",
+    "hash": "097b8b5902cf3e3faf60cf8fdfcb1a4a0d32ca197f7bd807d4ac43024ab254dc"
+  }
+]

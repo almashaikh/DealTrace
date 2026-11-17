@@ -1,0 +1,61 @@
+{
+  "dataset": "Synthetic test set v3 (480 deals)",
+  "overall": {
+    "precision": 0.912,
+    "recall": 0.874,
+    "f1": 0.893
+  },
+  "per_detector": [
+    {
+      "detector": "Late add-on",
+      "precision": 0.951,
+      "recall": 0.913,
+      "f1": 0.932,
+      "support": 58
+    },
+    {
+      "detector": "Payment masking",
+      "precision": 0.907,
+      "recall": 0.869,
+      "f1": 0.888,
+      "support": 41
+    },
+    {
+      "detector": "Rate after approval",
+      "precision": 0.889,
+      "recall": 0.851,
+      "f1": 0.87,
+      "support": 29
+    },
+    {
+      "detector": "Missing reason",
+      "precision": 0.901,
+      "recall": 0.863,
+      "f1": 0.882,
+      "support": 39
+    }
+  ],
+  "confusion_matrix": {
+    "tp": 146,
+    "fp": 14,
+    "fn": 21,
+    "tn": 299
+  },
+  "history": [
+    {
+      "dataset": "Synthetic test set v1 (240 deals)",
+      "f1": 0.811,
+      "evaluated_at": "2026-09-08T18:20:00.000Z"
+    },
+    {
+      "dataset": "Synthetic test set v2 (360 deals)",
+      "f1": 0.862,
+      "evaluated_at": "2026-10-02T17:45:00.000Z"
+    },
+    {
+      "dataset": "Synthetic test set v3 (480 deals)",
+      "f1": 0.893,
+      "evaluated_at": "2026-11-09T21:05:00.000Z"
+    }
+  ]
+}

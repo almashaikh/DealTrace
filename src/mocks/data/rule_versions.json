@@ -1,0 +1,212 @@
+[
+  {
+    "rule_id": "CA-CARS-ADDON-01",
+    "version": "1.0.0",
+    "recorded_at": "2026-08-24T18:56:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-CARS-ADDON-01",
+    "version": "1.0.1",
+    "recorded_at": "2026-08-30T20:55:00.000Z",
+    "change": "Corrected the source reference",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-CARS-ADDON-01",
+    "version": "1.0.2",
+    "recorded_at": "2026-09-07T17:17:00.000Z",
+    "change": "Clarified the wording of the clause summary",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-CARS-ADDON-01",
+    "version": "1.0.3",
+    "recorded_at": "2026-09-15T16:42:00.000Z",
+    "change": "Also checks add-ons added after the price is agreed, not only at signing.",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-CARS-RECORD-01",
+    "version": "1.0.0",
+    "recorded_at": "2026-09-07T22:24:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-CARS-RECORD-01",
+    "version": "1.0.1",
+    "recorded_at": "2026-09-15T16:47:00.000Z",
+    "change": "Adds the F&I menu printout and session notes to the required documents.",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-PRICE-01",
+    "version": "1.0.0",
+    "recorded_at": "2026-09-10T19:59:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-PRICE-01",
+    "version": "1.1.0",
+    "recorded_at": "2026-09-16T17:05:00.000Z",
+    "change": "Compares GAP prices with the group median as well as the configured limit.",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-COVERAGE-01",
+    "version": "1.0.0",
+    "recorded_at": "2026-09-08T23:37:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-COVERAGE-01",
+    "version": "1.0.1",
+    "recorded_at": "2026-09-13T18:44:00.000Z",
+    "change": "Corrected the source reference",
+    "actor_id": "U-02"
+  },
+  {
+    "rule_id": "CA-GAP-COVERAGE-01",
+    "version": "1.0.2",
+    "recorded_at": "2026-09-16T17:11:00.000Z",
+    "change": "Checks the GAP term against the final contract term after term changes.",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-LTV-01",
+    "version": "1.0.0",
+    "recorded_at": "2026-09-07T22:22:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-LTV-01",
+    "version": "1.1.0",
+    "recorded_at": "2026-09-10T18:34:00.000Z",
+    "change": "Added a group-level threshold setting",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-LTV-01",
+    "version": "1.2.0",
+    "recorded_at": "2026-09-16T17:18:00.000Z",
+    "change": "Uses loan-to-value at signing instead of at quote.",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "version": "1.0.0",
+    "recorded_at": "2026-08-17T18:01:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "version": "1.0.1",
+    "recorded_at": "2026-08-25T21:47:00.000Z",
+    "change": "Corrected the source reference",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "version": "1.0.2",
+    "recorded_at": "2026-08-31T23:13:00.000Z",
+    "change": "Clarified the wording of the clause summary",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "version": "1.0.3",
+    "recorded_at": "2026-09-09T18:17:00.000Z",
+    "change": "Reworded the scope note",
+    "actor_id": "U-02"
+  },
+  {
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "version": "1.0.4",
+    "recorded_at": "2026-09-16T17:26:00.000Z",
+    "change": "Requires the signed cancellation notice to be attached before funding.",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "TX-GAP-01",
+    "version": "0.1.0",
+    "recorded_at": "2026-10-26T16:19:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "TX-GAP-01",
+    "version": "0.2.0",
+    "recorded_at": "2026-10-31T17:31:00.000Z",
+    "change": "Split the rule from a combined GAP rule",
+    "actor_id": "U-02"
+  },
+  {
+    "rule_id": "TX-GAP-01",
+    "version": "0.3.0",
+    "recorded_at": "2026-11-04T18:02:00.000Z",
+    "change": "Added a check for changes made after the price is agreed",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "TX-ADDON-01",
+    "version": "0.1.0",
+    "recorded_at": "2026-10-20T21:39:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-02"
+  },
+  {
+    "rule_id": "TX-ADDON-01",
+    "version": "0.2.0",
+    "recorded_at": "2026-10-27T20:49:00.000Z",
+    "change": "Split the rule from a combined GAP rule",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "TX-ADDON-01",
+    "version": "0.2.1",
+    "recorded_at": "2026-11-04T18:09:00.000Z",
+    "change": "Aligned terms with the group glossary",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "NY-ADDON-01",
+    "version": "0.1.0",
+    "recorded_at": "2026-10-15T21:05:00.000Z",
+    "change": "Initial version drafted from the published text",
+    "actor_id": "U-02"
+  },
+  {
+    "rule_id": "NY-ADDON-01",
+    "version": "0.1.1",
+    "recorded_at": "2026-10-20T22:47:00.000Z",
+    "change": "Corrected the source reference",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "NY-ADDON-01",
+    "version": "0.1.2",
+    "recorded_at": "2026-10-24T20:20:00.000Z",
+    "change": "Reworded the scope note",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "NY-ADDON-01",
+    "version": "0.1.3",
+    "recorded_at": "2026-10-31T17:12:00.000Z",
+    "change": "Clarified the wording of the clause summary",
+    "actor_id": "U-01"
+  },
+  {
+    "rule_id": "NY-ADDON-01",
+    "version": "0.1.4",
+    "recorded_at": "2026-11-06T17:31:00.000Z",
+    "change": "Added examples to the clause summary",
+    "actor_id": "U-01"
+  }
+]

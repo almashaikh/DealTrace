@@ -1,0 +1,701 @@
+{
+  "as_of": "2026-11-12",
+  "daily": [
+    {
+      "date": "2026-09-14",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 5,
+        "DLR-03": 7,
+        "DLR-04": 6,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 6,
+        "DLR-03": 8,
+        "DLR-04": 7,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 5,
+        "DLR-03": 7,
+        "DLR-04": 6,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 7,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 6,
+        "DLR-03": 7,
+        "DLR-04": 5,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 7,
+        "DLR-03": 13,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 5,
+        "DLR-03": 5,
+        "DLR-04": 4,
+        "DLR-05": 4
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 5,
+        "DLR-03": 8,
+        "DLR-04": 8,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 5,
+        "DLR-03": 7,
+        "DLR-04": 8,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 7,
+        "DLR-03": 7,
+        "DLR-04": 8,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 6,
+        "DLR-03": 6,
+        "DLR-04": 5,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 7,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 10,
+        "DLR-05": 11
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "by_dealer": {
+        "DLR-01": 8,
+        "DLR-02": 5,
+        "DLR-03": 5,
+        "DLR-04": 5,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 7,
+        "DLR-03": 8,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "by_dealer": {
+        "DLR-01": 8,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 7,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 5,
+        "DLR-03": 7,
+        "DLR-04": 5,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "by_dealer": {
+        "DLR-01": 10,
+        "DLR-02": 6,
+        "DLR-03": 8,
+        "DLR-04": 6,
+        "DLR-05": 9
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 6,
+        "DLR-03": 9,
+        "DLR-04": 7,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 7,
+        "DLR-03": 8,
+        "DLR-04": 10,
+        "DLR-05": 10
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 4,
+        "DLR-03": 6,
+        "DLR-04": 4,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 7,
+        "DLR-03": 6,
+        "DLR-04": 7,
+        "DLR-05": 9
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 7,
+        "DLR-03": 7,
+        "DLR-04": 7,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 6,
+        "DLR-03": 9,
+        "DLR-04": 7,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 5,
+        "DLR-03": 10,
+        "DLR-04": 6,
+        "DLR-05": 9
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 6,
+        "DLR-03": 6,
+        "DLR-04": 6,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 8,
+        "DLR-03": 9,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "by_dealer": {
+        "DLR-01": 7,
+        "DLR-02": 4,
+        "DLR-03": 5,
+        "DLR-04": 4,
+        "DLR-05": 5
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 5,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 7,
+        "DLR-03": 7,
+        "DLR-04": 8,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "by_dealer": {
+        "DLR-01": 8,
+        "DLR-02": 7,
+        "DLR-03": 10,
+        "DLR-04": 6,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 6,
+        "DLR-03": 8,
+        "DLR-04": 8,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 8,
+        "DLR-03": 10,
+        "DLR-04": 7,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "by_dealer": {
+        "DLR-01": 15,
+        "DLR-02": 10,
+        "DLR-03": 10,
+        "DLR-04": 11,
+        "DLR-05": 12
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "by_dealer": {
+        "DLR-01": 8,
+        "DLR-02": 4,
+        "DLR-03": 7,
+        "DLR-04": 6,
+        "DLR-05": 5
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 6,
+        "DLR-03": 11,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 8,
+        "DLR-03": 10,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 7,
+        "DLR-03": 10,
+        "DLR-04": 9,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 8,
+        "DLR-03": 10,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "by_dealer": {
+        "DLR-01": 14,
+        "DLR-02": 8,
+        "DLR-03": 11,
+        "DLR-04": 6,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "by_dealer": {
+        "DLR-01": 16,
+        "DLR-02": 10,
+        "DLR-03": 10,
+        "DLR-04": 11,
+        "DLR-05": 11
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 4,
+        "DLR-03": 8,
+        "DLR-04": 5,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "by_dealer": {
+        "DLR-01": 10,
+        "DLR-02": 8,
+        "DLR-03": 7,
+        "DLR-04": 7,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "by_dealer": {
+        "DLR-01": 14,
+        "DLR-02": 8,
+        "DLR-03": 11,
+        "DLR-04": 7,
+        "DLR-05": 9
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 7,
+        "DLR-03": 8,
+        "DLR-04": 7,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 9,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "by_dealer": {
+        "DLR-01": 14,
+        "DLR-02": 7,
+        "DLR-03": 8,
+        "DLR-04": 7,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "by_dealer": {
+        "DLR-01": 17,
+        "DLR-02": 8,
+        "DLR-03": 11,
+        "DLR-04": 11,
+        "DLR-05": 11
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "by_dealer": {
+        "DLR-01": 10,
+        "DLR-02": 4,
+        "DLR-03": 5,
+        "DLR-04": 6,
+        "DLR-05": 5
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 6,
+        "DLR-03": 9,
+        "DLR-04": 6,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "by_dealer": {
+        "DLR-01": 13,
+        "DLR-02": 7,
+        "DLR-03": 10,
+        "DLR-04": 7,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 6,
+        "DLR-03": 8,
+        "DLR-04": 6,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "by_dealer": {
+        "DLR-01": 11,
+        "DLR-02": 6,
+        "DLR-03": 9,
+        "DLR-04": 8,
+        "DLR-05": 8
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "by_dealer": {
+        "DLR-01": 10,
+        "DLR-02": 7,
+        "DLR-03": 9,
+        "DLR-04": 6,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "by_dealer": {
+        "DLR-01": 12,
+        "DLR-02": 7,
+        "DLR-03": 13,
+        "DLR-04": 8,
+        "DLR-05": 12
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "by_dealer": {
+        "DLR-01": 7,
+        "DLR-02": 4,
+        "DLR-03": 8,
+        "DLR-04": 6,
+        "DLR-05": 6
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "by_dealer": {
+        "DLR-01": 10,
+        "DLR-02": 6,
+        "DLR-03": 9,
+        "DLR-04": 8,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "by_dealer": {
+        "DLR-01": 14,
+        "DLR-02": 8,
+        "DLR-03": 8,
+        "DLR-04": 8,
+        "DLR-05": 7
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 7,
+        "DLR-03": 11,
+        "DLR-04": 7,
+        "DLR-05": 9
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "by_dealer": {
+        "DLR-01": 9,
+        "DLR-02": 8,
+        "DLR-03": 7,
+        "DLR-04": 7,
+        "DLR-05": 10
+      }
+    }
+  ],
+  "median_decision_minutes": {
+    "7d": {
+      "all": 171,
+      "DLR-01": 163,
+      "DLR-02": 197,
+      "DLR-03": 158,
+      "DLR-04": 184,
+      "DLR-05": 176
+    },
+    "30d": {
+      "all": 192,
+      "DLR-01": 178,
+      "DLR-02": 214,
+      "DLR-03": 187,
+      "DLR-04": 203,
+      "DLR-05": 196
+    }
+  },
+  "prior": {
+    "7d": {
+      "all": {
+        "open_findings": 58,
+        "high_severity_open": 10,
+        "refund_exposure": 46233.17,
+        "median_decision_minutes": 188
+      },
+      "DLR-01": {
+        "open_findings": 9,
+        "high_severity_open": 2,
+        "refund_exposure": 10077.09,
+        "median_decision_minutes": 180
+      },
+      "DLR-02": {
+        "open_findings": 13,
+        "high_severity_open": 0,
+        "refund_exposure": 9696.15,
+        "median_decision_minutes": 206
+      },
+      "DLR-03": {
+        "open_findings": 16,
+        "high_severity_open": 2,
+        "refund_exposure": 13684.78,
+        "median_decision_minutes": 176
+      },
+      "DLR-04": {
+        "open_findings": 12,
+        "high_severity_open": 3,
+        "refund_exposure": 9016.94,
+        "median_decision_minutes": 213
+      },
+      "DLR-05": {
+        "open_findings": 8,
+        "high_severity_open": 2,
+        "refund_exposure": 3698.52,
+        "median_decision_minutes": 180
+      }
+    },
+    "30d": {
+      "all": {
+        "open_findings": 54,
+        "high_severity_open": 11,
+        "refund_exposure": 43617.85,
+        "median_decision_minutes": 241
+      },
+      "DLR-01": {
+        "open_findings": 9,
+        "high_severity_open": 2,
+        "refund_exposure": 10589.69,
+        "median_decision_minutes": 200
+      },
+      "DLR-02": {
+        "open_findings": 15,
+        "high_severity_open": 0,
+        "refund_exposure": 11159.01,
+        "median_decision_minutes": 277
+      },
+      "DLR-03": {
+        "open_findings": 17,
+        "high_severity_open": 2,
+        "refund_exposure": 15093.73,
+        "median_decision_minutes": 211
+      },
+      "DLR-04": {
+        "open_findings": 10,
+        "high_severity_open": 4,
+        "refund_exposure": 7319.64,
+        "median_decision_minutes": 250
+      },
+      "DLR-05": {
+        "open_findings": 7,
+        "high_severity_open": 2,
+        "refund_exposure": 3235.19,
+        "median_decision_minutes": 236
+      }
+    }
+  }
+}

@@ -1,0 +1,706 @@
+[
+  {
+    "deal_id": "DT-9920",
+    "product_code": "VSC",
+    "verdict": "Partial benefit",
+    "score": 72,
+    "reasons": [
+      "Factory warranty covers the first 12 of 60 contract months",
+      "Coverage after month 12 adds protection through 60,000 miles"
+    ],
+    "inputs": {
+      "ltv": 0.948,
+      "negative_equity": 0,
+      "warranty_overlap_months": 12,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-9945",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 116% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 1.162,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-9945",
+    "product_code": "VSC",
+    "verdict": "Likely benefit",
+    "score": 87,
+    "reasons": [
+      "Factory warranty has expired; the contract covers repairs from day one",
+      "Coverage runs 48 months / 60,000 miles"
+    ],
+    "inputs": {
+      "ltv": 1.162,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10089",
+    "product_code": "TIRE_WHEEL",
+    "verdict": "Likely benefit",
+    "score": 71,
+    "reasons": [
+      "Not covered by the factory warranty",
+      "Road hazard claims are common in the first three years"
+    ],
+    "inputs": {
+      "ltv": 0.834,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10089",
+    "product_code": "THEFT_ETCH",
+    "verdict": "Partial benefit",
+    "score": 38,
+    "reasons": [
+      "Vehicle already has a factory immobilizer",
+      "Benefit limited to the theft deductible credit"
+    ],
+    "inputs": {
+      "ltv": 0.834,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10277",
+    "product_code": "VSC",
+    "verdict": "Little or no benefit",
+    "score": 24,
+    "reasons": [
+      "Factory warranty covers the first 60 of 72 contract months",
+      "Only 12 months of coverage fall outside the factory warranty"
+    ],
+    "inputs": {
+      "ltv": 0.94,
+      "negative_equity": 0,
+      "warranty_overlap_months": 60,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10277",
+    "product_code": "PREPAID_MAINT",
+    "verdict": "Likely benefit",
+    "score": 68,
+    "reasons": [
+      "Covers scheduled maintenance for 36 months / 36,000 miles",
+      "Value depends on servicing at a Harborline rooftop"
+    ],
+    "inputs": {
+      "ltv": 0.94,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10370",
+    "product_code": "TIRE_WHEEL",
+    "verdict": "Likely benefit",
+    "score": 77,
+    "reasons": [
+      "Not covered by the factory warranty",
+      "Road hazard claims are common in the first three years"
+    ],
+    "inputs": {
+      "ltv": 0.992,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10370",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 99% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 0.992,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10424",
+    "product_code": "TIRE_WHEEL",
+    "verdict": "Likely benefit",
+    "score": 71,
+    "reasons": [
+      "Not covered by the factory warranty",
+      "Road hazard claims are common in the first three years"
+    ],
+    "inputs": {
+      "ltv": 0.936,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10424",
+    "product_code": "PAINT_FABRIC",
+    "verdict": "Partial benefit",
+    "score": 52,
+    "reasons": [
+      "Cosmetic coverage only",
+      "Claims require documented incidents"
+    ],
+    "inputs": {
+      "ltv": 0.936,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10482",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 84,
+    "reasons": [
+      "Loan-to-value 92% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 0.921,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10482",
+    "product_code": "VSC",
+    "verdict": "Partial benefit",
+    "score": 49,
+    "reasons": [
+      "Factory warranty covers the first 36 of 72 contract months",
+      "Coverage after month 36 adds protection through 75,000 miles"
+    ],
+    "inputs": {
+      "ltv": 0.921,
+      "negative_equity": 0,
+      "warranty_overlap_months": 36,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10544",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 102% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 1.019,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10544",
+    "product_code": "VSC",
+    "verdict": "Partial benefit",
+    "score": 49,
+    "reasons": [
+      "Factory warranty covers the first 36 of 72 contract months",
+      "Coverage after month 36 adds protection through 75,000 miles"
+    ],
+    "inputs": {
+      "ltv": 1.019,
+      "negative_equity": 0,
+      "warranty_overlap_months": 36,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10578",
+    "product_code": "VSC",
+    "verdict": "Partial benefit",
+    "score": 49,
+    "reasons": [
+      "Factory warranty covers the first 36 of 72 contract months",
+      "Coverage after month 36 adds protection through 75,000 miles"
+    ],
+    "inputs": {
+      "ltv": 0.868,
+      "negative_equity": 0,
+      "warranty_overlap_months": 36,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10578",
+    "product_code": "GAP",
+    "verdict": "Partial benefit",
+    "score": 74,
+    "reasons": [
+      "Loan-to-value 87%; a gap is possible only in the first part of the loan",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 0.868,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10607",
+    "product_code": "GAP",
+    "verdict": "Little or no benefit",
+    "score": 48,
+    "reasons": [
+      "Loan-to-value 74%; the insurance payout would likely cover the balance",
+      "Down payment $10,721.00 reduces the shortfall a GAP waiver protects against"
+    ],
+    "inputs": {
+      "ltv": 0.74,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10634",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 101% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 1.007,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10634",
+    "product_code": "PAINT_FABRIC",
+    "verdict": "Partial benefit",
+    "score": 52,
+    "reasons": [
+      "Cosmetic coverage only",
+      "Claims require documented incidents"
+    ],
+    "inputs": {
+      "ltv": 1.007,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10662",
+    "product_code": "VSC",
+    "verdict": "Little or no benefit",
+    "score": 11,
+    "reasons": [
+      "Factory warranty covers the first 60 of 60 contract months",
+      "Only 0 months of coverage fall outside the factory warranty"
+    ],
+    "inputs": {
+      "ltv": 0.719,
+      "negative_equity": 0,
+      "warranty_overlap_months": 60,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10681",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 93,
+    "reasons": [
+      "Loan-to-value 97% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 0.966,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10715",
+    "product_code": "VSC",
+    "verdict": "Partial benefit",
+    "score": 49,
+    "reasons": [
+      "Factory warranty covers the first 36 of 72 contract months",
+      "Coverage after month 36 adds protection through 75,000 miles"
+    ],
+    "inputs": {
+      "ltv": 0.96,
+      "negative_equity": 0,
+      "warranty_overlap_months": 36,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10756",
+    "product_code": "GAP",
+    "verdict": "Little or no benefit",
+    "score": 17,
+    "reasons": [
+      "Buyer already has loan/lease payoff coverage on current auto policy",
+      "Loan-to-value 140% at signing"
+    ],
+    "inputs": {
+      "ltv": 1.401,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "Loan/lease payoff coverage on current auto policy"
+    }
+  },
+  {
+    "deal_id": "DT-10756",
+    "product_code": "VSC",
+    "verdict": "Likely benefit",
+    "score": 87,
+    "reasons": [
+      "Factory warranty has expired; the contract covers repairs from day one",
+      "Coverage runs 48 months / 60,000 miles"
+    ],
+    "inputs": {
+      "ltv": 1.401,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "Loan/lease payoff coverage on current auto policy"
+    }
+  },
+  {
+    "deal_id": "DT-10776",
+    "product_code": "VSC",
+    "verdict": "Likely benefit",
+    "score": 87,
+    "reasons": [
+      "Factory warranty has expired; the contract covers repairs from day one",
+      "Coverage runs 60 months / 60,000 miles"
+    ],
+    "inputs": {
+      "ltv": 1.101,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10842",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 107% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 1.075,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10842",
+    "product_code": "PREPAID_MAINT",
+    "verdict": "Partial benefit",
+    "score": 57,
+    "reasons": [
+      "Covers scheduled maintenance for 36 months / 36,000 miles",
+      "Value depends on servicing at a Harborline rooftop"
+    ],
+    "inputs": {
+      "ltv": 1.075,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10876",
+    "product_code": "VSC",
+    "verdict": "Likely benefit",
+    "score": 87,
+    "reasons": [
+      "Factory warranty has expired; the contract covers repairs from day one",
+      "Coverage runs 60 months / 60,000 miles"
+    ],
+    "inputs": {
+      "ltv": 0.904,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10897",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 100% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 0.996,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10897",
+    "product_code": "THEFT_ETCH",
+    "verdict": "Partial benefit",
+    "score": 38,
+    "reasons": [
+      "Vehicle already has a factory immobilizer",
+      "Benefit limited to the theft deductible credit"
+    ],
+    "inputs": {
+      "ltv": 0.996,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10927",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 98% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 0.978,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10927",
+    "product_code": "THEFT_ETCH",
+    "verdict": "Partial benefit",
+    "score": 38,
+    "reasons": [
+      "Vehicle already has a factory immobilizer",
+      "Benefit limited to the theft deductible credit"
+    ],
+    "inputs": {
+      "ltv": 0.978,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10961",
+    "product_code": "VSC",
+    "verdict": "Little or no benefit",
+    "score": 11,
+    "reasons": [
+      "Factory warranty covers the first 60 of 60 contract months",
+      "Only 0 months of coverage fall outside the factory warranty"
+    ],
+    "inputs": {
+      "ltv": 0.748,
+      "negative_equity": 0,
+      "warranty_overlap_months": 60,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10961",
+    "product_code": "GAP",
+    "verdict": "Little or no benefit",
+    "score": 50,
+    "reasons": [
+      "Loan-to-value 75%; the insurance payout would likely cover the balance",
+      "Down payment $11,055.00 reduces the shortfall a GAP waiver protects against"
+    ],
+    "inputs": {
+      "ltv": 0.748,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-10990",
+    "product_code": "VSC",
+    "verdict": "Little or no benefit",
+    "score": 41,
+    "reasons": [
+      "Factory warranty covers the first 36 of 60 contract months",
+      "Only 24 months of coverage fall outside the factory warranty"
+    ],
+    "inputs": {
+      "ltv": 1.048,
+      "negative_equity": 0,
+      "warranty_overlap_months": 36,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11026",
+    "product_code": "TIRE_WHEEL",
+    "verdict": "Likely benefit",
+    "score": 71,
+    "reasons": [
+      "Not covered by the factory warranty",
+      "Road hazard claims are common in the first three years"
+    ],
+    "inputs": {
+      "ltv": 0.756,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11044",
+    "product_code": "VSC",
+    "verdict": "Partial benefit",
+    "score": 75,
+    "reasons": [
+      "Factory warranty covers the first 11 of 72 contract months",
+      "Coverage after month 11 adds protection through 75,000 miles"
+    ],
+    "inputs": {
+      "ltv": 0.97,
+      "negative_equity": 0,
+      "warranty_overlap_months": 11,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11078",
+    "product_code": "VSC",
+    "verdict": "Little or no benefit",
+    "score": 26,
+    "reasons": [
+      "Factory warranty covers the first 48 of 60 contract months",
+      "Only 12 months of coverage fall outside the factory warranty"
+    ],
+    "inputs": {
+      "ltv": 0.768,
+      "negative_equity": 0,
+      "warranty_overlap_months": 48,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11078",
+    "product_code": "TIRE_WHEEL",
+    "verdict": "Likely benefit",
+    "score": 71,
+    "reasons": [
+      "Not covered by the factory warranty",
+      "Road hazard claims are common in the first three years"
+    ],
+    "inputs": {
+      "ltv": 0.768,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11113",
+    "product_code": "VSC",
+    "verdict": "Little or no benefit",
+    "score": 41,
+    "reasons": [
+      "Factory warranty covers the first 36 of 60 contract months",
+      "Only 24 months of coverage fall outside the factory warranty"
+    ],
+    "inputs": {
+      "ltv": 1.014,
+      "negative_equity": 136,
+      "warranty_overlap_months": 36,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11135",
+    "product_code": "GAP",
+    "verdict": "Likely benefit",
+    "score": 96,
+    "reasons": [
+      "Loan-to-value 100% at signing; a total loss in the first years would likely leave a balance above the insurance payout",
+      "No existing loan payoff coverage on file"
+    ],
+    "inputs": {
+      "ltv": 1.003,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11135",
+    "product_code": "TIRE_WHEEL",
+    "verdict": "Likely benefit",
+    "score": 77,
+    "reasons": [
+      "Not covered by the factory warranty",
+      "Road hazard claims are common in the first three years"
+    ],
+    "inputs": {
+      "ltv": 1.003,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "None on file"
+    }
+  },
+  {
+    "deal_id": "DT-11163",
+    "product_code": "GAP",
+    "verdict": "Little or no benefit",
+    "score": 17,
+    "reasons": [
+      "Buyer already has loan/lease payoff coverage on current auto policy",
+      "Loan-to-value 98% at signing"
+    ],
+    "inputs": {
+      "ltv": 0.98,
+      "negative_equity": 0,
+      "warranty_overlap_months": 0,
+      "existing_coverage": "Loan/lease payoff coverage on current auto policy"
+    }
+  }
+]

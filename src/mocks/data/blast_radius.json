@@ -1,0 +1,95 @@
+[
+  {
+    "rule_id": "CA-CARS-ADDON-01",
+    "change_description": "v1.0.3 also checks add-ons added after the price is agreed, not only at signing.",
+    "affected_deals": 37,
+    "affected_dealers": 4,
+    "estimated_refund_exposure": 21486.1,
+    "sample_deal_ids": [
+      "DT-10876",
+      "DT-10482",
+      "DT-10544",
+      "DT-9945"
+    ]
+  },
+  {
+    "rule_id": "CA-CARS-RECORD-01",
+    "change_description": "v1.0.1 adds the F&I menu printout and session notes to the required documents.",
+    "affected_deals": 52,
+    "affected_dealers": 5,
+    "estimated_refund_exposure": 0,
+    "sample_deal_ids": [
+      "DT-10876",
+      "DT-10482",
+      "DT-10544",
+      "DT-9945"
+    ]
+  },
+  {
+    "rule_id": "CA-GAP-PRICE-01",
+    "change_description": "v1.1.0 compares GAP prices with the group median as well as the configured limit.",
+    "affected_deals": 18,
+    "affected_dealers": 3,
+    "estimated_refund_exposure": 7412.66,
+    "sample_deal_ids": [
+      "DT-10607",
+      "DT-10756",
+      "DT-10927",
+      "DT-10897"
+    ]
+  },
+  {
+    "rule_id": "CA-GAP-COVERAGE-01",
+    "change_description": "v1.0.2 checks the GAP term against the final contract term after term changes.",
+    "affected_deals": 11,
+    "affected_dealers": 3,
+    "estimated_refund_exposure": 4871.29,
+    "sample_deal_ids": []
+  },
+  {
+    "rule_id": "CA-GAP-LTV-01",
+    "change_description": "v1.2.0 uses loan-to-value at signing instead of at quote.",
+    "affected_deals": 24,
+    "affected_dealers": 4,
+    "estimated_refund_exposure": 9943.18,
+    "sample_deal_ids": [
+      "DT-10607",
+      "DT-10961"
+    ]
+  },
+  {
+    "rule_id": "CA-GAP-DISCLOSURE-01",
+    "change_description": "v1.0.4 requires the signed cancellation notice to be attached before funding.",
+    "affected_deals": 14,
+    "affected_dealers": 3,
+    "estimated_refund_exposure": 0,
+    "sample_deal_ids": [
+      "DT-10607",
+      "DT-10756"
+    ]
+  },
+  {
+    "rule_id": "TX-GAP-01",
+    "change_description": "Harborline has no Texas rooftops, so enabling this draft changes no current deals.",
+    "affected_deals": 0,
+    "affected_dealers": 0,
+    "estimated_refund_exposure": 0,
+    "sample_deal_ids": []
+  },
+  {
+    "rule_id": "TX-ADDON-01",
+    "change_description": "Harborline has no Texas rooftops, so enabling this draft changes no current deals.",
+    "affected_deals": 0,
+    "affected_dealers": 0,
+    "estimated_refund_exposure": 0,
+    "sample_deal_ids": []
+  },
+  {
+    "rule_id": "NY-ADDON-01",
+    "change_description": "Harborline has no New York rooftops, so enabling this draft changes no current deals.",
+    "affected_deals": 0,
+    "affected_dealers": 0,
+    "estimated_refund_exposure": 0,
+    "sample_deal_ids": []
+  }
+]

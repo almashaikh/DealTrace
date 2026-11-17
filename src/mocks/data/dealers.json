@@ -1,0 +1,37 @@
+[
+  {
+    "id": "DLR-01",
+    "name": "Harborline Motors San Jose",
+    "city": "San Jose",
+    "state": "CA",
+    "group": "Harborline Auto Group"
+  },
+  {
+    "id": "DLR-02",
+    "name": "Harborline Motors Fresno",
+    "city": "Fresno",
+    "state": "CA",
+    "group": "Harborline Auto Group"
+  },
+  {
+    "id": "DLR-03",
+    "name": "Bayview Auto Oakland",
+    "city": "Oakland",
+    "state": "CA",
+    "group": "Harborline Auto Group"
+  },
+  {
+    "id": "DLR-04",
+    "name": "Sierra Vista Auto Sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "group": "Harborline Auto Group"
+  },
+  {
+    "id": "DLR-05",
+    "name": "Coastline Motors San Diego",
+    "city": "San Diego",
+    "state": "CA",
+    "group": "Harborline Auto Group"
+  }
+]

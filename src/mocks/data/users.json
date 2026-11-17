@@ -1,0 +1,37 @@
+[
+  {
+    "id": "U-01",
+    "name": "Priya Shah",
+    "role": "Compliance Officer",
+    "email": "priya.shah@harborline.example",
+    "initials": "PS"
+  },
+  {
+    "id": "U-02",
+    "name": "Marcus Reed",
+    "role": "Internal Auditor",
+    "email": "marcus.reed@harborline.example",
+    "initials": "MR"
+  },
+  {
+    "id": "U-03",
+    "name": "Jordan Lee",
+    "role": "F&I Manager",
+    "email": "jordan.lee@harborline.example",
+    "initials": "JL"
+  },
+  {
+    "id": "U-04",
+    "name": "Chris Patel",
+    "role": "Sales Consultant",
+    "email": "chris.patel@harborline.example",
+    "initials": "CP"
+  },
+  {
+    "id": "U-05",
+    "name": "Elena Torres",
+    "role": "Lender Funding Analyst",
+    "email": "elena.torres@harborline.example",
+    "initials": "ET"
+  }
+]

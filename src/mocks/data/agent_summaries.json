@@ -1,0 +1,484 @@
+[
+  {
+    "deal_id": "DT-9920",
+    "summary": "DT-9920 has 1 open finding (1 low). The most significant: recordkeeping gap: add-on price acknowledgment not retained. [F-2279]",
+    "key_points": [
+      "Recordkeeping gap: add-on price acknowledgment not retained. [F-2279]"
+    ],
+    "suggested_actions": [
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-01T18:54:00.000Z"
+  },
+  {
+    "deal_id": "DT-9945",
+    "summary": "The GAP waiver ($682.00) and service contract ($2,122.00) were added 47 minutes after the price was agreed. After approval at 11.8%, the APR was raised to 12.55%, adding $359.31 in finance charges. Total of payments rose from $17,220.12 to $21,304.86. [F-2280] [F-2281]",
+    "key_points": [
+      "Price agreed at 9:53 AM: $12,961.00 over 60 months at 11.8%.",
+      "Late add-on: GAP waiver and service contract added 47 minutes after price agreed. [F-2280]",
+      "APR raised from 11.8% to 12.55% after credit approval. [F-2281]",
+      "Signed at 11:12 AM: $355.08 a month for 60 months."
+    ],
+    "suggested_actions": [
+      "Record why each product was added after the price was agreed before funding.",
+      "Ask the lender for the approval terms and refund the rate difference if the increase is not supported.",
+      "Ask the F&I manager to add reasons to the unexplained changes."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "diff_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-02T18:18:00.000Z"
+  },
+  {
+    "deal_id": "DT-10370",
+    "summary": "DT-10370 has 1 open finding (1 low). The most significant: recordkeeping gap: menu presentation printout not retained. [F-2288]",
+    "key_points": [
+      "Recordkeeping gap: menu presentation printout not retained. [F-2288]"
+    ],
+    "suggested_actions": [
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-16T19:47:00.000Z"
+  },
+  {
+    "deal_id": "DT-10424",
+    "summary": "DT-10424 has 1 open finding (1 low). The most significant: recordkeeping gap: odometer disclosure statement not scanned. [F-2290]",
+    "key_points": [
+      "Recordkeeping gap: odometer disclosure statement not scanned. [F-2290]"
+    ],
+    "suggested_actions": [
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-18T20:42:00.000Z"
+  },
+  {
+    "deal_id": "DT-10482",
+    "summary": "Between v1 and v3 of DT-10482, two add-ons ($3,300.00 in total) were added after the price was agreed, and the term was then stretched from 60 to 72 months. The monthly payment fell from $633.15 to $547.26, but the buyer's total of payments is $5,418.96 higher than in the original quote. [F-2291] [F-2292]",
+    "key_points": [
+      "GAP ($900.00) and the service contract ($2,400.00) first appear in v2 at Oct 20, 2026, 10:40 AM PT, 35 minutes after the price was agreed. [F-2291] [event E-1041] [event E-1043] [event E-1044]",
+      "The term moved from 60 to 72 months in v3 while the payment dropped 13.6% from v2, which can hide the added products. [F-2292] [v3]",
+      "The service contract (72 months / 75,000 miles) overlaps the 36-month factory warranty for its first 36 months. [F-2293] [rule CA-CARS-ADDON-01]",
+      "GAP shows a likely benefit at 92% loan-to-value, but no reason is recorded for the product or term changes. [F-2294]"
+    ],
+    "suggested_actions": [
+      "Confirm with Jordan Lee why both products were added after price agreement, and document the reason.",
+      "Request a customer-benefit statement for the service contract before funding.",
+      "Fix the deal record so each change carries a reason, then re-run the check."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "diff_versions",
+      "run_detectors",
+      "check_benefit",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-20T18:16:00.000Z"
+  },
+  {
+    "deal_id": "DT-10544",
+    "summary": "The GAP waiver ($831.00) and service contract ($2,063.00) were added 52 minutes after the price was agreed. The term then went from 60 to 72 months, so the payment moved only from $644.87 to $596.95. Total of payments rose from $38,692.07 to $42,980.07. [F-2295] [F-2296]",
+    "key_points": [
+      "Price agreed at 2:36 PM: $34,172.00 over 60 months at 5.0%.",
+      "Late add-on: GAP waiver and service contract added 52 minutes after price agreed. [F-2295]",
+      "Payment masking: GAP waiver and service contract added, term extended to 72 months; payment fell 7.4%. [F-2296]",
+      "Signed at 3:56 PM: $596.95 a month for 72 months."
+    ],
+    "suggested_actions": [
+      "Record why each product was added after the price was agreed before funding.",
+      "Show the buyer the total of payments at both terms and get a signed acknowledgment.",
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Ask the F&I manager to add reasons to the unexplained changes."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "diff_versions",
+      "run_detectors",
+      "check_benefit",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-22T23:02:00.000Z"
+  },
+  {
+    "deal_id": "DT-10578",
+    "summary": "DT-10578 has 3 open findings (2 medium, 1 low). The most significant: service contract overlaps factory warranty for 36 months. Potential refund exposure is $6,108.32. [F-2299]",
+    "key_points": [
+      "Service contract overlaps factory warranty for 36 months. [F-2299]",
+      "Service contract priced 151% above the group median. [F-2300]",
+      "Recordkeeping gap: F&I session notes incomplete. [F-2301]"
+    ],
+    "suggested_actions": [
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-23T19:51:00.000Z"
+  },
+  {
+    "deal_id": "DT-10607",
+    "summary": "DT-10607 has 5 open findings (2 medium, 3 low). The most significant: GAP waiver sold at 74% loan-to-value. Potential refund exposure is $2,223.51. [F-2302]",
+    "key_points": [
+      "GAP waiver sold at 74% loan-to-value. [F-2302]",
+      "GAP waiver priced 137% above the group median. [F-2303]",
+      "Missing change reason on 1 event. [F-2304]",
+      "Recordkeeping gap: signed GAP disclosure not in deal jacket. [F-2305]",
+      "Recordkeeping gap: add-on price acknowledgment not retained. [F-2306]"
+    ],
+    "suggested_actions": [
+      "Confirm with the buyer that GAP is still wanted at this loan-to-value; cancel and refund if not.",
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-24T20:01:00.000Z"
+  },
+  {
+    "deal_id": "DT-10634",
+    "summary": "DT-10634 has 2 open findings (2 low). The most significant: missing change reason on 1 event. [F-2308]",
+    "key_points": [
+      "Missing change reason on 1 event. [F-2308]",
+      "Recordkeeping gap: credit application copy missing from deal jacket. [F-2309]"
+    ],
+    "suggested_actions": [
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-25T22:38:00.000Z"
+  },
+  {
+    "deal_id": "DT-10681",
+    "summary": "DT-10681 has 1 open finding (1 low). The most significant: recordkeeping gap: odometer disclosure statement not scanned. [F-2313]",
+    "key_points": [
+      "Recordkeeping gap: odometer disclosure statement not scanned. [F-2313]"
+    ],
+    "suggested_actions": [
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-27T20:33:00.000Z"
+  },
+  {
+    "deal_id": "DT-10756",
+    "summary": "DT-10756 has 3 open findings (2 medium, 1 low). The most significant: GAP waiver duplicates loan payoff coverage on the buyer’s auto policy. Potential refund exposure is $2,231.50. [F-2316]",
+    "key_points": [
+      "GAP waiver duplicates loan payoff coverage on the buyer’s auto policy. [F-2316]",
+      "GAP waiver priced 137% above the group median. [F-2317]",
+      "Recordkeeping gap: signed GAP disclosure not in deal jacket. [F-2318]"
+    ],
+    "suggested_actions": [
+      "Ask the buyer for the existing payoff coverage declaration; cancel the duplicate GAP if confirmed.",
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-29T20:00:00.000Z"
+  },
+  {
+    "deal_id": "DT-10776",
+    "summary": "DT-10776 has 2 open findings (2 low). The most significant: service contract priced 106% above the group median. Potential refund exposure is $2,576.00. [F-2319]",
+    "key_points": [
+      "Service contract priced 106% above the group median. [F-2319]",
+      "Recordkeeping gap: add-on price acknowledgment not retained. [F-2320]"
+    ],
+    "suggested_actions": [
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-10-30T19:53:00.000Z"
+  },
+  {
+    "deal_id": "DT-10842",
+    "summary": "DT-10842 has 2 open findings (2 low). The most significant: missing change reason on 1 event. [F-2321]",
+    "key_points": [
+      "Missing change reason on 1 event. [F-2321]",
+      "Recordkeeping gap: credit application copy missing from deal jacket. [F-2322]"
+    ],
+    "suggested_actions": [
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-01T23:57:00.000Z"
+  },
+  {
+    "deal_id": "DT-10876",
+    "summary": "The service contract ($1,673.00) was added 46 minutes after the price was agreed. The term then went from 72 to 84 months, so the payment moved only from $335.95 to $346.76. After approval at 12.6%, the APR was raised to 13.85%, adding $1,064.82 in finance charges. Total of payments rose from $24,188.63 to $29,128.14. [F-2323] [F-2324] [F-2325]",
+    "key_points": [
+      "Price agreed at 3:29 PM: $16,913.00 over 72 months at 12.6%.",
+      "Late add-on: Service contract added 46 minutes after price agreed. [F-2323]",
+      "Payment masking: Service contract added, term extended to 84 months; payment fell 0.6%. [F-2324]",
+      "APR raised from 12.6% to 13.85% after credit approval. [F-2325]",
+      "Signed at 5:03 PM: $346.76 a month for 84 months."
+    ],
+    "suggested_actions": [
+      "Record why each product was added after the price was agreed before funding.",
+      "Show the buyer the total of payments at both terms and get a signed acknowledgment.",
+      "Ask the lender for the approval terms and refund the rate difference if the increase is not supported.",
+      "Ask the F&I manager to add reasons to the unexplained changes."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "diff_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-03T01:09:00.000Z"
+  },
+  {
+    "deal_id": "DT-10897",
+    "summary": "DT-10897 has 2 open findings (2 low). The most significant: GAP waiver priced 96% above the group median. Potential refund exposure is $901.00. [F-2327]",
+    "key_points": [
+      "GAP waiver priced 96% above the group median. [F-2327]",
+      "Recordkeeping gap: menu presentation printout not retained. [F-2328]"
+    ],
+    "suggested_actions": [
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-03T22:33:00.000Z"
+  },
+  {
+    "deal_id": "DT-10927",
+    "summary": "DT-10927 has 3 open findings (3 low). The most significant: GAP waiver priced 95% above the group median. Potential refund exposure is $892.00. [F-2329]",
+    "key_points": [
+      "GAP waiver priced 95% above the group median. [F-2329]",
+      "Missing change reason on 1 event. [F-2330]",
+      "Recordkeeping gap: odometer disclosure statement not scanned. [F-2331]"
+    ],
+    "suggested_actions": [
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-04T19:12:00.000Z"
+  },
+  {
+    "deal_id": "DT-10961",
+    "summary": "DT-10961 has 4 open findings (2 medium, 2 low). The most significant: service contract overlaps factory warranty for 60 months. Potential refund exposure is $2,377.00. [F-2332]",
+    "key_points": [
+      "Service contract overlaps factory warranty for 60 months. [F-2332]",
+      "GAP waiver sold at 75% loan-to-value. [F-2333]",
+      "Missing change reason on 1 event. [F-2334]",
+      "Recordkeeping gap: F&I session notes incomplete. [F-2335]"
+    ],
+    "suggested_actions": [
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Confirm with the buyer that GAP is still wanted at this loan-to-value; cancel and refund if not.",
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-05T23:09:00.000Z"
+  },
+  {
+    "deal_id": "DT-10990",
+    "summary": "DT-10990 has 3 open findings (2 medium, 1 low). The most significant: service contract overlaps factory warranty for 36 months. Potential refund exposure is $6,118.32. [F-2336]",
+    "key_points": [
+      "Service contract overlaps factory warranty for 36 months. [F-2336]",
+      "Service contract priced 151% above the group median. [F-2337]",
+      "Missing change reason on 1 event. [F-2338]"
+    ],
+    "suggested_actions": [
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Ask the F&I manager to add reasons to the unexplained changes."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-06T20:48:00.000Z"
+  },
+  {
+    "deal_id": "DT-11026",
+    "summary": "DT-11026 has 2 open findings (2 low). The most significant: missing change reason on 1 event. [F-2339]",
+    "key_points": [
+      "Missing change reason on 1 event. [F-2339]",
+      "Recordkeeping gap: add-on price acknowledgment not retained. [F-2340]"
+    ],
+    "suggested_actions": [
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-07T19:32:00.000Z"
+  },
+  {
+    "deal_id": "DT-11044",
+    "summary": "DT-11044 has 2 open findings (2 low). The most significant: service contract overlaps factory warranty for 11 months. Potential refund exposure is $3,204.00. [F-2341]",
+    "key_points": [
+      "Service contract overlaps factory warranty for 11 months. [F-2341]",
+      "Recordkeeping gap: credit application copy missing from deal jacket. [F-2342]"
+    ],
+    "suggested_actions": [
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-08T20:56:00.000Z"
+  },
+  {
+    "deal_id": "DT-11078",
+    "summary": "DT-11078 has 2 open findings (2 medium). The most significant: service contract overlaps factory warranty for 48 months. Potential refund exposure is $3,252.30. [F-2343]",
+    "key_points": [
+      "Service contract overlaps factory warranty for 48 months. [F-2343]",
+      "Tire and wheel protection priced 133% above the group median. [F-2344]"
+    ],
+    "suggested_actions": [
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Compare the product price with the rooftop rate card and document any exception."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-09T22:05:00.000Z"
+  },
+  {
+    "deal_id": "DT-11113",
+    "summary": "DT-11113 has 3 open findings (2 medium, 1 low). The most significant: service contract overlaps factory warranty for 36 months. Potential refund exposure is $6,102.32. [F-2345]",
+    "key_points": [
+      "Service contract overlaps factory warranty for 36 months. [F-2345]",
+      "Service contract priced 151% above the group median. [F-2346]",
+      "Missing change reason on 1 event. [F-2347]"
+    ],
+    "suggested_actions": [
+      "Check whether the service contract can start when the factory warranty ends, or reprice it.",
+      "Compare the product price with the rooftop rate card and document any exception.",
+      "Ask the F&I manager to add reasons to the unexplained changes."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "pricing_dispersion",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-10T21:58:00.000Z"
+  },
+  {
+    "deal_id": "DT-11135",
+    "summary": "DT-11135 has 2 open findings (2 low). The most significant: missing change reason on 1 event. [F-2348]",
+    "key_points": [
+      "Missing change reason on 1 event. [F-2348]",
+      "Recordkeeping gap: buyer's Guide copy not retained. [F-2349]"
+    ],
+    "suggested_actions": [
+      "Ask the F&I manager to add reasons to the unexplained changes.",
+      "Upload the missing document to the deal jacket."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-11T21:16:00.000Z"
+  },
+  {
+    "deal_id": "DT-11163",
+    "summary": "DT-11163 has 2 open findings (1 medium, 1 low). The most significant: GAP waiver duplicates loan payoff coverage on the buyer’s auto policy. Potential refund exposure is $839.00. [F-2350]",
+    "key_points": [
+      "GAP waiver duplicates loan payoff coverage on the buyer’s auto policy. [F-2350]",
+      "Missing change reason on 1 event. [F-2351]"
+    ],
+    "suggested_actions": [
+      "Ask the buyer for the existing payoff coverage declaration; cancel the duplicate GAP if confirmed.",
+      "Ask the F&I manager to add reasons to the unexplained changes."
+    ],
+    "tools_used": [
+      "get_deal_versions",
+      "run_detectors",
+      "check_benefit",
+      "lookup_rule"
+    ],
+    "generated_at": "2026-11-12T22:42:00.000Z"
+  }
+]
